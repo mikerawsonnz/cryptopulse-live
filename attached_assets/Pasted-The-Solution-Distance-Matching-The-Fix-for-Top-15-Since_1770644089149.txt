@@ -1,0 +1,68 @@
+The Solution: "Distance Matching" (The Fix for Top 15)
+Since you are stuck with the Top 15, you must downgrade the math from "Strict Cointegration" to "Correlation + Z-Score." This allows the bot to trade imperfect pairs (which is fine for crypto).
+
+Modify strategies/pairs_trading.py with this logic:
+
+Instead of looking for a perfect p-value < 0.05, look for the "Most Similar" pair in the list.
+
+The Logic Change:
+
+Filter: Remove Stablecoins (USDT, USDC, FDUSD) from the Top 15 list immediately.
+
+Scan: For every pair in the remaining Top 13.
+
+Metric: Calculate the Correlation Coefficient (Pearson) over the last 4H.
+
+Selection: Pick the single pair with the Highest Correlation (closest to 1.0).
+
+Example: BTC/ETH is usually 0.95. SOL/AVAX might be 0.85.
+
+Trade: Apply your existing Bollinger Band / Z-Score logic to that pair.
+
+Why this fixes it:
+
+There is always a "most correlated" pair in the Top 15.
+
+The bot will never return 0.0. It will always find a hedge.
+
+BTC/ETH is almost always in the Top 15 and is a great mean-reversion pair.
+
+Code Implementation for Replit
+Find your find_cointegrated_pairs function and replace the strict ADF test with this "Best Match" logic:
+
+Python
+def find_best_pair(self, data):
+    # data is a DataFrame with columns like 'BTC/USDT', 'ETH/USDT', etc.
+    
+    # 1. CLEANUP: Remove stablecoins
+    valid_cols = [c for c in data.columns if not any(x in c for x in ['USDT', 'USDC', 'DAI', 'FDUSD'])]
+    df = data[valid_cols]
+    
+    best_pair = None
+    highest_corr = -1.0
+    
+    # 2. SCAN for Highest Correlation
+    cols = df.columns
+    for i in range(len(cols)):
+        for j in range(i + 1, len(cols)):
+            a = cols[i]
+            b = cols[j]
+            
+            # Simple Correlation (Last 50 periods)
+            corr = df[a].rolling(50).corr(df[b]).iloc[-1]
+            
+            if corr > highest_corr:
+                highest_corr = corr
+                best_pair = (a, b)
+                
+    # 3. VERIFY it's "Good Enough" (e.g., > 0.80)
+    if highest_corr > 0.80:
+        return best_pair, highest_corr
+    else:
+        return None, 0.0
+Summary
+Keep the "Pairs Mode" logic. It is your safety net.
+
+Drop the strict scientific math. The Top 15 list is too messy for it.
+
+Use "High Correlation" instead. This ensures the bot always finds a valid hedge (usually BTC/ETH) and keeps the "Mike1" score stable.

@@ -1,0 +1,56 @@
+Since your metric is "Mean Reverting" (goes wildly negative, then wildly positive), you can mathematically exploit this behavior. Currently, you are doing the "Safe" thing (reducing size when negative). The "4th Mode" should do the "Aggressive" thing: Buying the Dip on your own performance.The Concept: "Equity Mean Reversion" (EMR)The Theory: If your strategy has a positive edge long-term, a "Wildly Negative" score (-13.688) is a statistical anomaly. It represents an "Oversold" condition for the bot.The Opportunity: Just like buying RSI < 30 on a stock, you want to increase risk when your bot's performance hits a statistical bottom, expecting a "snap back" to the mean (positive territory).The Mode: Mode #4 ("Performance Sniper").Inactive: When Metric is "Normal" (e.g., -5 to +5).Active: When Metric is "Extreme Low" (e.g., < -10).Action: Override the "Min Vol" safety. Double Down on the highest-probability setup immediately.Replit PromptObjective:Add a 4th Trading Mode called "Equity Reversion" (Performance Sniper).This mode tracks the live PortfolioMetric. When the metric hits a statistical extreme (Z-Score < -2.0), it assumes the "bad run" is over and temporarily increases position sizing to capture the recovery (PnL mean reversion).New Architecture:File: server/services/PerformanceAnalytics.ts (The Brain)Purpose: Tracks the rolling history of your PortfolioMetric to calculate its "Normality" (Z-Score).Math:Store last 60 minutes of metric values.Calculate Mean ($\mu$) and Standard Deviation ($\sigma$).$Z = \frac{\text{Current Metric} - \mu}{\sigma}$Logic:If $Z < -2.0$ (Extreme Pain) $\rightarrow$ Signal: SNIPE (Aggressive).If $Z > +2.0$ (Extreme Gain) $\rightarrow$ Signal: DEFEND (Min Vol).Integration: StrategySelector.ts (The Switch)Modify determineMode() to check PerformanceAnalytics first.Override Rule:If Z-Score < -2.0: Force Mode #4 (Equity Reversion).Ignore the "Min Vol" safety flag.Select the sub-strategy with the highest Win Rate (likely Mean Reversion) and applying a 1.5x Risk Multiplier.Code Implementation:1. server/services/PerformanceAnalytics.tsTypeScriptexport class PerformanceAnalytics {
+  private static history: number[] = [];
+  private static readonly WINDOW_SIZE = 60; // 1 hour rolling window
+
+  static addMetric(value: number) {
+    this.history.push(value);
+    if (this.history.length > this.WINDOW_SIZE) this.history.shift();
+  }
+
+  static getStats() {
+    if (this.history.length < 10) return { zScore: 0, mean: 0 };
+
+    const sum = this.history.reduce((a, b) => a + b, 0);
+    const mean = sum / this.history.length;
+    const variance = this.history.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / this.history.length;
+    const stdDev = Math.sqrt(variance);
+
+    const current = this.history[this.history.length - 1];
+    const zScore = stdDev === 0 ? 0 : (current - mean) / stdDev;
+
+    return { zScore, mean, stdDev, current };
+  }
+}
+2. Updates to StrategySelector.tsTypeScriptimport { PerformanceAnalytics } from "./PerformanceAnalytics";
+
+// Inside selectStrategy()...
+
+// 1. Update Stats
+const currentMetric = await calculatePortfolioMetric(); // Your existing function
+PerformanceAnalytics.addMetric(currentMetric);
+const stats = PerformanceAnalytics.getStats();
+
+console.log(`📊 PERFORMANCE Z-SCORE: ${stats.zScore.toFixed(2)} (Val: ${stats.current})`);
+
+// 2. CHECK FOR MODE 4: EQUITY REVERSION
+// If performance is statistically "Oversold" (<-2.0 sigma), we bet on the bounce.
+if (stats.zScore < -2.0) {
+  console.log("🦅 ACTIVATING MODE 4: EQUITY REVERSION (Performance Sniper)");
+  
+  // Set aggressive risk for the recovery trade
+  setGlobalRiskMultiplier(1.5); 
+  
+  // Force the strategy that handles chop best (since losses usually come from chop)
+  return 'MeanReversion'; 
+}
+
+// 3. CHECK FOR SAFETY (Current Logic)
+// If performance is just "bad" but not "extreme", stay defensive
+if (currentMetric < 0 && stats.zScore > -2.0) {
+  console.log("🛡️ DEFENSIVE MODE: Metric Negative (Min Vol)");
+  setGlobalRiskMultiplier(0.5); // Broker Min
+  // Continue to standard selection...
+}
+
+// ... standard logic ...
+Why this works:The Metric is -13: This is likely 2 standard deviations below the average.Old Logic: "Metric is -13, I'm scared, reduce size." (You miss the recovery bounce).Mode 4 Logic: "Metric is -13, this is a statistical anomaly. The probability of the next trade being a winner is elevated. Strike Hard."

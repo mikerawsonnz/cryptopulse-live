@@ -1,0 +1,59 @@
+1. Fix for Mean Reversion (The "Falling Knife" Protocol)
+We are adding an OR condition. If the Z-Score is extreme (e.g., -3.0), we ignore the ADX filter.
+
+Old Logic: if z_score < -2.0 AND adx < 25: BUY
+
+New Logic:
+
+Python
+# Mean Reversion Logic
+is_normal_dip = (z_score < -2.0) and (adx < 30)  # Standard range trade
+is_panic_crash = (z_score < -3.5)                # IGNORE ADX here. Pure statistical extremity.
+
+if is_normal_dip or is_panic_crash:
+    return "ENTRY_SIGNAL"
+2. Fix for Vol Expansion (The "Rocket" Protocol)
+We are removing the "ceiling" on the Z-score. If the trend is strong, we want to be in it, even if it is "stretched."
+
+Old Logic: if price > upper_keltner AND z_score < 2.0 AND vol_is_rising: ENTRY
+
+New Logic:
+
+Python
+# Vol Expansion Logic
+# 1. Check Breakout
+keltner_breakout = price > upper_keltner_channel
+
+# 2. Check Volatility (Allow EITHER rising vol OR already high vol)
+vol_is_rising = current_vol > (avg_vol_20 * 1.1)
+vol_is_sustained = current_vol > (avg_vol_20 * 1.5) # Already exploded
+
+# 3. Z-Score Gate (ONLY block if it's absurdly late, like Z > 5.0)
+# Removing the Z < 2.0 cap is crucial.
+not_too_late = z_score < 5.0
+
+if keltner_breakout and (vol_is_rising or vol_is_sustained) and not_too_late:
+    return "ENTRY_SIGNAL"
+3. The "Momentum Fallback" (Safety Net)
+If standard signals are blocked by complex filters, you need a "Dumb Strategy" that catches the obvious moves.
+
+Add this as a tertiary check. It forces a trade if the move is so big it breaks your models.
+
+Logic: If the 4H candle closes > 4% away from the open (Marubozu candle) and Volume is > 3x average, just enter.
+
+Python
+# "Obvious Move" Fallback
+candle_body_size = abs(close - open) / open
+volume_surge = current_volume > (avg_volume_20 * 3.0)
+
+if candle_body_size > 0.04 and volume_surge:
+    # Force entry in direction of candle
+    return "LONG" if close > open else "SHORT"
+Summary of Changes for Replit
+Mean Reversion: Add OR z_score < -3.5 to bypass the ADX check during crashes.
+
+Vol Expansion: Delete z_score < 2.0. Change it to z_score < 5.0 (or remove entirely).
+
+Volatility Check: Change vol_rising to vol_rising OR vol_high.
+
+By making these changes, your bot will recognize that a "Crisis" (Crash) is a valid trading opportunity, not a "Data Error" to be ignored.

@@ -1,0 +1,157 @@
+1. The "Signal Flicker" Bug (Major Profit Killer)
+Location: trading_engine.py / main.py The Issue: Your Strategy (4H) and Execution (1m/10m) are running in the same loop.
+
+The Math: A 4-Hour candle is "Open" for 240 minutes.
+
+The Bug: If a "Vol Expansion" breakout happens at Minute 1, the condition close > keltner remains TRUE for the next 239 minutes.
+
+The Result: Your bot sees a valid signal every single minute. The cooldown (5 mins) stops it briefly, but as soon as the cooldown expires, it fires again on the same candle. You are buying the same breakout 20 times, paying fees 20 times, and getting stopped out on small wicks.
+
+The Fix: You must implement "Candle ID" State Management. The bot must only trade once per 4H candle per symbol.
+
+Code Change (trading_engine.py):
+
+Python
+# Add this to your Strategy or TradingEngine class
+self.processed_candles = {} # { 'BTC/USDT': '2023-10-27 12:00:00' }
+
+def evaluate_signals(self, symbol, timeframe='4h'):
+    # 1. Get current candle timestamp
+    candles = self.data_fetcher.get_candles(symbol, timeframe)
+    current_candle_time = candles.iloc[-1]['timestamp'] # Ensure your DF has timestamps
+    
+    # 2. CHECK: Have we already traded this specific candle?
+    last_processed = self.processed_candles.get(symbol)
+    if last_processed == current_candle_time:
+        return None # ALREADY TRADED THIS SIGNAL
+
+    signal = self.strategy.get_signal(...)
+    
+    if signal:
+        # 3. Mark candle as processed ONLY if order succeeds
+        if self.execute_order(symbol, signal):
+            self.processed_candles[symbol] = current_candle_time
+2. The "Negative Expectancy" Allocator
+Location: strategy_selector.py The Issue: The bot forces a choice even when all choices are bad.
+
+As seen in your previous logs, if MeanRev is -72 and VolExp is -6, the bot picks VolExp.
+
+Mathematical Reality: A strategy with a negative Sharpe Ratio is worse than Cash (Sharpe 0).
+
+The "Pairs = 0" Bug: If the Pairs module is broken (returns 0 trades), it gets a score of 0.0. The bot currently picks this as the "Winner" because 0.0 > -6.0. This causes the bot to sit idle thinking it's trading "Pairs," when actually it's just broken.
+
+The Fix: Implement the "Cash Floor" and "Broken Module Detector".
+
+Code Change (strategy_selector.py):
+
+Python
+def select_best_strategy(self):
+    # ... calculate scores ...
+    # strategies = {'MeanRev': -5.0, 'VolExp': -2.0, 'Pairs': 0.0}
+
+    # 1. Filter out broken modules (0 trades should not win)
+    valid_strategies = {
+        k: v for k, v in strategies.items() 
+        if self.trade_counts[k] > 0 or v != 0.0
+    }
+
+    if not valid_strategies:
+        print("⚠️ All strategies have 0 trades. Defaulting to CASH/HIBERNATE.")
+        return None
+
+    best_strat = max(valid_strategies, key=valid_strategies.get)
+    best_score = valid_strategies[best_strat]
+
+    # 2. The Cash Floor
+    if best_score < 0:
+        print(f"🛑 MARKET HAZARD: Best Score {best_score} is negative. HIBERNATING.")
+        return "CASH" # Do not trade
+
+    return best_strat
+3. The "Taker Fee" Bleed
+Location: bybit_broker.py (or order_manager.py) The Issue: Your logs show Slip:$3.39.
+
+You are sending MARKET orders for everything.
+
+Cost: 0.055% (Taker Fee) + 0.05% (Slippage) = 0.1% per trade.
+
+Impact: On a round trip (Entry + Exit), you lose 0.2% immediately. If your target is 1.5%, you are giving up 13% of your profit to the exchange on every win.
+
+The Fix: use LIMIT ORDERS for Entries and Take Profits. Only use Market Orders for Stop Losses.
+
+Code Change (execution.py):
+
+Python
+def place_entry_order(self, symbol, side, qty):
+    current_price = self.get_price(symbol)
+    
+    # 1. Place POST-ONLY Limit Order (Maker Fee 0.02%)
+    # Buy slightly below ask, Sell slightly above bid to ensure Maker rebate
+    if side == "BUY":
+        limit_price = current_price * 0.9995 
+    else:
+        limit_price = current_price * 1.0005
+        
+    try:
+        order = self.exchange.create_limit_order(
+            symbol, side, qty, limit_price, params={'timeInForce': 'PostOnly'}
+        )
+        return order
+    except Exception as e:
+        print(f"Limit order failed (likely moved away): {e}")
+        # Retry or Fallback logic here
+4. The "Bootstrap" Inertia
+Location: main.py -> bootstrap_system() The Issue: The bot calculates "Mike1" based on a 50-trade history.
+
+Scenario: The market crashes today.
+
+Lag: The bot has 49 trades from the "Bull Market" in its history. It will take ~10 losses in the Crash before the average drops enough to switch strategies.
+
+Result: You lose money during every regime change because the bot is "slow to react."
+
+The Fix: Regime Veto. Regardless of the Mike1 score, if the Instant Volatility (last 4 hours) is 300% higher than the Average Volatility (last 7 days), force the bot into Mean Reversion (or Cash). Do not let "Trend" run in a choppy volatility spike.
+
+Code Change (strategy_selector.py):
+
+Python
+def check_regime_override(self, symbol):
+    candles = self.data.get_candles(symbol, '4h')
+    
+    # Calculate ATR or StdDev
+    current_vol = candles['close'].pct_change().std() # Last 24h
+    historical_vol = candles['close'].pct_change().rolling(50).std().mean()
+    
+    # VETO POWER
+    if current_vol > (historical_vol * 3.0):
+        print("☢️ VOLATILITY SPIKE DETECTED (3x Normal). Forcing MEAN REVERSION.")
+        return "MeanReversion"
+        
+    return None
+How to Deploy These Fixes
+Since I cannot edit your files directly, you must perform these edits in this order:
+
+Stop the Bot.
+
+Edit trading_engine.py: Add the processed_candles check (Fix #1). This stops the machine-gun firing immediately.
+
+Edit strategy_selector.py: Add the if best_score < 0: return "CASH" logic (Fix #2). This stops the bot from forcing trades when it is losing.
+
+Edit main.py: Ensure the Strategy Loop (4H) and Execution Loop (10m) are decoupled.
+
+Quick Patch: In your while True loop, use timestamps.
+
+Python
+last_strategy_check = 0
+while True:
+    now = time.time()
+
+    # 1. Management Loop (Every 1 minute)
+    manage_positions()
+
+    # 2. Strategy Loop (Every 4 hours)
+    if now - last_strategy_check > (4 * 60 * 60):
+        run_strategy_scan()
+        last_strategy_check = now
+
+    time.sleep(60)
+Profitability Forecast: Once you add Fix #1 (Candle ID State) and Fix #2 (Cash Floor), your trade frequency will drop by ~80%, but your Win Rate will likely double because you are no longer chasing the same signal into the ground.

@@ -1,0 +1,990 @@
+SHORT
+BNB
+CLOSED
+$0.00 (+0.57%)
+Qty: 0.0030
+Entry: $789.08
+Exit: $784.27
+Fees: $0.0013
+06:12 PM
+SHORT
+ETH
+CLOSED
+$0.02 (+0.93%)
+Qty: 0.0030
+Entry: $2448.25
+Exit: $2424.43
+Fees: $0.0039
+06:12 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.39%)
+Qty: 0.0030
+Entry: $788.15
+Exit: $784.75
+Fees: $0.0013
+06:12 PM
+SHORT
+ETH
+CLOSED
+$0.02 (+0.91%)
+Qty: 0.0030
+Entry: $2447.89
+Exit: $2424.75
+Fees: $0.0039
+06:12 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.39%)
+Qty: 1.0260
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.36%)
+Qty: 1.0270
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.23%)
+Qty: 0.0030
+Entry: $792.95
+Exit: $790.84
+Fees: $0.0013
+06:11 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.17%)
+Qty: 0.0030
+Entry: $791.86
+Exit: $790.20
+Fees: $0.0013
+06:11 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+0.90%)
+Qty: 0.0030
+Entry: $791.71
+Exit: $784.28
+Fees: $0.0013
+06:12 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+0.68%)
+Qty: 0.0030
+Entry: $790.12
+Exit: $784.40
+Fees: $0.0013
+06:12 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+0.77%)
+Qty: 0.0030
+Entry: $790.49
+Exit: $784.10
+Fees: $0.0013
+06:12 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+0.67%)
+Qty: 0.0030
+Entry: $790.28
+Exit: $784.64
+Fees: $0.0013
+06:12 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.23%)
+Qty: 1.0270
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.40%)
+Qty: 1.0260
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.27%)
+Qty: 1.0270
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.36%)
+Qty: 1.0270
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+ETH
+CLOSED
+$0.02 (+0.96%)
+Qty: 0.0030
+Entry: $2479.25
+Exit: $2454.45
+Fees: $0.0040
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.27%)
+Qty: 1.0280
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+ETH
+CLOSED
+$0.02 (+0.88%)
+Qty: 0.0030
+Entry: $2479.03
+Exit: $2456.32
+Fees: $0.0040
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.31%)
+Qty: 1.0270
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.38%)
+Qty: 1.0270
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.32%)
+Qty: 1.0260
+Entry: $1.61
+Exit: $1.60
+Fees: $0.0007
+06:11 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.33%)
+Qty: 0.0030
+Entry: $793.52
+Exit: $790.61
+Fees: $0.0013
+06:11 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.39%)
+Qty: 0.0030
+Entry: $795.07
+Exit: $791.66
+Fees: $0.0013
+05:59 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.30%)
+Qty: 0.0030
+Entry: $794.55
+Exit: $791.88
+Fees: $0.0013
+05:59 PM
+SHORT
+ETH
+CLOSED
+$0.01 (+0.30%)
+Qty: 0.0030
+Entry: $2492.89
+Exit: $2484.49
+Fees: $0.0040
+05:56 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.28%)
+Qty: 0.0030
+Entry: $794.34
+Exit: $791.80
+Fees: $0.0013
+05:59 PM
+SHORT
+ETH
+CLOSED
+$0.01 (+0.38%)
+Qty: 0.0030
+Entry: $2494.29
+Exit: $2483.86
+Fees: $0.0040
+05:56 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.31%)
+Qty: 1.0180
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.29%)
+Qty: 1.0190
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.26%)
+Qty: 1.0190
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.29%)
+Qty: 1.0180
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.42%)
+Qty: 1.0180
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.26%)
+Qty: 1.0180
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.32%)
+Qty: 1.0170
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.40%)
+Qty: 1.0170
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.31%)
+Qty: 1.0180
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.34%)
+Qty: 1.0170
+Entry: $1.62
+Exit: $1.61
+Fees: $0.0007
+05:55 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.28%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.39%)
+Qty: 1.0100
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.30%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.34%)
+Qty: 1.0100
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.20%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.39%)
+Qty: 1.0100
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.33%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.26%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.32%)
+Qty: 1.0100
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.25%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.62
+Fees: $0.0007
+05:43 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.38%)
+Qty: 0.0030
+Entry: $798.93
+Exit: $795.54
+Fees: $0.0013
+05:52 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+0.68%)
+Qty: 0.0030
+Entry: $798.06
+Exit: $792.31
+Fees: $0.0013
+05:59 PM
+SHORT
+ETH
+CLOSED
+$0.02 (+0.71%)
+Qty: 0.0030
+Entry: $2520.06
+Exit: $2501.20
+Fees: $0.0040
+05:49 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+0.67%)
+Qty: 0.0030
+Entry: $797.81
+Exit: $792.19
+Fees: $0.0013
+05:59 PM
+SHORT
+ETH
+CLOSED
+$0.02 (+0.77%)
+Qty: 0.0030
+Entry: $2520.29
+Exit: $2499.93
+Fees: $0.0040
+05:49 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.21%)
+Qty: 0.0030
+Entry: $799.28
+Exit: $797.26
+Fees: $0.0013
+05:49 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.28%)
+Qty: 0.0030
+Entry: $799.51
+Exit: $796.99
+Fees: $0.0013
+05:49 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.33%)
+Qty: 0.0030
+Entry: $799.22
+Exit: $796.27
+Fees: $0.0013
+05:49 PM
+SHORT
+ETH
+CLOSED
+-$0.02 (-0.62%)
+Qty: 0.0030
+Entry: $2514.18
+Exit: $2528.80
+Fees: $0.0040
+05:30 PM
+SHORT
+ETH
+CLOSED
+-$0.02 (-0.63%)
+Qty: 0.0030
+Entry: $2512.80
+Exit: $2527.61
+Fees: $0.0040
+05:30 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.36%)
+Qty: 1.0130
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.20%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.24%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.27%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.31%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.28%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.31%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.36%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.21%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.23%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.63
+Fees: $0.0007
+05:31 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.04%)
+Qty: 0.0030
+Entry: $802.43
+Exit: $801.74
+Fees: $0.0013
+05:28 PM
+SHORT
+BNB
+CLOSED
+-$0.00 (-0.04%)
+Qty: 0.0030
+Entry: $801.84
+Exit: $801.81
+Fees: $0.0013
+05:28 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.13%)
+Qty: 0.0030
+Entry: $802.72
+Exit: $801.35
+Fees: $0.0013
+05:28 PM
+SHORT
+BNB
+CLOSED
+-$0.00 (-0.03%)
+Qty: 0.0030
+Entry: $802.32
+Exit: $802.27
+Fees: $0.0013
+05:28 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.03%)
+Qty: 0.0030
+Entry: $801.81
+Exit: $801.28
+Fees: $0.0013
+05:28 PM
+SHORT
+BNB
+CLOSED
+-$0.00 (-0.10%)
+Qty: 0.0030
+Entry: $801.83
+Exit: $802.31
+Fees: $0.0013
+05:28 PM
+SHORT
+BNB
+CLOSED
+$0.01 (+1.07%)
+Qty: 0.0030
+Entry: $800.87
+Exit: $791.95
+Fees: $0.0013
+05:59 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.22%)
+Qty: 1.0030
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.38%)
+Qty: 1.0020
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.30%)
+Qty: 1.0020
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.40%)
+Qty: 1.0020
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.33%)
+Qty: 1.0030
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.38%)
+Qty: 1.0030
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.40%)
+Qty: 1.0030
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.25%)
+Qty: 1.0030
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.30%)
+Qty: 1.0040
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.38%)
+Qty: 1.0030
+Entry: $1.64
+Exit: $1.63
+Fees: $0.0007
+05:04 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.26%)
+Qty: 0.9950
+Entry: $1.65
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+bnb
+CLOSED
+$0.00 (+0.19%)
+Qty: 0.0030
+Entry: $812.90
+Exit: $811.00
+Fees: $0.0013
+04:18 PM
+SHORT
+XRP
+CLOSED
+$0.00 (+0.23%)
+Qty: 0.9960
+Entry: $1.65
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+steth
+CLOSED
+$0.02 (+0.82%)
+Qty: 0.0030
+Entry: $2534.59
+Exit: $2512.85
+Fees: $0.0040
+05:18 PM
+SHORT
+steth
+CLOSED
+$0.02 (+0.85%)
+Qty: 0.0030
+Entry: $2533.95
+Exit: $2511.43
+Fees: $0.0040
+05:18 PM
+LONG
+bnb
+CLOSED
+-$0.01 (-1.40%)
+Qty: 0.0030
+Entry: $814.51
+Exit: $803.45
+Fees: $0.0013
+05:21 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.85%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.90%)
+Qty: 1.0100
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.82%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.90%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.86%)
+Qty: 1.0110
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.89%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.51%)
+Qty: 0.0030
+Entry: $808.13
+Exit: $803.69
+Fees: $0.0013
+05:00 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.86%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.52%)
+Qty: 0.0030
+Entry: $807.81
+Exit: $803.27
+Fees: $0.0013
+05:00 PM
+SHORT
+XRP
+CLOSED
+-$0.00 (-0.83%)
+Qty: 1.0120
+Entry: $1.63
+Exit: $1.64
+Fees: $0.0007
+04:24 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.50%)
+Qty: 0.0030
+Entry: $807.56
+Exit: $803.24
+Fees: $0.0013
+05:00 PM
+SHORT
+XRP
+STOPPED
+-$0.04 (-2.13%)
+Qty: 1.0180
+Entry: $1.62
+Exit: $1.65
+Fees: $0.0013
+04:09 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.48%)
+Qty: 0.0030
+Entry: $807.10
+Exit: $802.91
+Fees: $0.0013
+05:00 PM
+SHORT
+XRP
+STOPPED
+-$0.04 (-2.19%)
+Qty: 1.0190
+Entry: $1.62
+Exit: $1.65
+Fees: $0.0013
+04:09 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.31%)
+Qty: 0.0030
+Entry: $806.44
+Exit: $803.60
+Fees: $0.0013
+05:00 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.36%)
+Qty: 0.0030
+Entry: $806.86
+Exit: $803.60
+Fees: $0.0013
+05:00 PM
+SHORT
+ETH
+CLOSED
+-$0.00 (-0.11%)
+Qty: 0.0030
+Entry: $2517.25
+Exit: $2519.05
+Fees: $0.0040
+05:12 PM
+SHORT
+BNB
+CLOSED
+$0.00 (+0.47%)
+Qty: 0.0030
+Entry: $807.60
+Exit: $803.52
+Fees: $0.0013
+05:00 PM
+SHORT
+ETH
+CLOSED
+-$0.00 (-0.03%)
+Qty: 0.0030
+Entry: $2520.23
+Exit: $2520.07
+Fees: $0.0040
+05:12 PM

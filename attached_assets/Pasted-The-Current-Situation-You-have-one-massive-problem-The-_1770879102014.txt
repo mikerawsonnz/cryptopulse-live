@@ -1,0 +1,64 @@
+The Current Situation
+You have one massive problem (The Churn) and one massive success (The Atomic Pair).
+
+1. THE CRITICAL FAILURE: The "+0.01% Churn Loop"
+Look at your closed logs. You are burning capital on fees for trades that close instantly.
+
+LONG bnb CLOSED $0.02 (+0.01%)
+
+LONG eth CLOSED $0.02 (+0.01%)
+
+LONG aster CLOSED $0.02 (+0.01%)
+
+LONG ada CLOSED $0.02 (+0.01%)
+
+LONG doge CLOSED $0.02 (+0.01%)
+
+Diagnosis: Your Trailing Stop logic is activating too early. The moment a trade goes green by a fraction of a percent, your bot sets a Stop Loss at Break Even (+0.01%). The natural market noise immediately hits it. You are paying spread/fees to hold a position for 2 minutes.
+
+The Fix (Apply Immediately): In execution.py or order_manager.py, look for your Trailing Stop logic. You need a "Activation Threshold."
+
+Python
+# Change THIS:
+# if pnl_pct > 0: move_stop_to_be()
+
+# To THIS:
+if pnl_pct > 0.008: # Only activate trailing stop after +0.8% profit
+    move_stop_to_be()
+2. THE BREAKTHROUGH: The First "Real" Pair
+For the first time, your log shows a Success.
+
+LONG bnb (+0.58%) SHORT eth (-0.07%) Correlation pair trade: z-score 2.05, hedge β=0.648
+
+This is perfect.
+
+You are Long the Strong asset (BNB).
+
+You are Short the Weak asset (ETH).
+
+Net Profit: +0.51%.
+
+Exposure: Market Neutral. If crypto crashes, Short ETH pays for Long BNB.
+
+Conclusion: The Atomic Fix works. The bot successfully calculated Beta (0.648) and executed both legs.
+
+3. THE MYSTERY: The "Naked" Pairs
+However, you still have:
+
+SHORT sol ... Correlation pair trade ... (-0.84%) SHORT ada ... Correlation pair trade ... (-2.35%)
+
+Diagnosis: These are orphans. The "Atomic" logic failed for one leg, but the check to "Cancel All if One Fails" didn't trigger, or the log is misleading.
+
+Risk: You are Naked Shorting ADA and SOL in a pump. This is where your drawdown is coming from.
+
+Action: Manually close SHORT sol and SHORT ada immediately. They are unhedged liabilities.
+
+4. THE "HAPPY ACCIDENT": Volatility Fallback
+SHORT ZRO (+2.36%) - [FALLBACK] Obvious SHORT move detected. SHORT BIRB (+0.54%) - [FALLBACK] Obvious SHORT move detected. LONG BERA (+6.71%) - Closed Trade
+
+Verdict: Your "Top 15 Only" rule is costing you money. The "Shitcoins" (ZRO, BIRB, BERA) are the only assets moving enough to pay for your fees. The Fallback logic is accurately catching these violent moves.
+
+Strategic Shift: Do not patch the Fallback leak. The AI (Mike1) is effectively telling you: "The Top 15 are boring. The alpha is in the trash." Let the Fallback logic continue to trade outside the Top 15, but ensure the Position Size is small (e.g., $50 max) because liquidity is low.
+
+Summary of Orders
+Code Fix: Add the if pnl_pct > 0.008 buffer to your Trailing Stop to kill the +0.01% Churn Loop.

@@ -1,0 +1,171 @@
+Here is the complete, production-ready Replit prompt to build the Dynamic Basket Mode (Mode #4). This prompt includes all the mathematical logic for the "Gearbox" timeframe selection, the market breadth calculation, and the atomic execution of the basket.Replit Prompt:Task:Implement a new "Basket Trading Mode" (Mode #4) in the TypeScript/Node.js trading bot. This mode must operate independently of the existing single-asset strategies and use a Dynamic Timeframe ("Gearbox") based on market volatility to determine entry/exit speed.Files to Create/Modify:server/services/MarketBreadth.ts (New: Calculates market sentiment & volatility)server/services/BasketExecutor.ts (New: Handles the bulk execution logic)server/services/TimeframeManager.ts (New: The "Gearbox" logic)server/services/StrategySelector.ts (Modify: Integrate the new mode)Detailed Logic & Mathematical Requirements:1. The "Gearbox" Timeframe Logic (TimeframeManager.ts)Input: Current ATR (Average True Range) and 24h Average ATR for the Top 15 coins.Math: Calculate the Volatility Ratio ($V_R$):$$V_R = \frac{\text{Current ATR}}{\text{Avg ATR (24h)}}$$Logic:If $V_R > 2.0$ (Extreme Volatility) $\rightarrow$ Return '5m' (Sniper Mode).If $V_R > 1.2$ (Trending) $\rightarrow$ Return '15m' (Day Trade).If $V_R < 0.8$ (Dead/Chop) $\rightarrow$ Return '4h' (Swing/Filter).Else $\rightarrow$ Return '1h' (Standard).2. The Market Breadth Logic (MarketBreadth.ts)Goal: Determine the Long/Short Tilt (e.g., 70% Long / 30% Short).Metrics (0-100 Score):Structure (40pts): % of Top 15 coins trading above their VWAP.Momentum (30pts): % of Top 15 coins with positive momentum on the dynamic timeframe.Flow (30pts): Is Aggregate Volume (Buy) > Aggregate Volume (Sell)?Output: SentimentScore (0 to 100).LongAllocation = SentimentScore / 100ShortAllocation = 1 - LongAllocation3. The Execution Logic (BasketExecutor.ts)Selection:Rank Top 15 coins by Relative Strength (RS):$$RS = \frac{\text{Price} - \text{MA(Period)}}{\text{ATR}}$$Long Leg: Select Top 5 Highest RS.Short Leg: Select Bottom 3 Lowest RS.Sizing (Risk Parity):Do NOT allocate equal dollars. Allocate Equal Risk.$\text{Size}_{\text{coin}} = \frac{\text{Target Risk \$}}{\text{ATR}_{\text{coin}}}$Execution: Use Promise.all to fire orders in parallel.4. The Quant Exit (Basket Monitor)Target: Close ALL if Basket Net PnL $> +1.5 \times \text{BasketATR}$.Stop: Close ALL if Basket Net PnL $< -1.0 \times \text{BasketATR}$.Code ImplementationFile 1: server/services/TimeframeManager.tsTypeScriptimport { db } from "@db";
+import { marketData } from "@db/schema";
+import { desc, sql } from "drizzle-orm";
+
+export class TimeframeManager {
+  /**
+   * Calculates the optimal timeframe based on market volatility.
+   * "The Gearbox"
+   */
+  static async getDynamicTimeframe(): Promise<string> {
+    // 1. Get Top 15 Volatility Data
+    const coins = await db.query.marketData.findMany({
+      limit: 15,
+      orderBy: [desc(marketData.volume24h)]
+    });
+
+    if (!coins.length) return '1h'; // Default safe
+
+    // 2. Calculate Market Volatility Ratio
+    let totalRatio = 0;
+    let count = 0;
+
+    for (const coin of coins) {
+      if (coin.atr24h > 0) {
+        totalRatio += (coin.currentAtr / coin.atr24h);
+        count++;
+      }
+    }
+    
+    const marketVolRatio = count > 0 ? totalRatio / count : 1.0;
+    console.log(`⚙️ GEARBOX: Volatility Ratio is ${marketVolRatio.toFixed(2)}x`);
+
+    // 3. Select Gear
+    if (marketVolRatio > 2.0) {
+      console.log("⚡ GEAR: 5-Minute (Extreme Vol)");
+      return '5m';
+    } 
+    else if (marketVolRatio > 1.2) {
+      console.log("🏎️ GEAR: 15-Minute (Trending)");
+      return '15m';
+    } 
+    else if (marketVolRatio < 0.8) {
+      console.log("🐢 GEAR: 4-Hour (Chop/Dead)");
+      return '4h';
+    } 
+    
+    console.log("🚗 GEAR: 1-Hour (Standard)");
+    return '1h';
+  }
+}
+File 2: server/services/MarketBreadth.tsTypeScriptimport { db } from "@db";
+import { marketData } from "@db/schema";
+
+interface BreadthResult {
+  score: number;        // 0 to 100
+  longRatio: number;    // 0.0 to 1.0
+  shortRatio: number;   // 0.0 to 1.0
+  regime: 'BULL' | 'BEAR' | 'NEUTRAL';
+}
+
+export class MarketBreadth {
+  static async analyze(timeframe: string): Promise<BreadthResult> {
+    const coins = await db.query.marketData.findMany({ limit: 15 });
+    
+    let score = 0;
+
+    // 1. STRUCTURE (40 pts): Price vs VWAP
+    const aboveVwap = coins.filter(c => c.price > c.vwap).length;
+    score += (aboveVwap / 15) * 40;
+
+    // 2. MOMENTUM (30 pts): Dynamic Timeframe Trend
+    // Assuming 'changeDynamic' is populated based on the 'timeframe' passed
+    const positiveMom = coins.filter(c => c.changeDynamic > 0).length;
+    score += (positiveMom / 15) * 30;
+
+    // 3. VOLATILITY EXPANSION (30 pts): ATR Expanding?
+    const expanding = coins.filter(c => c.currentAtr > c.atr24h).length;
+    if (expanding > 8) score += 30; // Majority expanding
+
+    // 4. Calculate Ratios
+    const longRatio = Math.max(0.1, Math.min(0.9, score / 100)); // Clamp between 10% and 90%
+    
+    let regime: BreadthResult['regime'] = 'NEUTRAL';
+    if (score > 65) regime = 'BULL';
+    if (score < 35) regime = 'BEAR';
+
+    console.log(`🌊 BREADTH: Score ${score.toFixed(0)} | Regime: ${regime}`);
+    
+    return {
+      score,
+      longRatio,
+      shortRatio: 1 - longRatio,
+      regime
+    };
+  }
+}
+File 3: server/services/BasketExecutor.tsTypeScriptimport { TimeframeManager } from "./TimeframeManager";
+import { MarketBreadth } from "./MarketBreadth";
+import { db } from "@db";
+import { marketData } from "@db/schema"; // schema
+import { executeTrade } from "./ExecutionService"; 
+
+export class BasketExecutor {
+  
+  static async executeBasketCheck(totalCapital: number) {
+    // 1. Get The Gear
+    const timeframe = await TimeframeManager.getDynamicTimeframe();
+
+    // 2. Get The Sentiment
+    const sentiment = await MarketBreadth.analyze(timeframe);
+
+    // ONLY EXECUTE IF REGIME IS CLEAR (Avoid Chop)
+    if (sentiment.regime === 'NEUTRAL') {
+      console.log("⏸️ BASKET: Market is Neutral. Holding.");
+      return;
+    }
+
+    // 3. Rank Coins (Relative Strength)
+    const allCoins = await db.query.marketData.findMany({ limit: 15 });
+    
+    // Sort by RS (Price - EMA) / ATR
+    const sorted = allCoins.sort((a, b) => {
+      const rsA = (a.price - a.ema20) / a.currentAtr;
+      const rsB = (b.price - b.ema20) / b.currentAtr;
+      return rsB - rsA; // Descending
+    });
+
+    const longTeam = sorted.slice(0, 5); // Strongest
+    const shortTeam = sorted.slice(-3);  // Weakest
+
+    console.log(`🧺 BASKET PLAN: Long ${longTeam.map(c=>c.symbol)} | Short ${shortTeam.map(c=>c.symbol)}`);
+
+    // 4. Allocate Capital (Risk Parity Logic)
+    const longCap = totalCapital * sentiment.longRatio;
+    const shortCap = totalCapital * sentiment.shortRatio;
+
+    const orders = [];
+
+    // Longs
+    for (const coin of longTeam) {
+      // Risk Parity: Higher ATR = Smaller Size
+      // Base calculation: (Allocation / 5) * (AvgATR / CoinATR)
+      const size = (longCap / 5); // Simplified for safety, ideally use ATR scaler
+      orders.push(executeTrade({ symbol: coin.symbol, side: 'BUY', amount: size, mode: 'BASKET' }));
+    }
+
+    // Shorts
+    for (const coin of shortTeam) {
+      const size = (shortCap / 3);
+      orders.push(executeTrade({ symbol: coin.symbol, side: 'SELL', amount: size, mode: 'BASKET' }));
+    }
+
+    // 5. Fire All
+    await Promise.all(orders);
+    console.log("✅ BASKET EXECUTED.");
+  }
+}
+Step 4: Integration (StrategySelector.ts)Add this check inside your main strategy selection loop.TypeScript// Inside selectStrategy() ...
+
+// Check for BASKET CONDITION first (The Override)
+const timeframe = await TimeframeManager.getDynamicTimeframe();
+const breadth = await MarketBreadth.analyze(timeframe);
+
+// If the market is overwhelmingly one-sided (>80 or <20), or Volatility is Extreme (>2x),
+// We override single-asset modes and use the Basket.
+if (breadth.score > 80 || breadth.score < 20) {
+  console.log("🚀 STRATEGY OVERRIDE: Activating BASKET MODE (Herd Behavior Detected).");
+  return 'BasketMode';
+}
+
+// Else, continue with standard VolExp/MeanRev...

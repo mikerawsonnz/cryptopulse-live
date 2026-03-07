@@ -1,0 +1,88 @@
+This is a Professional Grade Pivot.You are describing a "Market Neutral / Long-Short Basket Strategy" (similar to how Index Arbitrage or Hedge Funds trade). Instead of betting on one coin, you bet on the Market Structure itself.This effectively creates your own "Crypto ETF" that dynamically rebalances itself.The Strategy: "The Top 15 Breath Basket"1. The Brain (Market Probability Score)We don't look at BTC alone. We look at the "Health" of the Top 15 as a herd.Metrics:Flow: Is Total Volume buying or selling?Structure: How many of the 15 made a Higher High in the last 4 hours? (e.g., 12/15 = 80% Bullish).Volatility: Is Avg ATR expanding (Breakout) or contracting (Chop)?Output: A single "Bull Probability" ($P_{bull}$).Example: 70% Bullish.2. The Allocation (Dynamic Tilt)We don't go 100% Long. We tilt the basket based on confidence.Long Allocation: $70\%$ of Capital.Short Allocation: $30\%$ of Capital.Result: Net Long $40\%$. If the market crashes, the 30% Shorts protect you.3. The Selection (Strength Sorting)Long Leg: Buy the top 5 Strongest coins (Relative Strength > 80).Short Leg: Sell the bottom 3 Weakest coins (Relative Strength < 30).Why: You are buying the leaders and selling the laggards.4. The Exit (Basket Level)Take Profit: If Total Portfolio PnL > +1.0% $\rightarrow$ CLOSE ALL.Stop Loss: If Total Portfolio PnL < -2.5% $\rightarrow$ CLOSE ALL.Reset: Wait for next signal.The Execution Plan (Replit)This replaces your current "Sniper" logic with a "Manager" logic.Step 1: The MarketBreadth ServiceCreate server/services/MarketBreadth.ts. This calculates your "Probability."TypeScript// server/services/MarketBreadth.ts
+
+export async function calculateMarketProbability(top15Data: any[]): Promise<number> {
+  let bullishPoints = 0;
+  let totalPoints = 0;
+
+  // 1. STRUCTURE SCORE (Higher Highs vs Lower Lows)
+  // Count how many are above their EMA(20)
+  const aboveEmaCount = top15Data.filter(c => c.price > c.ema20).length;
+  bullishPoints += (aboveEmaCount / 15) * 40; // Weight: 40%
+  totalPoints += 40;
+
+  // 2. MOMENTUM SCORE (24h Change)
+  // Is the average % change positive?
+  const avgChange = top15Data.reduce((sum, c) => sum + c.change24h, 0) / 15;
+  if (avgChange > 0) bullishPoints += 30; // Weight: 30%
+  totalPoints += 30;
+
+  // 3. VOLUME FLOW ( buying vs selling pressure)
+  // Simple check: Is up-volume > down-volume?
+  // (Requires order book or aggregate volume delta)
+  // For now, assume if Price Up AND Vol Up = Bullish
+  if (avgChange > 0 && avgVol > avgVolMA) bullishPoints += 30;
+  totalPoints += 30;
+
+  return bullishPoints; // Returns 0 to 100
+}
+Step 2: The Basket ExecutorThis replaces your single-order logic. It fires a "Wave" of orders.TypeScript// server/services/BasketExecutor.ts
+
+export async function executeBasket(probability: number, totalCapital: number) {
+  
+  // 1. Determine Bias
+  // e.g. Prob = 70% -> Long 70%, Short 30%
+  const longAllocation = totalCapital * (probability / 100);
+  const shortAllocation = totalCapital * ((100 - probability) / 100);
+
+  // 2. Sort the Universe (Relative Strength)
+  const rankedCoins = await getRankedTop15(); 
+  // Returns [Strongest, ..., Weakest]
+
+  // 3. Select Teams
+  // Buy Top 5 Strongest
+  const longTeam = rankedCoins.slice(0, 5);
+  // Short Bottom 3 Weakest (Concentrate the short bet)
+  const shortTeam = rankedCoins.slice(-3);
+
+  // 4. Execute LONGS
+  const longSizePerCoin = longAllocation / longTeam.length;
+  for (const coin of longTeam) {
+    await placeOrder(coin.symbol, 'BUY', longSizePerCoin); // ATR Adjusted size inside placeOrder
+  }
+
+  // 5. Execute SHORTS
+  const shortSizePerCoin = shortAllocation / shortTeam.length;
+  for (const coin of shortTeam) {
+    await placeOrder(coin.symbol, 'SELL', shortSizePerCoin);
+  }
+}
+Step 3: The "Portfolio Monitor" (The Exit)This runs every 5 seconds. It looks at the Sum of all open positions.TypeScript// server/services/PortfolioMonitor.ts
+
+export async function checkBasketExit() {
+  const positions = await getAllOpenPositions();
+  
+  if (positions.length === 0) return;
+
+  // Calculate Net PnL of the Basket
+  const totalPnL = positions.reduce((sum, p) => sum + p.unrealizedPnL, 0);
+  const totalInvested = positions.reduce((sum, p) => sum + p.marginUsed, 0);
+  
+  const pnlPercent = (totalPnL / totalInvested) * 100;
+
+  console.log(`🧺 BASKET STATUS: ${pnlPercent.toFixed(2)}% PnL`);
+
+  // WINNER: +1% Target
+  if (pnlPercent >= 1.0) {
+    console.log(`💰 BASKET TARGET HIT (+1%). Closing All.`);
+    await closeAllPositions();
+    await enterCooldown(60); // Rest for 1 hour
+  }
+
+  // LOSER: -2.5% Stop
+  if (pnlPercent <= -2.5) {
+    console.log(`🛑 BASKET STOP HIT (-2.5%). Closing All.`);
+    await closeAllPositions();
+    await enterCooldown(120); // Penalty box for 2 hours
+  }
+}
+Why this is better for you right nowNo "Picking" Risk: You stop worrying if SOL is going to outperform ETH. You buy both if they are strong.Smoother Curve: One coin crashing doesn't kill you because you have 7 others.Hedged: If the market dumps, your "Weakest" shorts will print money, offsetting the losses on your Longs.

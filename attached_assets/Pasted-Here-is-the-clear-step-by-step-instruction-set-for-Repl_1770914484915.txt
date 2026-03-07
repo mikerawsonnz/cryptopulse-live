@@ -1,0 +1,133 @@
+Here is the clear, step-by-step instruction set for Replit. We are upgrading the Mode Selection Logic from a "Static Average" to a "Dynamic Momentum" system.The ObjectiveCurrently, your bot picks a mode based on the raw Mike1 Score (e.g., "Score is 150"). This is too slow.We are changing it to pick based on Score Momentum (e.g., "Score is rising/falling relative to its average").The New Logic:Gap > 0: Mode is gaining strength $\to$ FULL SIZE.Gap < 0: Mode is losing strength $\to$ HIBERNATE / SWITCH.Gap > Extreme: Mode is overheated $\to$ HALF SIZE.Step 1: Create the "Mode Manager" ClassCreate a new file server/services/ModeManager.ts (or add to StrategySelector.ts).This class tracks the "Health" of each mode (VolExpansion, MeanReversion, etc.) over time.TypeScript// server/services/ModeManager.ts
+
+interface ModeState {
+  name: string;
+  currentScore: number;
+  emaScore: number;      // Exponential Moving Average of the Score
+  gap: number;           // The Momentum (Current - EMA)
+  status: 'AGGRESSIVE' | 'NEUTRAL' | 'DEFENSIVE' | 'HIBERNATE';
+}
+
+export class ModeManager {
+  private modes: Map<string, ModeState> = new Map();
+  private readonly ALPHA = 0.2; // Sensitivity (0.2 = Fast Reaction)
+
+  constructor() {
+    // Initialize standard modes
+    this.initializeMode('VolExpansion');
+    this.initializeMode('MeanReversion');
+    this.initializeMode('PairsTrading');
+  }
+
+  private initializeMode(name: string) {
+    this.modes.set(name, {
+      name,
+      currentScore: 0,
+      emaScore: 0,
+      gap: 0,
+      status: 'NEUTRAL'
+    });
+  }
+
+  /**
+   * Updates the logic for a specific mode based on its new raw Mike1 score.
+   */
+  public updateMode(modeName: string, newRawScore: number): ModeState {
+    let mode = this.modes.get(modeName);
+    
+    // Auto-create if missing
+    if (!mode) {
+      this.initializeMode(modeName);
+      mode = this.modes.get(modeName)!;
+      mode.emaScore = newRawScore; // First run seed
+    }
+
+    // 1. UPDATE TECHNICALS
+    // Calculate new EMA (The "Trend" of the Score)
+    mode.emaScore = (newRawScore * this.ALPHA) + (mode.emaScore * (1 - this.ALPHA));
+    
+    // Calculate the Gap (The "Momentum")
+    mode.gap = newRawScore - mode.emaScore;
+    mode.currentScore = newRawScore;
+
+    // 2. DETERMINE STATUS (The Dynamic Logic)
+    
+    // CASE A: DECAY (The Kill Switch)
+    // Score is dropping below its average. The edge is gone.
+    if (mode.gap < -5) {
+      mode.status = 'HIBERNATE';
+      console.log(`📉 MODE DROP: ${modeName} losing momentum. Gap: ${mode.gap.toFixed(1)}`);
+    }
+    
+    // CASE B: OVERHEAT (The Bubble)
+    // Score is flying too high too fast. Risk of mean reversion.
+    else if (mode.gap > 50) {
+      mode.status = 'DEFENSIVE'; // Reduce size
+      console.log(`🔥 MODE HOT: ${modeName} overheated. Gap: ${mode.gap.toFixed(1)}`);
+    }
+    
+    // CASE C: STRENGTH
+    // Score is above average and healthy.
+    else if (mode.gap > 0) {
+      mode.status = 'AGGRESSIVE'; // Full size
+    }
+    
+    else {
+      mode.status = 'NEUTRAL';
+    }
+
+    return mode;
+  }
+
+  public getMode(name: string) {
+    return this.modes.get(name);
+  }
+}
+Step 2: Integrate into Strategy SelectorModify your main loop in server/services/StrategySelector.ts (or wherever selectBestStrategy lives).Changes:Instantiate the ModeManager.Update it with the raw scores.Use the Status to decide the winner, not just the raw score.TypeScript// Inside StrategySelector.ts
+
+import { ModeManager } from "./ModeManager";
+
+const modeManager = new ModeManager();
+
+export async function selectDynamicMode() {
+  // 1. Get Raw Mike1 Scores from DB/Metrics
+  const rawScores = await calculateMike1Scores(); 
+  // e.g., { 'VolExpansion': 287, 'MeanReversion': -30 }
+
+  let bestMode = 'PairsTrading'; // Default safe haven
+  let highestGap = -9999;
+
+  // 2. Process Each Mode through the Manager
+  for (const [name, score] of Object.entries(rawScores)) {
+    
+    const state = modeManager.updateMode(name, score);
+
+    // 3. THE DECISION LOGIC
+    
+    // If HIBERNATE, we skip this mode entirely (even if score is high)
+    if (state.status === 'HIBERNATE') {
+      console.log(`🚫 SKIPPING ${name} (Hibernating due to negative momentum)`);
+      continue;
+    }
+
+    // Otherwise, pick the mode with the strongest MOMENTUM (Gap), not just raw score
+    if (state.gap > highestGap) {
+      highestGap = state.gap;
+      bestMode = name;
+    }
+  }
+
+  // 4. APPLY SIZING ADJUSTMENTS
+  const winnerState = modeManager.getMode(bestMode);
+  
+  if (winnerState?.status === 'DEFENSIVE') {
+    console.log(`⚠️ SELECTED ${bestMode} but setting HALF SIZE (Overheated)`);
+    // setGlobalRiskMultiplier(0.5); 
+  } else {
+    console.log(`✅ SELECTED ${bestMode} with FULL SIZE (Strong Momentum)`);
+    // setGlobalRiskMultiplier(1.0);
+  }
+
+  return bestMode;
+}
+Why this fixes your problemScenario: VolExpansion drops from 287 to 250.Old Logic: 250 is high -> BUY. (Lose money).New Logic:EMA is 280.Gap is -30 (250 - 280).Status: HIBERNATE.Result: The bot dumps VolExpansion immediately and switches to PairsTrading or MeanReversion.

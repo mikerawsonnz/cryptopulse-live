@@ -1,0 +1,78 @@
+This is a comprehensive Replit Agent "Master Prompt" designed to build the Proof of Concept (POC) for CryptoPulse Live.
+
+This prompt is engineered to ensure the AI uses Grounded Analysis (basing insights only on real data) to prevent hallucinations, implements the Tiered Delay system for monetization, and integrates mandatory Financial Disclaimers.
+
+The Replit Agent Master Prompt
+Copy and paste the following into the Replit Agent chat interface:
+
+Build a full-stack real-time "CryptoPulse Live" dashboard and Twitch Overlay using Node.js (Express), Socket.io, and React.
+
+CORE PURPOSE:
+Create a visually high-impact sentiment and whale-tracking terminal for the top 10 cryptocurrencies. This will serve as a Twitch Browser Source overlay.
+
+ARCHITECTURE & DATA PIPELINE:
+Data Sources:
+
+Integrate LunarCrush API for real-time social sentiment metrics and social evidence links.
+
+Integrate Whale Alert API to track transactions >$500,000.
+
+Anti-Hallucination Framework (Grounded Analysis):
+
+The AI analysis component must ONLY summarize the numeric metrics and social text provided by the APIs.
+
+Every sentiment insight MUST be accompanied by a "Source Link" (URL) extracted from the API response to provide evidence.
+
+If no data is available for a specific asset, the system must display "No Current Signal" rather than generating speculative text.
+
+Dual-Buffer Socket System (Tiered Access):
+
+Create two WebSocket namespaces: /live and /delayed.
+
+The /live namespace sends data immediately upon fetch.
+
+The /delayed namespace uses an RxJS buffer or a setTimeout queue to hold and release data exactly 300 seconds (5 minutes) after it is received.
+
+Make this delay configurable via a .env variable FREE_TIER_DELAY_MS.
+
+FRONTEND (React + Tailwind + Chart.js):
+Visual Style:
+
+Use a "Neon Cyberpunk" aesthetic (Dark background, vibrant green/red gauges).
+
+Display a "Sentiment Heatmap" for the top 10 coins.
+
+Create a "Whale Alert Ticker" that cycles at the bottom of the screen.
+
+Interactive Elements (Twitch Bits):
+
+Implement a mock "Twitch Bits" trigger. When a "cheer" event is received via webhook, trigger a visual explosion on the coin's chart on the overlay.
+
+Mandatory Disclaimers:
+
+A persistent, scrolling ticker at the very bottom must state: "DISCLAIMER: NOT FINANCIAL ADVICE. DATA GENERATED FOR EDUCATIONAL PURPOSES. TRADING CRYPTOCURRENCY CARRIES HIGH RISK."
+
+MONETIZATION SETUP:
+Stripe Integration: Use Replit's native Stripe connector to build a "Premium Access" checkout page.
+
+Gating: Users who complete a Stripe payment should receive a unique URL parameter that connects them to the /live WebSocket namespace instead of /delayed.
+
+TECHNICAL REQUIREMENTS:
+Use dotenv for API keys (LunarCrush, WhaleAlert, Stripe).
+
+Set up a Replit "Always On" power-up configuration to ensure the stream stays live 24/7.
+
+Implement error handling for API rate limits (e.g., exponential backoff).
+
+Implementation & Due Diligence Checklist
+To ensure this POC hits your $1,000/month target, follow these technical "Grounded Analysis" rules:
+
+Preventing Hallucinations: By using the Santiment or LunarCrush APIs specifically, you receive "Evidence Links" (direct URLs to the viral tweets or Reddit posts causing the sentiment spike). Ensure your Replit Agent displays these links in a "Signal Proof" column.
+
+The Latency Moat: In the crypto niche, 5 minutes is an eternity. By buffering the data on the server side using a Node.js delayed stream, you create a legitimate technical reason for people to pay for the "Live" feed.
+
+Twitch Compliance: When you implement the "Throw Bits" feature, use the Twitch Extension Helper. Twitch policies allow you to provide "differentiated experiences" (like the live vs. delayed data) in exchange for Bits, provided you receive the 20/80 revenue split.
+
+No-GTM Distribution: Once the Replit app is running, go to Top.gg and list a companion Discord bot that pings your "Whale Alerts" into servers for free, with a link back to your Twitch stream for the "Full Pulse View".
+
+I have provided the Replit Agent prompt and the safety/anti-hallucination framework. Let me know if you need help configuring the specific API keys or building the Discord growth loop.

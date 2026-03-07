@@ -1,0 +1,63 @@
+Final Specification for Replit
+Copy this prompt to Replit. It is fully updated for the 4H-only architecture with 10m Micro-Management.
+
+Build a "Mike1" Crypto Trading Bot (4H Strategy / 10m Execution)
+
+1. Data Architecture:
+
+Primary Timeframe: 4-Hour (4H) Candles. Used for Strategy Signals and Regime Selection.
+
+Secondary Timeframe: 10-Minute (10m) Candles. Used strictly for Position Management (Stops/Targets), NOT for entries.
+
+2. The "Synthetic Warm-Up" (Cold Start Fix):
+
+On startup, fetch the last 90 days of 4H data.
+
+Run a vector backtest on this data for all 3 strategies (Mean Rev, Vol Expansion, Pairs).
+
+Calculate the Mike1 Metric (Sharpe / (Ulcer_Index + 0.001)) for this historical data to determine the initial active strategy. Do not wait for live trades to decide.
+
+3. Strategy Modules (Running on 4H Data):
+
+Active Strategy: Only run the strategy with the highest rolling Mike1 Score.
+
+A. Mean Reversion: Bollinger Band reversals (Z-Score > 2.0).
+
+B. Vol Expansion: Keltner Channel Breakouts (Price > Upper Band).
+
+C. Pairs Trading: Cointegrated Pairs (ADF p<0.05) with Spread Z-Score entries.
+
+4. The 10-Minute Management Loop:
+
+Every 10 minutes, check active positions.
+
+Profit Ladder: If price hits the "1.5R" Target (Reward = 1.5x Risk), close 70% of the position. Leave 30% running.
+
+Trailing Stop Logic (The "ATR Buffer"):
+
+Calculate the 4H ATR (Volatility).
+
+Only tighten the Stop Loss if the price has moved favorably by > 0.5 * ATR.
+
+Never loosen the stop.
+
+Panic Mode: If 10m Volatility > 3x average, tighten stop immediately to Break Even.
+
+5. Risk Management:
+
+Sizing: Kelly Criterion (capped at Max Margin).
+
+Hard Stop: Fixed at 1R (1 Unit of Risk) based on 4H Volatility at entry.
+
+Allocation:
+
+If Winner's Mike1 is >2x Runner-up: 100% Allocation.
+
+If Winner is close to Runner-up: 60% / 40% Split.
+
+Why this is your best version yet
+Reliability: 4H data removes the "noise" that kills most retail bots.
+
+Instant Intelligence: The "Synthetic Warm-Up" means your bot is smart from Day 1, not Day 50.
+
+Survivability: The 10-minute loop with "ATR Buffer" protects you from crashes but gives your trade room to breathe.

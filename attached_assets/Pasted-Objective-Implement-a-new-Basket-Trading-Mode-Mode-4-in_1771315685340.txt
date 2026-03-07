@@ -1,0 +1,90 @@
+Objective:Implement a new "Basket Trading Mode" (Mode #4) in the TypeScript/Node.js trading bot.This mode operates independently of single-asset strategies. It analyzes the entire market (Top 15 coins), determines a dynamic timeframe based on volatility, calculates market sentiment, and executes a portfolio of Longs and Shorts simultaneously to capture broad market moves.New Architecture Overview:You will create 4 new service files and modify the Strategy Selector to integrate them.1. File: server/services/TimeframeManager.ts (The Gearbox)Purpose: Determines the optimal trading timeframe based on market volatility.Logic:Fetch the Top 15 coins from the database.Calculate the Volatility Ratio ($V_R$) for the market:$$V_R = \text{Average}\left( \frac{\text{Current ATR}}{\text{24h Avg ATR}} \right)$$Return Timeframe:If $V_R > 2.0$ (Extreme Volatility) $\rightarrow$ return '5m' (Sniper).If $V_R > 1.2$ (High Volatility) $\rightarrow$ return '15m' (Trending).If $V_R < 0.8$ (Low Volatility) $\rightarrow$ return '4h' (Filter Noise).Else $\rightarrow$ return '1h' (Standard).2. File: server/services/MarketBreadth.ts (The Signal)Purpose: Determines the allocation split (Long vs. Short) based on market health.Logic:Fetch candles for the Top 15 coins using the Dynamic Timeframe from step 1.Calculate Breadth Score (0-100):Structure (40pts): % of coins trading > VWAP.Momentum (30pts): % of coins with RSI > 50.Flow (30pts): % of coins with Volume > 20-period Volume MA.Output:LongRatio = Score / 100 (clamped between 0.1 and 0.9).ShortRatio = 1 - LongRatio.3. File: server/services/BasketExecutor.ts (The Execution)Purpose: Selects assets and executes trades.Selection Logic:Rank Top 15 by Relative Strength (RS):$$RS = \frac{\text{Price} - \text{EMA}_{20}}{\text{ATR}}$$Long Leg: Select Top 5 Highest RS coins.Short Leg: Select Bottom 3 Lowest RS coins.Sizing Logic (Risk Parity):Do NOT allocate equal capital. Allocate equal Risk.Position Size ($$) = $\frac{\text{Base Allocation}}{\text{Coin ATR}}$Execution Order:Execute SHORTS first. (Harder to fill).If Shorts fill, Execute LONGS.Use Promise.all for parallel execution within legs.4. File: server/services/BasketMonitor.ts (The Quant Exit)Purpose: Monitors the Net PnL of the entire basket and closes all positions if targets are hit.Logic:Calculate Basket ATR ($B_{ATR}$): Sum of ($\text{Position Size} \times \text{Coin ATR}$) for all open trades.Calculate Net Open PnL: Sum of unrealized PnL for all trades.Triggers:Take Profit: If Net PnL $> +1.5 \times B_{ATR}$ $\rightarrow$ Close All.Stop Loss: If Net PnL $< -1.0 \times B_{ATR}$ $\rightarrow$ Close All.Core Code Logic (Copy this into the files)server/services/TimeframeManager.tsTypeScriptimport { db } from "@db";
+import { marketData } from "@db/schema";
+
+export class TimeframeManager {
+  static async getDynamicTimeframe(): Promise<string> {
+    const coins = await db.query.marketData.findMany({ limit: 15 });
+    if (!coins.length) return '1h';
+
+    // Calculate Average Volatility Ratio
+    const totalRatio = coins.reduce((sum, c) => sum + (c.currentAtr / (c.atr24h || 1)), 0);
+    const volRatio = totalRatio / coins.length;
+
+    console.log(`⚙️ GEARBOX: Vol Ratio ${volRatio.toFixed(2)}x`);
+
+    if (volRatio > 2.0) return '5m';
+    if (volRatio > 1.2) return '15m';
+    if (volRatio < 0.8) return '4h';
+    return '1h';
+  }
+}
+server/services/BasketExecutor.tsTypeScriptimport { db } from "@db";
+import { placeOrder } from "./ExecutionService";
+import { MarketBreadth } from "./MarketBreadth";
+import { TimeframeManager } from "./TimeframeManager";
+
+export class BasketExecutor {
+  static async execute(totalCapital: number) {
+    const timeframe = await TimeframeManager.getDynamicTimeframe();
+    const sentiment = await MarketBreadth.analyze(timeframe);
+
+    // 1. Get & Rank Coins
+    const coins = await db.query.marketData.findMany({ limit: 15 });
+    const sorted = coins.sort((a, b) => {
+      const rsA = (a.price - a.ema20) / a.currentAtr;
+      const rsB = (b.price - b.ema20) / b.currentAtr;
+      return rsB - rsA; // Descending
+    });
+
+    const longTeam = sorted.slice(0, 5);
+    const shortTeam = sorted.slice(-3);
+
+    // 2. Allocate
+    const longCap = totalCapital * sentiment.longRatio;
+    const shortCap = totalCapital * sentiment.shortRatio;
+
+    // 3. Execute SHORTS First (Hard Leg)
+    console.log(`🧺 BASKET: Shorting ${shortTeam.map(c => c.symbol)}`);
+    await Promise.all(shortTeam.map(c => {
+        const size = (shortCap / 3); // Simplified sizing
+        return placeOrder(c.symbol, 'SELL', size, 'BasketMode');
+    }));
+
+    // 4. Execute LONGS Second (Easy Leg)
+    console.log(`🧺 BASKET: Buying ${longTeam.map(c => c.symbol)}`);
+    await Promise.all(longTeam.map(c => {
+        const size = (longCap / 5);
+        return placeOrder(c.symbol, 'BUY', size, 'BasketMode');
+    }));
+  }
+}
+server/services/BasketMonitor.tsTypeScriptimport { closeAllPositions, getAllOpenPositions } from "./ExecutionService";
+
+export async function monitorBasketExit() {
+  const positions = await getAllOpenPositions();
+  const basketTrades = positions.filter(p => p.mode === 'BasketMode');
+  
+  if (basketTrades.length === 0) return;
+
+  // 1. Calculate Net Stats
+  const netPnL = basketTrades.reduce((sum, p) => sum + p.unrealizedPnL, 0);
+  
+  // 2. Calculate Basket Volatility (Expected Move)
+  // Sum of (Size * ATR) gives the $ dollar volatility of the portfolio
+  const basketAtr = basketTrades.reduce((sum, p) => sum + (p.size * p.currentAtr), 0);
+
+  // 3. Triggers
+  const profitTarget = basketAtr * 1.5;
+  const stopLoss = basketAtr * -1.0;
+
+  console.log(`🧺 BASKET STATUS: PnL $${netPnL.toFixed(2)} | Target: +$${profitTarget.toFixed(2)} | Stop: -$${Math.abs(stopLoss).toFixed(2)}`);
+
+  if (netPnL >= profitTarget) {
+    console.log("💰 BASKET TARGET HIT. Closing All.");
+    await closeAllPositions('BasketMode');
+  } else if (netPnL <= stopLoss) {
+    console.log("🛑 BASKET STOP HIT. Closing All.");
+    await closeAllPositions('BasketMode');
+  }
+}
+Integration InstructionImport BasketExecutor in server/services/StrategySelector.ts.Add logic to select BasketMode if Market Breadth Score > 80 (Strong Bull) or < 20 (Strong Bear), overriding single-asset modes.Add monitorBasketExit() to your main trading loop (run every 10-30 seconds).

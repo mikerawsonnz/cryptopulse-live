@@ -1,0 +1,148 @@
+2026-01-31 11:12:21.71
+1537a428
+User
+[Mean Rev GATE] STETH: ADX 30.4 > 30 (trending), Z=1.56 (not panic)
+2026-01-31 11:12:21.71
+1537a428
+User
+AI Trader: 0 signals above adaptive threshold (10)
+2026-01-31 11:12:21.71
+1537a428
+User
+AI Trader: No primary signals - checking MOMENTUM FALLBACK...
+2026-01-31 11:12:21.71
+1537a428
+User
+[Mean Rev GATE] DOGE: Z-Score 1.35 < 1.5 (need extended price)
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-0.977, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.501, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.937, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.556, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.837, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.456, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.818, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.186, p-value≈0.250, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.347, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-0.621, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.529, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.045, p-value≈0.250, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.450, p-value≈0.250, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.129, p-value≈0.250, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-0.688, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.966, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.744, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.531, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.657, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.519, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.502, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.501, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.282, p-value≈0.250, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-1.704, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.520, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-0.754, p-value≈0.500, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-2.625, p-value≈0.100, cointegrated=false
+2026-01-31 11:12:21.72
+1537a428
+User
+[Cointegration] ADF stat=-3.579, p-value≈0.010, cointegrated=true
+2026-01-31 11:12:21.77
+1537a428
+User
+[CoinGecko] Fetched 10 cryptocurrencies
+2026-01-31 11:12:27.82
+1537a428
+User
+[Helius] Fetching recent transactions...
+2026-01-31 11:12:27.94
+1537a428
+User
+[Helius] Rate limited or unauthorized, returning cached data
+2026-01-31 11:12:27.94
+1537a428
+User
+[Helius] API error: 429 {"jsonrpc":"2.0","error":{"code":-32429,"message":"max usage reached"}}
+2026-01-31 11:12:36.75
+1537a428
+User
+10:12:36 AM [express] GET /api/trading-status 304 in 1ms :: {"active":true,"correlationEnabled":true}

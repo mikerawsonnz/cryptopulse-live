@@ -1,0 +1,106 @@
+The "Mike1" metric is a powerful and highly specific choice. By dividing the Sharpe Ratio (Reward vs. Volatility) by the Ulcer Index (Depth & Duration of Pain), you are creating a "Hyper-Conservative" fitness function.
+
+Most bots just chase "Profit." Your bot chases "Stress-Free Profit."
+
+Here is exactly how "Mike1" forces the bot to adapt, the mathematics of why it works, and the Python logic to make it the bot's "brain."
+
+1. What "Mike1" Actually Tells the Bot
+Since Mike1 = Sharpe / Ulcer, the bot is mathematically forced to hate two things:
+
+Volatility (Penalized by Sharpe denominator).
+
+Drawdowns (Penalized by Ulcer Index denominator).
+
+This creates a multiplier effect.
+
+Scenario A (High Profit, Wild Ride): Sharpe 2.0, Ulcer 10%. Mike1 = 2.0 / 0.10 = 20.
+
+Scenario B (Medium Profit, Smooth Ride): Sharpe 1.5, Ulcer 2%. Mike1 = 1.5 / 0.02 = 75.
+
+The Adaptation: The bot will aggressively switch away from high-profit strategies if they are "scary" (volatile), and switch toward boring, consistent strategies. It adapts for consistency, not just ROI.
+
+2. The Adaptation Engine (How it Changes Behavior)
+The bot adapts its trading in three specific layers using Mike1:
+
+Layer 1: The Regime Switch (The "General")
+Every 4 hours, the bot runs a "Virtual Backtest" on the last 50 candles for all 3 strategies.
+
+Adaptation: If the market turns choppy (Ulcer spikes for Trend Strategy), the Mike1 score for Trend crashes. The bot automatically rotates capital to Mean Reversion or Pairs, which might have lower raw profit but a much better Mike1 score (smoother curve).
+
+Layer 2: Parameter Tuning (The "Walk-Forward Optimizer")
+This is the advanced "Adaptation" you are looking for. Instead of just picking a strategy, the bot can tune the strategy.
+
+Logic: Every 4 hours, the bot tests 3 variations of the Stop Loss distance: Tight (0.5 ATR), Normal (1.0 ATR), Loose (2.0 ATR).
+
+Decision: It calculates Mike1 for all three.
+
+If Tight has the highest Mike1 (because it avoided a big drawdown), the bot adopts Tight stops for the next 4 hours.
+
+If Loose has the highest Mike1 (because it survived wicks and caught the trend), the bot adopts Loose stops.
+
+3. Python Implementation (The "Brain" Code)
+Add this to your metrics.py or optimization.py file. This is the code that calculates your custom KPI and handles the "Divide by Zero" risk.
+
+Python
+import numpy as np
+
+def calculate_mike1(returns_series):
+    """
+    Computes the Mike1 Metric: Sharpe Ratio / Ulcer Index
+    Input: pandas Series of percentage returns (e.g., +0.02, -0.01)
+    """
+    if len(returns_series) < 5:
+        return 0.0
+
+    # 1. Calculate Sharpe Ratio (Annualized for Crypto 365 days)
+    mean_ret = np.mean(returns_series)
+    std_dev = np.std(returns_series)
+    
+    if std_dev == 0:
+        return 0.0 # Flatline = No Risk, but also No Sharpe
+        
+    # Annualized Sharpe (assuming 4H candles = 6 candles/day * 365)
+    annualization_factor = np.sqrt(365 * 6) 
+    sharpe = (mean_ret / std_dev) * annualization_factor
+
+    # 2. Calculate Ulcer Index
+    # Convert returns to equity curve: [100, 102, 101, 105...]
+    equity_curve = (1 + returns_series).cumprod()
+    
+    # Calculate Drawdown % from running max
+    running_max = np.maximum.accumulate(equity_curve)
+    drawdowns = (equity_curve - running_max) / running_max # e.g. -0.05
+    
+    # Ulcer Index = Sqrt(Mean(Drawdowns^2))
+    sum_squared_drawdowns = np.sum(drawdowns ** 2)
+    ulcer_index = np.sqrt(sum_squared_drawdowns / len(returns_series))
+
+    # 3. Calculate Mike1 (The "Sleep Well" Score)
+    # Add epsilon (0.001) to prevent divide-by-zero if Ulcer is 0
+    mike1_score = sharpe / (ulcer_index + 0.001)
+
+    return mike1_score
+4. How to Visualize the "Adaptation"
+You should add a specific line to your Replit Dashboard/Logs to verify the bot is adapting correctly.
+
+Log Output Example:
+
+Plaintext
+🔍 ADAPTATION CHECK (Last 14 Days)
+----------------------------------
+Strategy      | Sharpe | Ulcer | Mike1 Score | Status
+MeanReversion |  2.1   | 0.04  | 51.2        | ✅ ACTIVE (Alloc: 100%)
+VolExpansion  |  2.8   | 0.15  | 18.5        | ❌ BLOCKED (Too Volatile)
+PairsTrading  |  0.5   | 0.01  | 45.4        | ⚠️ RUNNER UP
+----------------------------------
+> ADAPTATION: Market is high-volatility. Switched to MeanReversion to minimize Ulcer.
+Summary
+You have created a "Safety-First" metric.
+
+Standard Bot: Maximizes Profit. (Blows up eventually).
+
+Sharpe Bot: Maximizes Return/Risk. (Good, but accepts deep drawdowns).
+
+Mike1 Bot: Maximizes Efficiency/Pain. (Will sacrifice "moonshots" to ensure you never have a 20% drawdown).
+
+This fits perfectly with your 1:1.5 Risk/Reward ratio and 4H timeframe. The bot will naturally gravitate toward the "easiest" money in the market, not the "most" money.

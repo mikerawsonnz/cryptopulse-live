@@ -1,0 +1,6760 @@
+LONG
+sol
+PT
+STOPPED
+$0.12 (+1.15%)
+Qty:0.1220
+Entry:$82.55
+Exit:$83.55
+Fees:$0.0061
+Slip:$0.0413
+Open: Pairs Trading | z=-3.42 | corr=0.82 | β=1.000 | LONG leg
+Close: Broken Leash z=3.58 - Correlation Failure
+08:12 AM
+SHORT
+pepe
+PT
+STOPPED
+-$0.07 (-0.65%)
+Qty:2385442.0000
+Entry:$0.00000419
+Exit:$0.00000422
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-3.42 | corr=0.82 | β=1.000 | SHORT leg
+Close: Broken Leash z=3.58 - Correlation Failure
+08:12 AM
+SHORT
+ada
+PT
+STOPPED
+-$0.02 (-0.23%)
+Qty:36.4820
+Entry:$0.2741
+Exit:$0.2746
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=2.44 | corr=0.85 | β=1.000 | SHORT leg
+Close: Broken Leash z=3.60 - Correlation Failure
+06:36 AM
+LONG
+ltc
+PT
+CLOSED
+$0.18 (+1.76%)
+Qty:0.1880
+Entry:$53.28
+Exit:$54.24
+Fees:$0.0040
+Slip:$0.0267
+Open: Pairs Trading | z=3.87 | corr=0.94 | β=0.664 | LONG leg
+Close: Pair Orphan - Partner sui stopped out
+11:38 AM
+SHORT
+sui
+PT
+STOPPED
+-$0.21 (-2.15%)
+Qty:10.6510
+Entry:$0.9389
+Exit:$0.9585
+Fees:$0.0061
+Slip:$0.0021
+Open: Pairs Trading | z=3.87 | corr=0.94 | β=0.664 | SHORT leg
+Close: Stop Loss Hit @ $0.96
+11:38 AM
+LONG
+aave
+PT
+STOPPED
+-$0.08 (-0.75%)
+Qty:0.0810
+Entry:$124.90
+Exit:$124.03
+Fees:$0.0060
+Slip:$0.0625
+Open: Pairs Trading | z=2.44 | corr=0.85 | β=1.000 | LONG leg
+Close: Broken Leash z=3.60 - Correlation Failure
+06:36 AM
+LONG
+eth
+PT
+STOPPED
+$0.10 (+0.87%)
+Qty:0.0060
+Entry:$1938.43
+Exit:$1956.47
+Fees:$0.0070
+Slip:$2.8286
+Open: Pairs Trading | z=-2.79 | corr=0.82 | β=0.801 | LONG leg
+Close: Stop Loss Hit @ $1958.33
+11:56 AM
+SHORT
+bnb
+PT
+CLOSED
+-$0.07 (-0.66%)
+Qty:0.0170
+Entry:$608.78
+Exit:$612.56
+Fees:$0.0042
+Slip:$0.3042
+Open: Pairs Trading | z=-2.79 | corr=0.82 | β=0.801 | SHORT leg
+Close: Pair Orphan - Partner eth stopped out
+11:56 AM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1890
+Entry:$52.98
+Exit:$52.95
+Fees:$0.0040
+Slip:$0.0265
+Open: Pairs Trading | z=-2.95 | corr=0.87 | β=1.112 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+05:28 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.6020
+Entry:$0.0984
+Exit:$0.0984
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.10 | corr=0.91 | β=1.434 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+05:28 AM
+SHORT
+sol
+PT
+CLOSED
+-$0.06 (-0.64%)
+Qty:0.1220
+Entry:$82.15
+Exit:$82.64
+Fees:$0.0040
+Slip:$0.0411
+Open: Pairs Trading | z=2.32 | corr=0.83 | β=1.029 | SHORT leg
+Close: Pair Orphan - Partner sui stopped out
+05:25 AM
+LONG
+sui
+PT
+STOPPED
+$0.14 (+1.45%)
+Qty:10.9110
+Entry:$0.9165
+Exit:$0.9304
+Fees:$0.0061
+Slip:$0.0005
+Open: Pairs Trading | z=2.32 | corr=0.83 | β=1.029 | LONG leg
+Close: Stop Loss Hit @ $0.93
+05:25 AM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1890
+Entry:$53.16
+Exit:$53.13
+Fees:$0.0040
+Slip:$0.0266
+Open: Pairs Trading | z=-2.89 | corr=0.88 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+05:21 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.3470
+Entry:$0.0987
+Exit:$0.0986
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.65 | corr=0.83 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+05:21 AM
+LONG
+DOGE
+VE
+STOPPED
+-$0.02 (-0.17%)
+Qty:132.1690
+Entry:$0.0992
+Exit:$0.0991
+Fees:$0.0079
+Slip:$0.0000
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.10
+03:58 AM
+LONG
+AAVE
+VE
+STOPPED
+-$0.02 (-0.15%)
+Qty:0.0810
+Entry:$124.93
+Exit:$124.81
+Fees:$0.0061
+Slip:$0.0625
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $124.96
+02:51 AM
+SHORT
+ltc
+PT
+CLOSED
+-$0.02 (-0.24%)
+Qty:0.1890
+Entry:$52.98
+Exit:$53.08
+Fees:$0.0040
+Slip:$0.0265
+Open: Pairs Trading | z=-2.19 | corr=0.85 | β=1.140 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+02:49 AM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.01%)
+Qty:101.2790
+Entry:$0.0987
+Exit:$0.0988
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-2.19 | corr=0.85 | β=1.140 | LONG leg
+Close: Stop Loss Hit @ $0.10
+02:49 AM
+LONG
+TRX
+VE
+CLOSED
+$0.02 (+0.07%)
+Qty:35.1220
+Entry:$0.2847
+Exit:$0.2850
+Fees:$0.0040
+Slip:$0.0001
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: ATM Time Decay - 12h stale, P&L: 0.11%
+12:09 PM
+LONG
+ltc
+PT
+STOPPED
+$0.02 (+0.18%)
+Qty:0.1910
+Entry:$52.47
+Exit:$52.60
+Fees:$0.0060
+Slip:$0.0262
+Open: Pairs Trading | z=3.62 | corr=0.88 | β=0.500 | LONG leg
+Close: Broken Leash z=3.57 - Correlation Failure
+01:15 AM
+SHORT
+zec
+PT
+STOPPED
+-$0.03 (-0.28%)
+Qty:0.0390
+Entry:$262.28
+Exit:$262.87
+Fees:$0.0061
+Slip:$0.1311
+Open: Pairs Trading | z=3.62 | corr=0.88 | β=0.500 | SHORT leg
+Close: Broken Leash z=3.57 - Correlation Failure
+01:15 AM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0180
+Entry:$560.85
+Exit:$560.57
+Fees:$0.0040
+Slip:$0.2803
+Open: Pairs Trading | z=-2.37 | corr=0.88 | β=0.806 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+11:52 PM
+SHORT
+sol
+PT
+CLOSED
+$0.02 (+0.08%)
+Qty:0.1220
+Entry:$82.18
+Exit:$82.08
+Fees:$0.0040
+Slip:$0.0411
+Open: Pairs Trading | z=2.68 | corr=0.88 | β=0.871 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+11:38 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.24%)
+Qty:102.2550
+Entry:$0.0978
+Exit:$0.0976
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.68 | corr=0.88 | β=0.871 | LONG leg
+Close: Stop Loss Hit @ $0.10
+11:38 PM
+SHORT
+sol
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1220
+Entry:$82.22
+Exit:$82.18
+Fees:$0.0040
+Slip:$0.0411
+Open: Pairs Trading | z=3.26 | corr=0.81 | β=0.630 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+11:13 PM
+SHORT
+sol
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1230
+Entry:$81.57
+Exit:$81.53
+Fees:$0.0040
+Slip:$0.0408
+Open: Pairs Trading | z=2.71 | corr=0.89 | β=0.542 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+08:52 PM
+LONG
+ltc
+PT
+CLOSED
+$0.17 (+1.74%)
+Qty:0.1900
+Entry:$52.67
+Exit:$53.61
+Fees:$0.0040
+Slip:$0.0263
+Open: Pairs Trading | z=2.12 | corr=0.80 | β=0.698 | LONG leg
+Close: Pair Orphan - Partner sui stopped out
+08:53 AM
+SHORT
+sui
+PT
+STOPPED
+-$0.26 (-2.63%)
+Qty:10.8970
+Entry:$0.9178
+Exit:$0.9414
+Fees:$0.0061
+Slip:$0.0005
+Open: Pairs Trading | z=2.12 | corr=0.80 | β=0.698 | SHORT leg
+Close: Stop Loss Hit @ $0.94
+08:53 AM
+SHORT
+bnb
+PT
+STOPPED
+-$0.09 (-0.87%)
+Qty:0.0170
+Entry:$602.32
+Exit:$607.21
+Fees:$0.0062
+Slip:$0.3010
+Open: Pairs Trading | z=-2.06 | corr=0.92 | β=1.252 | SHORT leg
+Close: Broken Leash z=-4.05 - Correlation Failure
+05:03 AM
+LONG
+eth
+PT
+STOPPED
+$0.09 (+0.81%)
+Qty:0.0060
+Entry:$1928.54
+Exit:$1945.30
+Fees:$0.0070
+Slip:$0.9647
+Open: Pairs Trading | z=-2.06 | corr=0.92 | β=1.252 | LONG leg
+Close: Broken Leash z=-4.05 - Correlation Failure
+05:03 AM
+SHORT
+aave
+PT
+STOPPED
+-$0.02 (-0.23%)
+Qty:0.0820
+Entry:$123.28
+Exit:$123.50
+Fees:$0.0061
+Slip:$0.0616
+Open: Pairs Trading | z=-2.82 | corr=0.81 | β=1.162 | SHORT leg
+Close: Broken Leash z=3.99 - Correlation Failure
+11:05 PM
+LONG
+INJ
+MO
+STOPPED
+-$0.49 (-2.79%)
+Qty:5.2260
+Entry:$3.35
+Exit:$3.26
+Fees:$0.0103
+Slip:$0.0017
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $3.26
+09:19 PM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1910
+Entry:$52.61
+Exit:$52.58
+Fees:$0.0040
+Slip:$0.0263
+Open: Pairs Trading | z=-2.17 | corr=0.83 | β=1.638 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+08:30 PM
+SHORT
+sol
+PT
+CLOSED
+$0.02 (+0.21%)
+Qty:0.1230
+Entry:$81.83
+Exit:$81.63
+Fees:$0.0040
+Slip:$0.0409
+Open: Pairs Trading | z=2.60 | corr=0.89 | β=1.187 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+08:28 PM
+LONG
+doge
+PT
+STOPPED
+-$0.03 (-0.29%)
+Qty:102.2440
+Entry:$0.0978
+Exit:$0.0976
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.60 | corr=0.89 | β=1.187 | LONG leg
+Close: Stop Loss Hit @ $0.10
+08:28 PM
+SHORT
+trx
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:35.2240
+Entry:$0.2839
+Exit:$0.2838
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.05 | corr=0.86 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+08:18 PM
+LONG
+SUI
+MR
+STOPPED
+-$0.38 (-3.82%)
+Qty:10.5320
+Entry:$0.9495
+Exit:$0.9138
+Fees:$0.0058
+Slip:$0.0005
+Open: Mean Reversion | LONG | Conf: 71% | R:R 1.0 | [4H OHLC] Mean Reversion LONG
+Close: Stop Loss Hit @ $0.92
+08:08 PM
+LONG
+BNB
+VE
+STOPPED
+-$0.28 (-2.63%)
+Qty:0.0170
+Entry:$620.80
+Exit:$604.81
+Fees:$0.0062
+Slip:$0.3106
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $605.49
+08:08 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.9130
+Entry:$0.9164
+Exit:$0.9159
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.04 | corr=0.92 | β=0.951 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+07:48 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.10%)
+Qty:102.4660
+Entry:$0.0976
+Exit:$0.0976
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-2.42 | corr=0.89 | β=0.528 | LONG leg
+Close: Stop Loss Hit @ $0.10
+07:39 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.00%)
+Qty:0.0180
+Entry:$559.03
+Exit:$558.80
+Fees:$0.0040
+Slip:$0.2794
+Open: Pairs Trading | z=-2.42 | corr=0.89 | β=0.528 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+07:39 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0180
+Entry:$556.05
+Exit:$555.77
+Fees:$0.0040
+Slip:$0.2779
+Open: Pairs Trading | z=-3.44 | corr=0.86 | β=0.968 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+07:23 PM
+SHORT
+AAVE
+MO
+STOPPED
+-$0.12 (-1.19%)
+Qty:0.0830
+Entry:$121.77
+Exit:$123.15
+Fees:$0.0061
+Slip:$0.0609
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $123.01
+07:26 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.6830
+Entry:$0.0974
+Exit:$0.0973
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.11 | corr=0.90 | β=0.895 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+07:18 PM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1920
+Entry:$52.25
+Exit:$52.22
+Fees:$0.0040
+Slip:$0.0261
+Open: Pairs Trading | z=-2.47 | corr=0.85 | β=0.883 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+07:16 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$553.87
+Exit:$553.59
+Fees:$0.0042
+Slip:$0.2768
+Open: Pairs Trading | z=-2.21 | corr=0.84 | β=1.741 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+06:57 PM
+SHORT
+ltc
+PT
+CLOSED
+-$0.04 (-0.41%)
+Qty:0.1940
+Entry:$51.79
+Exit:$51.98
+Fees:$0.0040
+Slip:$0.0259
+Open: Pairs Trading | z=-3.02 | corr=0.90 | β=1.044 | SHORT leg
+Close: Pair Orphan - Partner sui stopped out
+06:56 PM
+LONG
+PEPE
+MR
+CLOSED
+$0.02 (+0.01%)
+Qty:2387828.8000
+Entry:$0.00000419
+Exit:$0.00000419
+Fees:$0.0040
+Slip:$0.0000
+Open: Mean Reversion | LONG | Conf: 69% | R:R 1.0 | [4H OHLC] Mean Reversion LONG
+Close: ATM Time Decay - 15h stale, P&L: 0.05%
+09:18 AM
+SHORT
+xrp
+PT
+CLOSED
+-$0.14 (-1.42%)
+Qty:7.1400
+Entry:$1.40
+Exit:$1.42
+Fees:$0.0040
+Slip:$0.0007
+Open: Pairs Trading | z=3.08 | corr=0.95 | β=0.500 | SHORT leg
+Close: Pair Orphan - Partner ada stopped out
+12:18 PM
+SHORT
+doge
+PT
+STOPPED
+-$0.02 (-0.11%)
+Qty:103.2410
+Entry:$0.0969
+Exit:$0.0969
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.20 | corr=0.84 | β=1.042 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+06:06 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.9960
+Entry:$0.0971
+Exit:$0.0970
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.92 | corr=0.89 | β=0.762 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+05:42 PM
+SHORT
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:37.0020
+Entry:$0.2703
+Exit:$0.2701
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.03 | corr=0.85 | β=0.662 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+05:41 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:103.3370
+Entry:$0.0968
+Exit:$0.0967
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.05 | corr=0.95 | β=0.500 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+05:36 PM
+LONG
+ada
+PT
+CLOSED
+-$0.09 (-0.87%)
+Qty:36.7830
+Entry:$0.2719
+Exit:$0.2696
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.27 | corr=0.82 | β=0.800 | LONG leg
+Close: Pair Orphan - Partner aave stopped out
+05:36 PM
+SHORT
+DOGE
+MO
+STOPPED
+$0.02 (+0.00%)
+Qty:103.6260
+Entry:$0.0965
+Exit:$0.0964
+Fees:$0.0060
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+05:17 PM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1930
+Entry:$51.83
+Exit:$51.80
+Fees:$0.0040
+Slip:$0.0259
+Open: Pairs Trading | z=-2.27 | corr=0.94 | β=1.274 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+04:20 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:11.0260
+Entry:$0.9070
+Exit:$0.9065
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.94 | corr=0.86 | β=1.132 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+04:20 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$548.26
+Exit:$547.99
+Fees:$0.0042
+Slip:$0.2740
+Open: Pairs Trading | z=-2.09 | corr=0.81 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long bnb leg failed
+04:16 PM
+LONG
+sui
+PT
+STOPPED
+$0.03 (+0.28%)
+Qty:10.9560
+Entry:$0.9128
+Exit:$0.9160
+Fees:$0.0060
+Slip:$0.0005
+Open: Pairs Trading | z=-2.82 | corr=0.81 | β=1.162 | LONG leg
+Close: Broken Leash z=3.99 - Correlation Failure
+11:05 PM
+LONG
+sui
+PT
+STOPPED
+-$0.02 (-0.03%)
+Qty:11.0600
+Entry:$0.9042
+Exit:$0.9045
+Fees:$0.0060
+Slip:$0.0005
+Open: Pairs Trading | z=-3.02 | corr=0.90 | β=1.044 | LONG leg
+Close: Stop Loss Hit @ $0.91
+06:56 PM
+LONG
+ada
+PT
+STOPPED
+$0.28 (+2.85%)
+Qty:37.0960
+Entry:$0.2696
+Exit:$0.2774
+Fees:$0.0061
+Slip:$0.0004
+Open: Pairs Trading | z=3.08 | corr=0.95 | β=0.500 | LONG leg
+Close: Stop Loss Hit @ $0.28
+12:18 PM
+SHORT
+aave
+PT
+STOPPED
+-$0.05 (-0.47%)
+Qty:0.0820
+Entry:$122.18
+Exit:$122.68
+Fees:$0.0060
+Slip:$0.0611
+Open: Pairs Trading | z=2.27 | corr=0.82 | β=0.800 | SHORT leg
+Close: Stop Loss Hit @ $122.49
+05:36 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.3430
+Entry:$0.0977
+Exit:$0.0977
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.98 | corr=0.98 | β=1.278 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+04:14 PM
+SHORT
+pepe
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2351765.2000
+Entry:$0.00000425
+Exit:$0.00000425
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.24 | corr=0.85 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long bnb leg failed
+04:14 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:11.0070
+Entry:$0.9085
+Exit:$0.9081
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-3.42 | corr=0.91 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+04:14 PM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1930
+Entry:$51.93
+Exit:$51.90
+Fees:$0.0040
+Slip:$0.0260
+Open: Pairs Trading | z=-3.21 | corr=0.87 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+04:14 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.0640
+Entry:$0.0980
+Exit:$0.0979
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.50 | corr=0.81 | β=0.652 | SHORT leg
+Close: Atomic Rollback - Long bnb leg failed
+04:01 PM
+SHORT
+BCH
+MO
+STOPPED
+-$0.22 (-1.25%)
+Qty:0.0320
+Entry:$541.12
+Exit:$547.55
+Fees:$0.0105
+Slip:$0.2704
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $546.85
+03:57 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.1620
+Entry:$0.0979
+Exit:$0.0978
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.51 | corr=0.92 | β=0.821 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+03:54 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.6070
+Entry:$0.0975
+Exit:$0.0974
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.39 | corr=0.96 | β=0.899 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+03:45 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:11.0350
+Entry:$0.9062
+Exit:$0.9058
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.14 | corr=0.96 | β=0.500 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+03:42 PM
+SHORT
+aave
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0830
+Entry:$121.47
+Exit:$121.41
+Fees:$0.0040
+Slip:$0.0607
+Open: Pairs Trading | z=-3.54 | corr=0.85 | β=0.561 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+03:41 PM
+SHORT
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:36.9300
+Entry:$0.2708
+Exit:$0.2707
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.76 | corr=0.85 | β=0.740 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+03:40 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:11.0590
+Entry:$0.9043
+Exit:$0.9038
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.14 | corr=0.82 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+03:37 PM
+SHORT
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:36.9450
+Entry:$0.2707
+Exit:$0.2705
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.03 | corr=0.81 | β=0.500 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+03:19 PM
+SHORT
+doge
+PT
+STOPPED
+-$0.02 (-0.18%)
+Qty:103.1210
+Entry:$0.0970
+Exit:$0.0971
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.15 | corr=0.90 | β=1.087 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+03:02 PM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.09%)
+Qty:0.1930
+Entry:$51.83
+Exit:$51.90
+Fees:$0.0040
+Slip:$0.0259
+Open: Pairs Trading | z=2.15 | corr=0.90 | β=1.087 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+03:02 PM
+SHORT
+SUI
+MO
+STOPPED
+$0.17 (+1.29%)
+Qty:14.3630
+Entry:$0.9142
+Exit:$0.9063
+Fees:$0.0060
+Slip:$0.0005
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.91
+03:10 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:103.3430
+Entry:$0.0968
+Exit:$0.0967
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.98 | corr=0.91 | β=1.032 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+02:52 PM
+SHORT
+ltc
+PT
+CLOSED
+$0.22 (+2.18%)
+Qty:0.1890
+Entry:$53.04
+Exit:$51.86
+Fees:$0.0040
+Slip:$0.0265
+Open: Pairs Trading | z=-2.15 | corr=0.94 | β=2.000 | SHORT leg
+Close: Pair Orphan - Partner aave stopped out
+02:52 PM
+LONG
+aave
+PT
+STOPPED
+-$0.24 (-2.38%)
+Qty:0.0820
+Entry:$122.83
+Exit:$119.97
+Fees:$0.0059
+Slip:$0.0614
+Open: Pairs Trading | z=-2.15 | corr=0.94 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $120.18
+02:52 PM
+SHORT
+ADA
+MO
+CLOSED
+$0.23 (+1.78%)
+Qty:47.4380
+Entry:$0.2766
+Exit:$0.2696
+Fees:$0.0052
+Slip:$0.0001
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+02:46 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.8380
+Entry:$0.0972
+Exit:$0.0972
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.71 | corr=0.86 | β=1.431 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+02:43 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.8420
+Entry:$0.0972
+Exit:$0.0972
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.19 | corr=0.95 | β=1.210 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+02:13 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.6920
+Entry:$0.0974
+Exit:$0.0973
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=4.26 | corr=0.97 | β=1.539 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+02:07 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$546.00
+Exit:$545.73
+Fees:$0.0041
+Slip:$0.2729
+Open: Pairs Trading | z=-2.22 | corr=0.82 | β=1.683 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+02:02 PM
+SHORT
+SOL
+VE
+STOPPED
+-$0.32 (-3.15%)
+Qty:0.1240
+Entry:$81.22
+Exit:$83.73
+Fees:$0.0062
+Slip:$0.0406
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $83.64
+08:43 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.4950
+Entry:$0.0976
+Exit:$0.0975
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.32 | corr=0.85 | β=1.533 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+01:58 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.3780
+Entry:$0.0977
+Exit:$0.0976
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.64 | corr=0.87 | β=1.069 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+01:49 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.9100
+Entry:$0.9166
+Exit:$0.9162
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.37 | corr=0.95 | β=0.884 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+01:32 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.9260
+Entry:$0.9153
+Exit:$0.9148
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.17 | corr=0.82 | β=1.195 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+01:25 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.9260
+Entry:$0.9153
+Exit:$0.9149
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.67 | corr=0.90 | β=0.739 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+01:14 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$550.36
+Exit:$550.08
+Fees:$0.0042
+Slip:$0.2750
+Open: Pairs Trading | z=-2.45 | corr=0.83 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+12:40 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.1870
+Entry:$0.0979
+Exit:$0.0978
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.57 | corr=0.86 | β=1.058 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+12:30 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.8850
+Entry:$0.9187
+Exit:$0.9183
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.16 | corr=0.89 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long wlfi leg failed
+12:27 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.2710
+Entry:$0.0978
+Exit:$0.0977
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.29 | corr=0.87 | β=1.696 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+11:59 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.2160
+Entry:$0.0978
+Exit:$0.0978
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-3.12 | corr=0.83 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+11:53 AM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.8840
+Entry:$0.9188
+Exit:$0.9183
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.40 | corr=0.93 | β=0.588 | SHORT leg
+Close: Atomic Rollback - Long zec leg failed
+11:53 AM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.8870
+Entry:$0.9186
+Exit:$0.9181
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.22 | corr=0.98 | β=0.682 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+11:19 AM
+SHORT
+bnb
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0170
+Entry:$607.42
+Exit:$607.12
+Fees:$0.0041
+Slip:$0.3036
+Open: Pairs Trading | z=2.31 | corr=0.80 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+11:13 AM
+SHORT
+doge
+PT
+STOPPED
+$0.02 (+0.08%)
+Qty:102.3850
+Entry:$0.0977
+Exit:$0.0975
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-3.26 | corr=0.88 | β=2.000 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+11:04 AM
+SHORT
+ZEC
+MO
+CLOSED
+$0.19 (+1.48%)
+Qty:0.0490
+Entry:$263.70
+Exit:$262.96
+Fees:$0.0051
+Slip:$0.1318
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: ATM Time Decay - 35h stale, P&L: 0.28%
+10:07 AM
+SHORT
+bnb
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0170
+Entry:$606.49
+Exit:$606.19
+Fees:$0.0041
+Slip:$0.3031
+Open: Pairs Trading | z=-2.06 | corr=0.90 | β=1.327 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+10:53 AM
+LONG
+BCH
+MR
+STOPPED
+-$0.22 (-1.76%)
+Qty:0.0230
+Entry:$557.14
+Exit:$547.69
+Fees:$0.0076
+Slip:$0.2787
+Open: Mean Reversion | LONG | Conf: 67% | R:R 1.0 | [4H OHLC] Mean Reversion LONG
+Close: Stop Loss Hit @ $548.76
+10:55 AM
+SHORT
+pepe
+PT
+STOPPED
+-$0.03 (-0.30%)
+Qty:2362884.8000
+Entry:$0.00000423
+Exit:$0.00000424
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-4.43 | corr=0.87 | β=0.500 | SHORT leg
+Close: Broken Leash z=-4.27 - Correlation Failure
+05:09 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.5480
+Entry:$0.0985
+Exit:$0.0984
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.08 | corr=0.80 | β=1.591 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+04:46 AM
+SHORT
+MOLT
+MO
+STOPPED
+-$1.57 (-11.94%)
+Qty:537137.5600
+Entry:$0.00002451
+Exit:$0.00002742
+Fees:$0.0085
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+04:24 AM
+SHORT
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1969.31
+Exit:$1968.33
+Fees:$0.0047
+Slip:$0.9842
+Open: Pairs Trading | z=2.05 | corr=0.82 | β=1.000 | SHORT leg
+Close: Atomic Rollback - Long bnb leg failed
+03:16 AM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.6680
+Entry:$0.9374
+Exit:$0.9370
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.77 | corr=0.83 | β=0.578 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+03:13 AM
+SHORT
+PEPE
+MO
+STOPPED
+$0.20 (+1.53%)
+Qty:3043270.2000
+Entry:$0.00000431
+Exit:$0.00000425
+Fees:$0.0060
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+02:50 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.6240
+Entry:$0.0984
+Exit:$0.0984
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.43 | corr=0.93 | β=1.179 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+02:42 AM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1880
+Entry:$53.23
+Exit:$53.20
+Fees:$0.0040
+Slip:$0.0266
+Open: Pairs Trading | z=-2.79 | corr=0.89 | β=0.885 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+12:42 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.7900
+Entry:$0.0982
+Exit:$0.0982
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.41 | corr=0.80 | β=0.614 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+12:33 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.7100
+Entry:$0.0983
+Exit:$0.0983
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.51 | corr=0.88 | β=1.059 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+12:10 AM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1890
+Entry:$53.19
+Exit:$53.16
+Fees:$0.0040
+Slip:$0.0266
+Open: Pairs Trading | z=-2.74 | corr=0.90 | β=0.834 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+11:39 PM
+LONG
+WLFI
+MO
+STOPPED
+-$0.50 (-2.88%)
+Qty:143.0120
+Entry:$0.1224
+Exit:$0.1189
+Fees:$0.0103
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.12
+11:33 PM
+SHORT
+doge
+PT
+STOPPED
+-$0.02 (-0.20%)
+Qty:101.7660
+Entry:$0.0983
+Exit:$0.0984
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=3.96 | corr=0.92 | β=1.646 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+11:23 PM
+SHORT
+ZAMA
+VE
+CLOSED
+$0.28 (+2.77%)
+Qty:504.1230
+Entry:$0.0198
+Exit:$0.0191
+Fees:$0.0039
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: All TPs Triggered - Final Close
+09:07 PM
+SHORT
+ZEC
+VE
+CLOSED
+$0.63 (+6.26%)
+Qty:0.0360
+Entry:$280.29
+Exit:$262.64
+Fees:$0.0033
+Slip:$0.1401
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: DB Reconciliation - No matching open position
+08:46 AM
+SHORT
+LTC
+VE
+STOPPED
+$0.24 (+2.44%)
+Qty:0.1850
+Entry:$54.33
+Exit:$53.82
+Fees:$0.0046
+Slip:$0.0783
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $53.77
+10:18 AM
+SHORT
+PEPE
+VE
+STOPPED
+-$0.03 (-0.32%)
+Qty:2385442.0000
+Entry:$0.00000419
+Exit:$0.00000420
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.00
+03:40 PM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.2300
+Entry:$0.0988
+Exit:$0.0987
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.49 | corr=0.90 | β=1.134 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+05:33 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.5330
+Entry:$0.0985
+Exit:$0.0984
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=3.20 | corr=0.81 | β=0.897 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+04:26 AM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1890
+Entry:$53.13
+Exit:$53.10
+Fees:$0.0040
+Slip:$0.0266
+Open: Pairs Trading | z=-3.23 | corr=0.90 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+11:13 PM
+LONG
+SUI
+VE
+STOPPED
+-$0.24 (-2.38%)
+Qty:10.2670
+Entry:$0.9740
+Exit:$0.9514
+Fees:$0.0059
+Slip:$0.0005
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.95
+06:32 PM
+LONG
+AAVE
+MO
+STOPPED
+$0.05 (+0.31%)
+Qty:0.1360
+Entry:$128.28
+Exit:$128.74
+Fees:$0.0105
+Slip:$0.0642
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $128.81
+05:55 PM
+SHORT
+ZAMA
+MO
+STOPPED
+-$0.14 (-0.80%)
+Qty:873.2580
+Entry:$0.0200
+Exit:$0.0202
+Fees:$0.0106
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.02
+05:38 PM
+LONG
+DOGE
+MO
+STOPPED
+-$0.05 (-0.28%)
+Qty:169.8390
+Entry:$0.1028
+Exit:$0.1026
+Fees:$0.0105
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+05:27 PM
+SHORT
+ADA
+VE
+STOPPED
+-$0.17 (-1.65%)
+Qty:35.6320
+Entry:$0.2807
+Exit:$0.2851
+Fees:$0.0061
+Slip:$0.0001
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.28
+05:20 PM
+SHORT
+ZEC
+VE
+STOPPED
+-$0.18 (-1.80%)
+Qty:0.0360
+Entry:$282.67
+Exit:$287.59
+Fees:$0.0062
+Slip:$0.1413
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $287.13
+05:10 PM
+SHORT
+SUI
+VE
+STOPPED
+-$0.02 (-0.22%)
+Qty:10.3670
+Entry:$0.9646
+Exit:$0.9662
+Fees:$0.0060
+Slip:$0.0005
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.96
+04:20 PM
+SHORT
+DOGE
+VE
+STOPPED
+$0.02 (+0.01%)
+Qty:100.9990
+Entry:$0.0990
+Exit:$0.0989
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.10
+03:57 PM
+LONG
+zec
+PT
+CLOSED
+-$0.02 (-0.23%)
+Qty:0.0380
+Entry:$265.34
+Exit:$264.83
+Fees:$0.0040
+Slip:$0.1327
+Open: Pairs Trading | z=3.96 | corr=0.92 | β=1.646 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+11:23 PM
+SHORT
+SOL
+VE
+STOPPED
+$0.24 (+2.42%)
+Qty:0.1180
+Entry:$84.98
+Exit:$84.01
+Fees:$0.0045
+Slip:$0.1313
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $83.92
+10:07 AM
+SHORT
+PEPE
+MO
+STOPPED
+-$0.38 (-2.15%)
+Qty:4066187.2000
+Entry:$0.00000431
+Exit:$0.00000440
+Fees:$0.0107
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+10:02 AM
+SHORT
+BNB
+VE
+STOPPED
+-$0.17 (-1.63%)
+Qty:0.0170
+Entry:$613.27
+Exit:$622.87
+Fees:$0.0063
+Slip:$0.3065
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $622.22
+07:47 PM
+SHORT
+ETH
+VE
+STOPPED
+-$0.20 (-1.69%)
+Qty:0.0060
+Entry:$1962.87
+Exit:$1994.79
+Fees:$0.0071
+Slip:$0.9809
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $1991.78
+05:07 PM
+SHORT
+XRP
+VE
+STOPPED
+-$0.23 (-2.26%)
+Qty:6.8940
+Entry:$1.45
+Exit:$1.48
+Fees:$0.0061
+Slip:$0.0007
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $1.48
+05:07 PM
+LONG
+AAVE
+VE
+STOPPED
+-$0.20 (-1.98%)
+Qty:0.0780
+Entry:$128.58
+Exit:$126.11
+Fees:$0.0059
+Slip:$0.0643
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $126.29
+03:48 PM
+SHORT
+TRX
+VE
+STOPPED
+-$0.17 (-1.70%)
+Qty:35.5810
+Entry:$0.2811
+Exit:$0.2857
+Fees:$0.0061
+Slip:$0.0006
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.29
+11:38 AM
+SHORT
+DOGE
+MO
+STOPPED
+-$0.55 (-3.14%)
+Qty:177.5910
+Entry:$0.0987
+Exit:$0.1018
+Fees:$0.0107
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+10:02 AM
+SHORT
+ada
+PT
+CLOSED
+-$0.02 (-0.00%)
+Qty:35.6690
+Entry:$0.2804
+Exit:$0.2802
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-3.30 | corr=0.92 | β=0.683 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+12:07 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.20%)
+Qty:101.2760
+Entry:$0.0987
+Exit:$0.0986
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-3.30 | corr=0.92 | β=0.683 | LONG leg
+Close: Stop Loss Hit @ $0.10
+12:07 PM
+SHORT
+sui
+PT
+STOPPED
+$0.11 (+1.09%)
+Qty:10.3570
+Entry:$0.9656
+Exit:$0.9544
+Fees:$0.0060
+Slip:$0.0022
+Open: Pairs Trading | z=-2.44 | corr=0.94 | β=1.000 | SHORT leg
+Close: Stop Loss Hit @ $0.95
+11:07 AM
+LONG
+sol
+PT
+CLOSED
+-$0.10 (-1.02%)
+Qty:0.1180
+Entry:$85.01
+Exit:$84.17
+Fees:$0.0040
+Slip:$0.0425
+Open: Pairs Trading | z=-2.44 | corr=0.94 | β=1.000 | LONG leg
+Close: Pair Orphan - Partner sui stopped out
+11:07 AM
+SHORT
+pepe
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2308314.8000
+Entry:$0.00000433
+Exit:$0.00000433
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-3.62 | corr=0.83 | β=0.500 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+12:03 PM
+LONG
+sol
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1160
+Entry:$86.47
+Exit:$86.47
+Fees:$0.0020
+Slip:$0.0433
+Open: Pairs Trading | z=3.61 | corr=0.90 | β=0.500 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.6820
+Entry:$0.0983
+Exit:$0.0983
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.13 | corr=0.87 | β=1.053 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+04:19 AM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$552.32
+Exit:$552.04
+Fees:$0.0042
+Slip:$0.2760
+Open: Pairs Trading | z=-3.82 | corr=0.85 | β=2.000 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+11:13 PM
+SHORT
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$553.45
+Exit:$553.17
+Fees:$0.0042
+Slip:$0.2766
+Open: Pairs Trading | z=-2.37 | corr=0.91 | β=1.066 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+10:57 PM
+SHORT
+MOLT
+MO
+CLOSED
+$1.41 (+8.05%)
+Qty:568264.2500
+Entry:$0.00003080
+Exit:$0.00002675
+Fees:$0.0067
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+10:56 PM
+LONG
+AAVE
+MR
+STOPPED
+$0.03 (+0.26%)
+Qty:0.1070
+Entry:$122.62
+Exit:$123.01
+Fees:$0.0079
+Slip:$0.0613
+Open: Mean Reversion | LONG | Conf: 73% | R:R 1.0 | [4H OHLC] Mean Reversion LONG
+Close: Stop Loss Hit @ $123.11
+09:24 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.2600
+Entry:$0.0988
+Exit:$0.0987
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.27 | corr=0.85 | β=1.610 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+10:54 PM
+SHORT
+AAVE
+MO
+STOPPED
+-$0.02 (-0.03%)
+Qty:0.1070
+Entry:$122.80
+Exit:$122.76
+Fees:$0.0079
+Slip:$0.0614
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $122.53
+09:42 PM
+SHORT
+DOGE
+MO
+STOPPED
+$0.02 (+0.09%)
+Qty:133.6160
+Entry:$0.0983
+Exit:$0.0982
+Fees:$0.0079
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+08:44 PM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:102.8890
+Entry:$0.0972
+Exit:$0.0972
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.96 | corr=0.82 | β=0.657 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+BCH
+MO
+CLOSED
+$0.31 (+1.78%)
+Qty:0.0310
+Entry:$556.27
+Exit:$556.27
+Fees:$0.0067
+Slip:$0.2783
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:91.8960
+Entry:$0.1088
+Exit:$0.1088
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-3.12 | corr=0.85 | β=1.089 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+link
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:1.1120
+Entry:$9.00
+Exit:$9.00
+Fees:$0.0020
+Slip:$0.0045
+Open: Pairs Trading | z=3.01 | corr=0.95 | β=1.647 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+ltc
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1780
+Entry:$56.27
+Exit:$56.27
+Fees:$0.0020
+Slip:$0.0282
+Open: Pairs Trading | z=3.16 | corr=0.85 | β=0.914 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+SOL
+MO
+CLOSED
+$0.35 (+2.00%)
+Qty:0.2070
+Entry:$84.69
+Exit:$84.69
+Fees:$0.0071
+Slip:$0.0424
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+link
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:1.1170
+Entry:$8.96
+Exit:$8.96
+Fees:$0.0020
+Slip:$0.0045
+Open: Pairs Trading | z=-2.32 | corr=0.81 | β=1.133 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:98.5730
+Entry:$0.1014
+Exit:$0.1014
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=2.33 | corr=0.92 | β=1.060 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+XRP
+MO
+CLOSED
+$0.39 (+2.20%)
+Qty:11.7080
+Entry:$1.52
+Exit:$1.52
+Fees:$0.0072
+Slip:$0.0008
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+ZEC
+MO
+CLOSED
+$0.49 (+2.82%)
+Qty:0.0650
+Entry:$268.61
+Exit:$268.61
+Fees:$0.0070
+Slip:$0.1344
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:104.0780
+Entry:$0.0961
+Exit:$0.0961
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.06 | corr=0.83 | β=0.500 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:103.6890
+Entry:$0.0964
+Exit:$0.0964
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.43 | corr=0.82 | β=0.843 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.2780
+Entry:$0.0987
+Exit:$0.0987
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.20 | corr=0.95 | β=0.972 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+11:31 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.7700
+Entry:$0.0992
+Exit:$0.0992
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.77 | corr=0.93 | β=0.950 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+11:18 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.8890
+Entry:$0.0991
+Exit:$0.0991
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.38 | corr=0.94 | β=0.610 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+10:53 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.0480
+Entry:$0.0990
+Exit:$0.0989
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.19 | corr=0.94 | β=0.874 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+10:27 AM
+SHORT
+DOGE
+MO
+STOPPED
+-$0.02 (-0.04%)
+Qty:177.2820
+Entry:$0.0990
+Exit:$0.0990
+Fees:$0.0105
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+10:23 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.8800
+Entry:$0.0991
+Exit:$0.0991
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.06 | corr=0.89 | β=1.715 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+10:12 AM
+SHORT
+SOL
+MO
+STOPPED
+-$0.22 (-1.25%)
+Qty:0.2100
+Entry:$82.81
+Exit:$83.79
+Fees:$0.0105
+Slip:$0.0414
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $83.66
+04:45 PM
+LONG
+doge
+PT
+STOPPED
+-$0.21 (-2.14%)
+Qty:98.2430
+Entry:$0.1018
+Exit:$0.0997
+Fees:$0.0059
+Slip:$0.0001
+Open: Pairs Trading | z=-2.23 | corr=0.92 | β=1.031 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+LONG
+eth
+PT
+CLOSED
+-$0.10 (-0.82%)
+Qty:0.0060
+Entry:$1980.15
+Exit:$1964.78
+Fees:$0.0047
+Slip:$0.9906
+Open: Pairs Trading | z=-2.12 | corr=0.82 | β=0.957 | LONG leg
+Close: Pair Orphan - Partner sol stopped out
+10:07 AM
+SHORT
+sol
+PT
+STOPPED
+$0.26 (+2.63%)
+Qty:0.1160
+Entry:$86.37
+Exit:$84.05
+Fees:$0.0059
+Slip:$0.1772
+Open: Pairs Trading | z=-2.12 | corr=0.82 | β=0.957 | SHORT leg
+Close: Stop Loss Hit @ $83.92
+10:07 AM
+SHORT
+zec
+PT
+STOPPED
+$0.87 (+8.62%)
+Qty:0.0350
+Entry:$287.65
+Exit:$263.76
+Fees:$0.0044
+Slip:$0.3532
+Open: Pairs Trading | z=-2.16 | corr=0.82 | β=0.500 | SHORT leg
+Close: Stop Loss Hit @ $263.55
+10:10 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:100.1060
+Entry:$0.0999
+Exit:$0.0999
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.10 | corr=0.93 | β=0.825 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+sol
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1170
+Entry:$86.17
+Exit:$86.17
+Fees:$0.0020
+Slip:$0.0431
+Open: Pairs Trading | z=-2.06 | corr=0.84 | β=1.888 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+zec
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0350
+Entry:$287.63
+Exit:$287.63
+Fees:$0.0020
+Slip:$0.1439
+Open: Pairs Trading | z=2.68 | corr=0.82 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+eth
+PT
+STOPPED
+-$0.05 (-0.44%)
+Qty:0.0060
+Entry:$1976.20
+Exit:$1983.69
+Fees:$0.0071
+Slip:$0.9876
+Open: Pairs Trading | z=2.56 | corr=0.85 | β=1.166 | SHORT leg
+Close: Broken Leash z=3.68 - Correlation Failure
+07:28 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.2770
+Entry:$0.0987
+Exit:$0.0987
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.35 | corr=0.92 | β=1.270 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+06:07 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.1060
+Entry:$0.0989
+Exit:$0.0989
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.37 | corr=0.81 | β=0.812 | SHORT leg
+Close: Atomic Rollback - Long sui leg failed
+05:51 AM
+LONG
+bch
+PT
+CLOSED
+-$0.03 (-0.34%)
+Qty:0.0180
+Entry:$561.47
+Exit:$559.80
+Fees:$0.0040
+Slip:$0.2809
+Open: Pairs Trading | z=-2.16 | corr=0.82 | β=0.500 | LONG leg
+Close: ATM Time Decay - 73h stale, P&L: -0.30%
+09:19 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.2110
+Entry:$0.0998
+Exit:$0.0998
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.52 | corr=0.83 | β=0.500 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+08:41 AM
+SHORT
+AAVE
+VE
+CLOSED
+$0.03 (+0.25%)
+Qty:0.0810
+Entry:$124.90
+Exit:$124.54
+Fees:$0.0040
+Slip:$0.0624
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: ATM Time Decay - 73h stale, P&L: 0.29%
+09:31 AM
+SHORT
+DOGE
+VE
+STOPPED
+-$0.02 (-0.06%)
+Qty:100.1210
+Entry:$0.0999
+Exit:$0.0999
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.10
+08:28 AM
+SHORT
+BNB
+MO
+STOPPED
+-$0.15 (-1.15%)
+Qty:0.0210
+Entry:$602.88
+Exit:$609.46
+Fees:$0.0077
+Slip:$0.3013
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $608.67
+05:07 AM
+LONG
+sol
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1170
+Entry:$86.11
+Exit:$86.15
+Fees:$0.0040
+Slip:$0.0431
+Open: Pairs Trading | z=-2.64 | corr=0.84 | β=1.071 | LONG leg
+Close: Atomic Rollback - Short ltc leg failed
+08:18 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.7090
+Entry:$0.0983
+Exit:$0.0983
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=3.01 | corr=0.96 | β=1.177 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+04:13 AM
+SHORT
+LTC
+VE
+STOPPED
+-$0.18 (-1.79%)
+Qty:0.1860
+Entry:$53.84
+Exit:$54.77
+Fees:$0.0061
+Slip:$0.0269
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $54.71
+04:43 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.1270
+Entry:$0.0999
+Exit:$0.0999
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.27 | corr=0.91 | β=1.175 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+08:07 AM
+LONG
+PEPE
+MR
+STOPPED
+-$0.32 (-1.78%)
+Qty:4023187.8000
+Entry:$0.00000442
+Exit:$0.00000434
+Fees:$0.0105
+Slip:$0.0000
+Open: Mean Reversion | LONG | Conf: 69% | R:R 1.0 | [4H OHLC] Mean Reversion LONG
+Close: Stop Loss Hit @ $0.00
+09:38 AM
+LONG
+eth
+PT
+CLOSED
+-$0.02 (-0.04%)
+Qty:0.0060
+Entry:$1981.42
+Exit:$1981.37
+Fees:$0.0048
+Slip:$0.9912
+Open: Pairs Trading | z=-2.36 | corr=0.85 | β=1.272 | LONG leg
+Close: Pair Orphan - Partner aave stopped out
+07:58 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.0120
+Entry:$0.1000
+Exit:$0.1000
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.02 | corr=0.84 | β=1.000 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+07:57 AM
+LONG
+sol
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1160
+Entry:$86.42
+Exit:$86.42
+Fees:$0.0020
+Slip:$0.0432
+Open: Pairs Trading | z=-2.29 | corr=0.83 | β=0.600 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+pepe
+PT
+CLOSED
+-$0.02 (-0.22%)
+Qty:2266440.5000
+Entry:$0.00000441
+Exit:$0.00000442
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.48 | corr=0.81 | β=0.500 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+07:15 AM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.07%)
+Qty:100.2170
+Entry:$0.0998
+Exit:$0.0998
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-2.48 | corr=0.81 | β=0.500 | LONG leg
+Close: Stop Loss Hit @ $0.10
+07:15 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.5260
+Entry:$0.0995
+Exit:$0.0995
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.76 | corr=0.86 | β=0.841 | LONG leg
+Close: Atomic Rollback - Short ltc leg failed
+06:58 AM
+LONG
+tria
+PT
+STOPPED
+$0.07 (+0.74%)
+Qty:581.5860
+Entry:$0.0172
+Exit:$0.0173
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.20 | corr=0.82 | β=2.000 | LONG leg
+Close: Broken Leash z=3.54 - Correlation Failure
+06:48 AM
+SHORT
+sol
+PT
+STOPPED
+$0.02 (+0.18%)
+Qty:0.1160
+Entry:$86.34
+Exit:$86.13
+Fees:$0.0060
+Slip:$0.0432
+Open: Pairs Trading | z=2.20 | corr=0.82 | β=2.000 | SHORT leg
+Close: Broken Leash z=3.54 - Correlation Failure
+06:48 AM
+SHORT
+ZAMA
+MO
+STOPPED
+$0.87 (+4.88%)
+Qty:776.5880
+Entry:$0.0229
+Exit:$0.0216
+Fees:$0.0079
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.02
+06:41 AM
+LONG
+pepe
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2273864.2000
+Entry:$0.00000440
+Exit:$0.00000440
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.41 | corr=0.80 | β=1.264 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+06:18 AM
+SHORT
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1968.96
+Exit:$1967.98
+Fees:$0.0047
+Slip:$0.9840
+Open: Pairs Trading | z=2.05 | corr=0.80 | β=0.500 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+04:00 AM
+LONG
+zec
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0350
+Entry:$289.17
+Exit:$289.31
+Fees:$0.0040
+Slip:$0.1447
+Open: Pairs Trading | z=2.08 | corr=0.90 | β=1.174 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+05:34 AM
+LONG
+BNB
+VE
+STOPPED
+-$0.16 (-1.62%)
+Qty:0.0160
+Entry:$626.44
+Exit:$616.63
+Fees:$0.0060
+Slip:$0.3134
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $617.19
+11:19 AM
+SHORT
+BNB
+VE
+STOPPED
+-$0.19 (-1.80%)
+Qty:0.0170
+Entry:$612.56
+Exit:$623.20
+Fees:$0.0063
+Slip:$0.3061
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $622.64
+04:43 PM
+LONG
+sol
+PT
+CLOSED
+$0.02 (+0.17%)
+Qty:0.1170
+Entry:$86.19
+Exit:$86.37
+Fees:$0.0040
+Slip:$0.0431
+Open: Pairs Trading | z=-2.59 | corr=0.96 | β=1.174 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+05:22 AM
+SHORT
+doge
+PT
+STOPPED
+-$0.03 (-0.32%)
+Qty:99.5470
+Entry:$0.1005
+Exit:$0.1007
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.59 | corr=0.96 | β=1.174 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+05:22 AM
+LONG
+aave
+PT
+STOPPED
+-$0.02 (-0.20%)
+Qty:0.0800
+Entry:$126.34
+Exit:$126.16
+Fees:$0.0061
+Slip:$0.0632
+Open: Pairs Trading | z=2.98 | corr=0.88 | β=0.754 | LONG leg
+Close: Stop Loss Hit @ $126.28
+05:10 AM
+SHORT
+sol
+PT
+CLOSED
+-$0.03 (-0.33%)
+Qty:0.1170
+Entry:$85.96
+Exit:$86.21
+Fees:$0.0040
+Slip:$0.0430
+Open: Pairs Trading | z=2.98 | corr=0.88 | β=0.754 | SHORT leg
+Close: Pair Orphan - Partner aave stopped out
+05:10 AM
+LONG
+eth
+PT
+STOPPED
+-$0.02 (-0.13%)
+Qty:0.0060
+Entry:$1985.33
+Exit:$1984.03
+Fees:$0.0071
+Slip:$0.9932
+Open: Pairs Trading | z=-2.25 | corr=0.94 | β=1.241 | LONG leg
+Close: Broken Leash z=-3.67 - Correlation Failure
+04:58 AM
+SHORT
+bnb
+PT
+STOPPED
+-$0.09 (-0.82%)
+Qty:0.0170
+Entry:$622.39
+Exit:$627.14
+Fees:$0.0064
+Slip:$0.3110
+Open: Pairs Trading | z=-2.25 | corr=0.94 | β=1.241 | SHORT leg
+Close: Broken Leash z=-3.67 - Correlation Failure
+04:58 AM
+LONG
+ltc
+PT
+CLOSED
+-$0.04 (-0.37%)
+Qty:0.1880
+Entry:$53.22
+Exit:$53.05
+Fees:$0.0040
+Slip:$0.0266
+Open: Pairs Trading | z=2.73 | corr=0.88 | β=0.992 | LONG leg
+Close: Pair Orphan - Partner sui stopped out
+10:45 AM
+SHORT
+doge
+PT
+STOPPED
+-$0.02 (-0.11%)
+Qty:99.1770
+Entry:$0.1008
+Exit:$0.1009
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=2.02 | corr=0.85 | β=0.943 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+03:46 AM
+LONG
+sui
+PT
+CLOSED
+$0.02 (+0.03%)
+Qty:10.0710
+Entry:$0.9930
+Exit:$0.9938
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.02 | corr=0.85 | β=0.943 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+03:46 AM
+LONG
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.0560
+Entry:$0.9945
+Exit:$0.9950
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=3.07 | corr=0.82 | β=0.984 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+03:28 AM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:34.9210
+Entry:$0.2864
+Exit:$0.2865
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.46 | corr=0.83 | β=0.828 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+03:28 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:99.4180
+Entry:$0.1006
+Exit:$0.1006
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.05 | corr=0.88 | β=0.739 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+03:20 AM
+SHORT
+TRIA
+MO
+STOPPED
+-$0.24 (-1.33%)
+Qty:1058.4770
+Entry:$0.0168
+Exit:$0.0170
+Fees:$0.0107
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.02
+03:16 AM
+LONG
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.1110
+Entry:$0.9890
+Exit:$0.9895
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.37 | corr=0.86 | β=0.600 | LONG leg
+Close: Atomic Rollback - Short eth leg failed
+03:15 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:99.6050
+Entry:$0.1004
+Exit:$0.1004
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-2.37 | corr=0.82 | β=0.994 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.1490
+Entry:$0.9854
+Exit:$0.9859
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.42 | corr=0.88 | β=0.887 | LONG leg
+Close: Atomic Rollback - Short eth leg failed
+03:10 AM
+LONG
+xrp
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:6.7610
+Entry:$1.48
+Exit:$1.48
+Fees:$0.0040
+Slip:$0.0007
+Open: Pairs Trading | z=-2.52 | corr=0.85 | β=2.000 | LONG leg
+Close: Atomic Rollback - Short zec leg failed
+02:56 AM
+LONG
+aave
+PT
+STOPPED
+-$0.02 (-0.05%)
+Qty:0.0800
+Entry:$126.52
+Exit:$126.53
+Fees:$0.0061
+Slip:$0.0633
+Open: Pairs Trading | z=4.12 | corr=0.94 | β=0.500 | LONG leg
+Close: Broken Leash z=4.18 - Correlation Failure
+11:33 PM
+SHORT
+xrp
+PT
+STOPPED
+$0.06 (+0.58%)
+Qty:6.7090
+Entry:$1.49
+Exit:$1.48
+Fees:$0.0060
+Slip:$0.0007
+Open: Pairs Trading | z=4.12 | corr=0.94 | β=0.500 | SHORT leg
+Close: Broken Leash z=4.18 - Correlation Failure
+11:33 PM
+SHORT
+ADA
+VE
+STOPPED
+-$0.18 (-1.82%)
+Qty:35.6900
+Entry:$0.2802
+Exit:$0.2851
+Fees:$0.0061
+Slip:$0.0001
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.28
+04:40 PM
+LONG
+doge
+PT
+STOPPED
+$0.02 (+0.09%)
+Qty:100.4610
+Entry:$0.0995
+Exit:$0.0997
+Fees:$0.0080
+Slip:$0.0000
+Open: Pairs Trading | z=2.00 | corr=0.90 | β=0.863 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+SHORT
+AAVE
+VE
+STOPPED
+-$0.32 (-1.79%)
+Qty:0.1430
+Entry:$124.22
+Exit:$126.37
+Fees:$0.0108
+Slip:$0.0621
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $126.12
+10:10 PM
+SHORT
+SUI
+VE
+STOPPED
+-$0.30 (-1.67%)
+Qty:18.5720
+Entry:$0.9587
+Exit:$0.9741
+Fees:$0.0108
+Slip:$0.0005
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.97
+09:34 PM
+SHORT
+BNB
+VE
+STOPPED
+-$0.30 (-1.72%)
+Qty:0.0290
+Entry:$606.10
+Exit:$616.14
+Fees:$0.0107
+Slip:$0.3029
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $615.20
+06:33 PM
+LONG
+TRIA
+MO
+STOPPED
+-$0.11 (-0.61%)
+Qty:1015.4080
+Entry:$0.0175
+Exit:$0.0174
+Fees:$0.0106
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.02
+06:24 PM
+SHORT
+xrp
+PT
+STOPPED
+$0.06 (+0.60%)
+Qty:6.6640
+Entry:$1.50
+Exit:$1.49
+Fees:$0.0060
+Slip:$0.0008
+Open: Pairs Trading | z=2.51 | corr=0.82 | β=0.888 | SHORT leg
+Close: Broken Leash z=4.28 - Correlation Failure
+05:24 PM
+LONG
+zama
+PT
+STOPPED
+$0.18 (+1.75%)
+Qty:439.8080
+Entry:$0.0227
+Exit:$0.0231
+Fees:$0.0061
+Slip:$0.0000
+Open: Pairs Trading | z=2.51 | corr=0.82 | β=0.888 | LONG leg
+Close: Broken Leash z=4.28 - Correlation Failure
+05:24 PM
+SHORT
+eth
+PT
+CLOSED
+$0.04 (+0.31%)
+Qty:0.0060
+Entry:$1971.78
+Exit:$1964.88
+Fees:$0.0047
+Slip:$0.9854
+Open: Pairs Trading | z=2.05 | corr=0.98 | β=0.605 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+05:21 PM
+LONG
+doge
+PT
+STOPPED
+$0.02 (+0.09%)
+Qty:100.0520
+Entry:$0.0999
+Exit:$0.1001
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.05 | corr=0.98 | β=0.605 | LONG leg
+Close: Stop Loss Hit @ $0.10
+05:21 PM
+SHORT
+AAVE
+VE
+STOPPED
+-$0.17 (-1.71%)
+Qty:0.0800
+Entry:$125.50
+Exit:$127.57
+Fees:$0.0061
+Slip:$0.0627
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $127.39
+04:40 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.7030
+Entry:$0.0993
+Exit:$0.0994
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.20 | corr=0.82 | β=1.089 | LONG leg
+Close: Atomic Rollback - Short pepe leg failed
+04:37 PM
+LONG
+bnb
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0170
+Entry:$608.35
+Exit:$608.65
+Fees:$0.0041
+Slip:$0.3043
+Open: Pairs Trading | z=-3.28 | corr=0.88 | β=1.270 | LONG leg
+Close: Atomic Rollback - Short ltc leg failed
+04:34 PM
+LONG
+eth
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0060
+Entry:$1955.84
+Exit:$1955.84
+Fees:$0.0023
+Slip:$0.9784
+Open: Pairs Trading | z=-2.89 | corr=0.96 | β=1.629 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.3300
+Entry:$0.9681
+Exit:$0.9686
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.03 | corr=0.96 | β=1.464 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+04:33 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:99.5450
+Entry:$0.1005
+Exit:$0.1005
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.05 | corr=0.95 | β=1.523 | LONG leg
+Close: Atomic Rollback - Short ltc leg failed
+04:18 PM
+SHORT
+TRIA
+MO
+STOPPED
+-$0.64 (-3.56%)
+Qty:1046.8200
+Entry:$0.0170
+Exit:$0.0176
+Fees:$0.0109
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.02
+03:59 PM
+SHORT
+aave
+PT
+STOPPED
+-$0.02 (-0.11%)
+Qty:0.0800
+Entry:$125.33
+Exit:$125.39
+Fees:$0.0060
+Slip:$0.0626
+Open: Pairs Trading | z=-2.36 | corr=0.85 | β=1.272 | SHORT leg
+Close: Stop Loss Hit @ $125.29
+07:58 AM
+LONG
+zec
+PT
+STOPPED
+$0.09 (+0.92%)
+Qty:0.0350
+Entry:$290.96
+Exit:$293.82
+Fees:$0.0062
+Slip:$0.1456
+Open: Pairs Trading | z=2.87 | corr=0.93 | β=1.467 | LONG leg
+Close: Broken Leash z=3.56 - Correlation Failure
+02:52 AM
+SHORT
+SOL
+VE
+STOPPED
+-$0.17 (-1.72%)
+Qty:0.1190
+Entry:$84.20
+Exit:$85.60
+Fees:$0.0061
+Slip:$0.0421
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $85.45
+10:25 PM
+SHORT
+PEPE
+VE
+STOPPED
+-$0.17 (-1.68%)
+Qty:2271591.5000
+Entry:$0.00000440
+Exit:$0.00000447
+Fees:$0.0061
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.00
+08:31 PM
+LONG
+ETH
+VE
+STOPPED
+-$0.21 (-1.76%)
+Qty:0.0060
+Entry:$1987.56
+Exit:$1953.76
+Fees:$0.0071
+Slip:$0.9943
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $1956.82
+04:32 PM
+SHORT
+DOGE
+VE
+STOPPED
+-$0.03 (-0.30%)
+Qty:99.4910
+Entry:$0.1005
+Exit:$0.1008
+Fees:$0.0060
+Slip:$0.0001
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.10
+04:00 PM
+SHORT
+DOGE
+MO
+STOPPED
+$0.03 (+0.15%)
+Qty:177.6270
+Entry:$0.1003
+Exit:$0.1001
+Fees:$0.0107
+Slip:$0.0001
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+03:00 PM
+LONG
+AAVE
+VE
+STOPPED
+-$0.02 (-0.07%)
+Qty:0.0790
+Entry:$127.31
+Exit:$127.29
+Fees:$0.0060
+Slip:$0.0637
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $127.46
+02:27 PM
+SHORT
+sui
+PT
+STOPPED
+-$0.02 (-0.05%)
+Qty:10.3780
+Entry:$0.9636
+Exit:$0.9635
+Fees:$0.0060
+Slip:$0.0005
+Open: Pairs Trading | z=2.74 | corr=0.83 | β=2.000 | SHORT leg
+Close: Stop Loss Hit @ $0.96
+12:58 PM
+LONG
+aave
+PT
+CLOSED
+-$0.02 (-0.08%)
+Qty:0.0800
+Entry:$126.31
+Exit:$126.25
+Fees:$0.0040
+Slip:$0.0632
+Open: Pairs Trading | z=2.74 | corr=0.83 | β=2.000 | LONG leg
+Close: Pair Orphan - Partner sui stopped out
+12:58 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.21%)
+Qty:98.4770
+Entry:$0.1015
+Exit:$0.1014
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.43 | corr=0.80 | β=0.564 | LONG leg
+Close: Stop Loss Hit @ $0.10
+12:41 PM
+SHORT
+pepe
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2236018.5000
+Entry:$0.00000447
+Exit:$0.00000447
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.43 | corr=0.80 | β=0.564 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+12:41 PM
+LONG
+eth
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0060
+Entry:$1965.48
+Exit:$1965.48
+Fees:$0.0024
+Slip:$0.9832
+Open: Pairs Trading | z=-3.22 | corr=0.94 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+STOPPED
+-$0.19 (-1.90%)
+Qty:98.5800
+Entry:$0.1014
+Exit:$0.0996
+Fees:$0.0059
+Slip:$0.0001
+Open: Pairs Trading | z=2.16 | corr=0.88 | β=1.236 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+SHORT
+ada
+PT
+CLOSED
+$0.17 (+1.73%)
+Qty:34.6380
+Entry:$0.2887
+Exit:$0.2836
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.05 | corr=0.80 | β=0.849 | SHORT leg
+Close: Pair Orphan - Partner sui stopped out
+09:50 AM
+LONG
+pepe
+PT
+STOPPED
+-$0.31 (-3.06%)
+Qty:2238255.5000
+Entry:$0.00000447
+Exit:$0.00000433
+Fees:$0.0059
+Slip:$0.0000
+Open: Pairs Trading | z=2.62 | corr=0.89 | β=0.993 | LONG leg
+Close: Stop Loss Hit @ $0.00
+09:50 AM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.18%)
+Qty:102.5080
+Entry:$0.0976
+Exit:$0.0974
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-2.12 | corr=0.81 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $0.10
+01:09 PM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.03%)
+Qty:10.9290
+Entry:$0.9151
+Exit:$0.9144
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.12 | corr=0.81 | β=2.000 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+01:09 PM
+LONG
+eth
+PT
+CLOSED
+$0.02 (+0.12%)
+Qty:0.0060
+Entry:$1959.13
+Exit:$1962.36
+Fees:$0.0047
+Slip:$0.9801
+Open: Pairs Trading | z=-2.67 | corr=0.94 | β=1.091 | LONG leg
+Close: ATM Time Decay - 21h stale, P&L: 0.16%
+09:18 AM
+LONG
+eth
+PT
+CLOSED
+-$0.02 (-0.04%)
+Qty:0.0060
+Entry:$1962.85
+Exit:$1962.91
+Fees:$0.0047
+Slip:$0.9819
+Open: Pairs Trading | z=-3.26 | corr=0.88 | β=2.000 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+11:04 AM
+SHORT
+sol
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1230
+Entry:$81.57
+Exit:$81.53
+Fees:$0.0040
+Slip:$0.0408
+Open: Pairs Trading | z=-3.03 | corr=0.82 | β=1.236 | SHORT leg
+Close: Atomic Rollback - Long eth leg failed
+10:50 AM
+SHORT
+DOGE
+VE
+STOPPED
+-$0.02 (-0.21%)
+Qty:102.2770
+Entry:$0.0978
+Exit:$0.0979
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.10
+10:43 AM
+LONG
+bnb
+PT
+STOPPED
+$0.06 (+0.61%)
+Qty:0.0170
+Entry:$608.10
+Exit:$612.17
+Fees:$0.0062
+Slip:$0.3042
+Open: Pairs Trading | z=2.56 | corr=0.85 | β=1.166 | LONG leg
+Close: Broken Leash z=3.68 - Correlation Failure
+07:28 AM
+SHORT
+SOL
+MO
+STOPPED
+-$0.15 (-1.17%)
+Qty:0.1610
+Entry:$81.39
+Exit:$82.29
+Fees:$0.0079
+Slip:$0.0407
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $82.25
+07:21 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.4620
+Entry:$0.0976
+Exit:$0.0975
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.43 | corr=0.87 | β=0.500 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+06:41 AM
+LONG
+trx
+PT
+STOPPED
+-$0.02 (-0.18%)
+Qty:35.7340
+Entry:$0.2798
+Exit:$0.2795
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-4.43 | corr=0.87 | β=0.500 | LONG leg
+Close: Broken Leash z=-4.27 - Correlation Failure
+05:09 AM
+SHORT
+pepe
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2368484.0000
+Entry:$0.00000422
+Exit:$0.00000422
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.10 | corr=0.82 | β=1.556 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+03:47 AM
+SHORT
+ETH
+MO
+STOPPED
+-$0.17 (-1.48%)
+Qty:0.0060
+Entry:$1943.42
+Exit:$1971.10
+Fees:$0.0071
+Slip:$0.9712
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $1969.34
+02:15 AM
+SHORT
+ETH
+VE
+STOPPED
+-$0.21 (-1.75%)
+Qty:0.0060
+Entry:$1974.94
+Exit:$2008.34
+Fees:$0.0072
+Slip:$0.9870
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $2004.63
+04:41 PM
+SHORT
+ada
+PT
+STOPPED
+-$0.11 (-1.12%)
+Qty:35.4270
+Entry:$0.2823
+Exit:$0.2853
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=2.87 | corr=0.93 | β=1.467 | SHORT leg
+Close: Broken Leash z=3.56 - Correlation Failure
+02:52 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:97.6590
+Entry:$0.1024
+Exit:$0.1024
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-3.59 | corr=0.84 | β=1.000 | LONG leg
+Close: Atomic Rollback - Short trx leg failed
+12:13 PM
+LONG
+zec
+PT
+STOPPED
+-$0.81 (-7.88%)
+Qty:0.0360
+Entry:$284.07
+Exit:$261.83
+Fees:$0.0058
+Slip:$0.1421
+Open: Pairs Trading | z=2.75 | corr=0.88 | β=0.500 | LONG leg
+Close: Stop Loss Hit @ $262.28
+08:08 PM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.04%)
+Qty:37.1580
+Entry:$0.2691
+Exit:$0.2693
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.20 | corr=0.84 | β=1.042 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+06:06 PM
+SHORT
+SOL
+VE
+STOPPED
+-$0.17 (-1.71%)
+Qty:0.1180
+Entry:$85.04
+Exit:$86.45
+Fees:$0.0061
+Slip:$0.0425
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $86.38
+02:04 PM
+LONG
+ZAMA
+VE
+CLOSED
+$0.29 (+2.85%)
+Qty:449.3830
+Entry:$0.0223
+Exit:$0.0223
+Fees:$0.0041
+Slip:$0.0000
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+ZEC
+MO
+STOPPED
+-$0.37 (-2.08%)
+Qty:0.0620
+Entry:$286.26
+Exit:$292.03
+Fees:$0.0108
+Slip:$0.1431
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $291.85
+11:49 AM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:35.6760
+Entry:$0.2803
+Exit:$0.2804
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.06 | corr=0.92 | β=0.669 | LONG leg
+Close: Atomic Rollback - Short eth leg failed
+08:28 AM
+SHORT
+AAVE
+VE
+STOPPED
+-$0.17 (-1.74%)
+Qty:0.0800
+Entry:$125.07
+Exit:$127.17
+Fees:$0.0061
+Slip:$0.0625
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $126.97
+08:27 AM
+SHORT
+DOGE
+VE
+STOPPED
+$0.02 (+0.07%)
+Qty:97.7060
+Entry:$0.1023
+Exit:$0.1022
+Fees:$0.0060
+Slip:$0.0001
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.10
+08:27 AM
+LONG
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1971.07
+Exit:$1972.06
+Fees:$0.0047
+Slip:$0.9860
+Open: Pairs Trading | z=-2.39 | corr=0.93 | β=0.860 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+08:26 AM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:35.7060
+Entry:$0.2801
+Exit:$0.2802
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.31 | corr=0.82 | β=0.824 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+08:22 AM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:35.6930
+Entry:$0.2802
+Exit:$0.2803
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=3.04 | corr=0.91 | β=0.500 | LONG leg
+Close: Atomic Rollback - Short xrp leg failed
+08:16 AM
+SHORT
+ada
+PT
+STOPPED
+$0.02 (+0.18%)
+Qty:35.7250
+Entry:$0.2799
+Exit:$0.2792
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.28 | corr=0.81 | β=2.000 | SHORT leg
+Close: Broken Leash z=-3.58 - Correlation Failure
+07:32 AM
+LONG
+PEPE
+MO
+STOPPED
+-$0.38 (-2.11%)
+Qty:3944828.0000
+Entry:$0.00000453
+Exit:$0.00000443
+Fees:$0.0106
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+07:23 AM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.02%)
+Qty:98.1790
+Entry:$0.1019
+Exit:$0.1019
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.22 | corr=0.80 | β=0.500 | LONG leg
+Close: Stop Loss Hit @ $0.10
+05:00 AM
+SHORT
+aave
+PT
+CLOSED
+-$0.02 (-0.19%)
+Qty:0.0800
+Entry:$126.05
+Exit:$126.24
+Fees:$0.0040
+Slip:$0.0630
+Open: Pairs Trading | z=-2.22 | corr=0.80 | β=0.500 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+05:00 AM
+SHORT
+DOGE
+MO
+STOPPED
+-$0.03 (-0.16%)
+Qty:175.4420
+Entry:$0.1019
+Exit:$0.1020
+Fees:$0.0107
+Slip:$0.0001
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+04:50 AM
+SHORT
+XRP
+MO
+CLOSED
+$0.18 (+1.41%)
+Qty:9.1720
+Entry:$1.43
+Exit:$1.41
+Fees:$0.0052
+Slip:$0.0007
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+08:08 PM
+SHORT
+PEPE
+VE
+STOPPED
+$0.02 (+0.08%)
+Qty:2302996.0000
+Entry:$0.00000434
+Exit:$0.00000434
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.00
+03:41 PM
+SHORT
+DOGE
+VE
+STOPPED
+$0.02 (+0.11%)
+Qty:99.9720
+Entry:$0.1000
+Exit:$0.0999
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.10
+02:53 PM
+SHORT
+LTC
+VE
+STOPPED
+$0.10 (+1.00%)
+Qty:0.1830
+Entry:$54.71
+Exit:$55.61
+Fees:$0.0046
+Slip:$0.0273
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $55.53
+08:51 AM
+LONG
+doge
+PT
+STOPPED
+-$0.22 (-2.21%)
+Qty:98.1770
+Entry:$0.1019
+Exit:$0.0997
+Fees:$0.0059
+Slip:$0.0001
+Open: Pairs Trading | z=-2.14 | corr=0.81 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+SHORT
+SUI
+VE
+STOPPED
+-$0.06 (-0.60%)
+Qty:10.3530
+Entry:$0.9659
+Exit:$0.9712
+Fees:$0.0060
+Slip:$0.0005
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.97
+10:39 AM
+LONG
+sol
+PT
+STOPPED
+-$0.05 (-0.47%)
+Qty:0.1180
+Entry:$85.04
+Exit:$84.69
+Fees:$0.0060
+Slip:$0.0425
+Open: Pairs Trading | z=-2.28 | corr=0.81 | β=2.000 | LONG leg
+Close: Broken Leash z=-3.58 - Correlation Failure
+07:32 AM
+SHORT
+LINK
+VE
+STOPPED
+-$0.18 (-1.78%)
+Qty:1.1440
+Entry:$8.74
+Exit:$8.89
+Fees:$0.0061
+Slip:$0.0044
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $8.88
+10:54 AM
+SHORT
+XRP
+VE
+STOPPED
+-$0.21 (-2.12%)
+Qty:6.7540
+Entry:$1.48
+Exit:$1.51
+Fees:$0.0061
+Slip:$0.0007
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $1.51
+10:42 AM
+LONG
+ZAMA
+VE
+CLOSED
+$0.50 (+2.78%)
+Qty:822.8600
+Entry:$0.0217
+Exit:$0.0217
+Fees:$0.0072
+Slip:$0.0000
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+sol
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1180
+Entry:$85.23
+Exit:$85.23
+Fees:$0.0020
+Slip:$0.0426
+Open: Pairs Trading | z=-2.38 | corr=0.80 | β=1.277 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:98.1140
+Entry:$0.1019
+Exit:$0.1019
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-2.42 | corr=0.86 | β=0.597 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+LINK
+MO
+STOPPED
+-$0.28 (-1.59%)
+Qty:2.0530
+Entry:$8.69
+Exit:$8.83
+Fees:$0.0108
+Slip:$0.0043
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $8.81
+01:11 AM
+SHORT
+DOGE
+MO
+STOPPED
+-$0.03 (-0.16%)
+Qty:174.2300
+Entry:$0.1024
+Exit:$0.1025
+Fees:$0.0107
+Slip:$0.0001
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+12:50 AM
+SHORT
+TRX
+VE
+STOPPED
+-$0.17 (-1.72%)
+Qty:35.7700
+Entry:$0.2796
+Exit:$0.2842
+Fees:$0.0061
+Slip:$0.0001
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.28
+08:08 PM
+SHORT
+XRP
+VE
+STOPPED
+$0.30 (+2.98%)
+Qty:6.8460
+Entry:$1.46
+Exit:$1.43
+Fees:$0.0045
+Slip:$0.0025
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $1.43
+10:15 AM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.15%)
+Qty:101.9650
+Entry:$0.0981
+Exit:$0.0980
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-3.48 | corr=0.94 | β=1.151 | LONG leg
+Close: Stop Loss Hit @ $0.10
+03:42 AM
+LONG
+doge
+PT
+STOPPED
+-$0.35 (-3.52%)
+Qty:96.9680
+Entry:$0.1031
+Exit:$0.0996
+Fees:$0.0059
+Slip:$0.0001
+Open: Pairs Trading | z=-3.61 | corr=0.85 | β=0.880 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+SHORT
+ltc
+PT
+STOPPED
+-$0.06 (-0.57%)
+Qty:0.1830
+Entry:$54.73
+Exit:$55.00
+Fees:$0.0060
+Slip:$0.0273
+Open: Pairs Trading | z=-2.03 | corr=0.90 | β=0.722 | SHORT leg
+Close: Broken Leash z=-4.25 - Correlation Failure
+12:05 AM
+SHORT
+ETH
+MO
+STOPPED
+-$0.24 (-1.38%)
+Qty:0.0090
+Entry:$1947.87
+Exit:$1973.53
+Fees:$0.0106
+Slip:$0.9735
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $1971.13
+11:49 PM
+SHORT
+aave
+PT
+STOPPED
+-$0.05 (-0.50%)
+Qty:0.0810
+Entry:$124.44
+Exit:$124.99
+Fees:$0.0061
+Slip:$0.0622
+Open: Pairs Trading | z=2.37 | corr=0.87 | β=0.601 | SHORT leg
+Close: Broken Leash z=3.64 - Correlation Failure
+11:33 PM
+LONG
+link
+PT
+STOPPED
+$0.05 (+0.51%)
+Qty:1.1540
+Entry:$8.67
+Exit:$8.71
+Fees:$0.0060
+Slip:$0.0043
+Open: Pairs Trading | z=2.37 | corr=0.87 | β=0.601 | LONG leg
+Close: Broken Leash z=3.64 - Correlation Failure
+11:33 PM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:97.3760
+Entry:$0.1027
+Exit:$0.1027
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-2.63 | corr=0.87 | β=1.389 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+eth
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0060
+Entry:$1945.87
+Exit:$1945.87
+Fees:$0.0023
+Slip:$0.9734
+Open: Pairs Trading | z=-3.75 | corr=0.92 | β=1.453 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:97.0670
+Entry:$0.1030
+Exit:$0.1031
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.31 | corr=0.88 | β=0.800 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+09:44 PM
+LONG
+link
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:1.1540
+Entry:$8.67
+Exit:$8.67
+Fees:$0.0020
+Slip:$0.0043
+Open: Pairs Trading | z=2.63 | corr=0.92 | β=0.893 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+link
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:1.1600
+Entry:$8.63
+Exit:$8.63
+Fees:$0.0020
+Slip:$0.0043
+Open: Pairs Trading | z=2.69 | corr=0.87 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+link
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:1.1560
+Entry:$8.66
+Exit:$8.66
+Fees:$0.0020
+Slip:$0.0043
+Open: Pairs Trading | z=2.41 | corr=0.90 | β=1.317 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:97.2460
+Entry:$0.1028
+Exit:$0.1028
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-2.53 | corr=0.86 | β=0.770 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1940.31
+Exit:$1941.28
+Fees:$0.0047
+Slip:$0.9706
+Open: Pairs Trading | z=-2.25 | corr=0.94 | β=0.924 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+09:02 PM
+SHORT
+DOGE
+MO
+STOPPED
+-$0.04 (-0.20%)
+Qty:173.5230
+Entry:$0.1029
+Exit:$0.1031
+Fees:$0.0107
+Slip:$0.0001
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+08:50 PM
+SHORT
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1966.93
+Exit:$1965.95
+Fees:$0.0047
+Slip:$0.9830
+Open: Pairs Trading | z=2.50 | corr=0.86 | β=1.360 | SHORT leg
+Close: Atomic Rollback - Long aave leg failed
+03:39 AM
+SHORT
+SUI
+MO
+STOPPED
+$0.15 (+1.17%)
+Qty:13.9420
+Entry:$0.9410
+Exit:$0.9360
+Fees:$0.0060
+Slip:$0.0005
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.93
+02:56 AM
+LONG
+ORCA
+MO
+STOPPED
+-$0.99 (-5.63%)
+Qty:11.9100
+Entry:$1.47
+Exit:$1.39
+Fees:$0.0101
+Slip:$0.0007
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $1.39
+12:38 PM
+SHORT
+PEPE
+MO
+STOPPED
+$0.02 (+0.03%)
+Qty:4018898.2000
+Entry:$0.00000444
+Exit:$0.00000444
+Fees:$0.0107
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+12:47 AM
+LONG
+ZAMA
+MR
+CLOSED
+$0.56 (+3.14%)
+Qty:905.6180
+Entry:$0.0197
+Exit:$0.0205
+Fees:$0.0073
+Slip:$0.0000
+Open: Mean Reversion | LONG | Conf: 71% | R:R 1.0 | [4H OHLC] Mean Reversion LONG
+Close: All TPs Triggered - Final Close
+01:20 AM
+SHORT
+LINK
+MO
+CLOSED
+$0.32 (+1.79%)
+Qty:2.0140
+Entry:$8.84
+Exit:$8.62
+Fees:$0.0071
+Slip:$0.0044
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+08:46 PM
+LONG
+sui
+PT
+STOPPED
+$0.07 (+0.67%)
+Qty:10.3630
+Entry:$0.9650
+Exit:$0.9720
+Fees:$0.0060
+Slip:$0.0005
+Open: Pairs Trading | z=-2.03 | corr=0.90 | β=0.722 | LONG leg
+Close: Broken Leash z=-4.25 - Correlation Failure
+12:05 AM
+LONG
+eth
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0060
+Entry:$1938.55
+Exit:$1938.55
+Fees:$0.0023
+Slip:$0.9698
+Open: Pairs Trading | z=-2.15 | corr=0.96 | β=1.524 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+ltc
+PT
+CLOSED
+-$0.07 (-0.69%)
+Qty:0.1840
+Entry:$54.42
+Exit:$54.77
+Fees:$0.0040
+Slip:$0.0272
+Open: Pairs Trading | z=-2.02 | corr=0.96 | β=1.292 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+08:32 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.06%)
+Qty:96.4940
+Entry:$0.1036
+Exit:$0.1036
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.02 | corr=0.96 | β=1.292 | LONG leg
+Close: Stop Loss Hit @ $0.10
+08:32 PM
+LONG
+pepe
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2253379.0000
+Entry:$0.00000444
+Exit:$0.00000444
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.32 | corr=0.83 | β=0.601 | LONG leg
+Close: Atomic Rollback - Short zama leg failed
+08:26 PM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:96.5180
+Entry:$0.1036
+Exit:$0.1036
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-2.06 | corr=0.88 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+AAVE
+VE
+STOPPED
+$0.19 (+1.87%)
+Qty:0.0800
+Entry:$126.22
+Exit:$124.58
+Fees:$0.0046
+Slip:$0.0631
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $124.38
+10:05 PM
+SHORT
+PEPE
+MO
+STOPPED
+$0.09 (+0.51%)
+Qty:3782209.2000
+Entry:$0.00000470
+Exit:$0.00000468
+Fees:$0.0106
+Slip:$0.0000
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+03:47 PM
+SHORT
+ltc
+PT
+CLOSED
+-$0.03 (-0.26%)
+Qty:0.1840
+Entry:$54.60
+Exit:$54.72
+Fees:$0.0040
+Slip:$0.0273
+Open: Pairs Trading | z=-2.08 | corr=0.84 | β=1.189 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+03:13 PM
+LONG
+doge
+PT
+STOPPED
+-$0.80 (-8.04%)
+Qty:92.2070
+Entry:$0.1085
+Exit:$0.0998
+Fees:$0.0077
+Slip:$0.0001
+Open: Pairs Trading | z=-2.33 | corr=0.88 | β=1.025 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:17 AM
+SHORT
+BNB
+MO
+STOPPED
+-$0.21 (-1.22%)
+Qty:0.0280
+Entry:$618.15
+Exit:$625.34
+Fees:$0.0105
+Slip:$0.3089
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $624.31
+01:37 PM
+SHORT
+XRP
+MO
+CLOSED
+$0.69 (+3.86%)
+Qty:11.6260
+Entry:$1.53
+Exit:$1.45
+Fees:$0.0070
+Slip:$0.0008
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+08:43 PM
+SHORT
+ada
+PT
+STOPPED
+$0.18 (+1.85%)
+Qty:34.7580
+Entry:$0.2877
+Exit:$0.2822
+Fees:$0.0059
+Slip:$0.0001
+Open: Pairs Trading | z=-2.20 | corr=0.80 | β=1.226 | SHORT leg
+Close: Broken Leash z=3.61 - Correlation Failure
+01:01 AM
+LONG
+sol
+PT
+STOPPED
+-$0.30 (-2.98%)
+Qty:0.1130
+Entry:$88.53
+Exit:$85.94
+Fees:$0.0059
+Slip:$0.0443
+Open: Pairs Trading | z=-2.20 | corr=0.80 | β=1.226 | LONG leg
+Close: Broken Leash z=3.61 - Correlation Failure
+01:01 AM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.08%)
+Qty:92.9480
+Entry:$0.1076
+Exit:$0.1076
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.08 | corr=0.84 | β=1.189 | LONG leg
+Close: Stop Loss Hit @ $0.11
+03:13 PM
+SHORT
+UNI
+VE
+STOPPED
+$0.31 (+1.77%)
+Qty:4.9910
+Entry:$3.56
+Exit:$3.50
+Fees:$0.0105
+Slip:$0.0018
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $3.49
+03:07 PM
+LONG
+link
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:1.1370
+Entry:$8.80
+Exit:$8.80
+Fees:$0.0040
+Slip:$0.0044
+Open: Pairs Trading | z=2.35 | corr=0.80 | β=1.079 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+02:59 PM
+LONG
+sol
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1130
+Entry:$89.22
+Exit:$89.22
+Fees:$0.0020
+Slip:$0.0446
+Open: Pairs Trading | z=-2.12 | corr=0.88 | β=0.675 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:92.3920
+Entry:$0.1082
+Exit:$0.1083
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.39 | corr=0.83 | β=0.714 | LONG leg
+Close: Atomic Rollback - Short pepe leg failed
+02:47 PM
+LONG
+doge
+PT
+STOPPED
+-$0.75 (-7.53%)
+Qty:92.7820
+Entry:$0.1078
+Exit:$0.0997
+Fees:$0.0057
+Slip:$0.0001
+Open: Pairs Trading | z=-2.59 | corr=0.83 | β=1.494 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:17 AM
+SHORT
+ltc
+PT
+STOPPED
+$0.14 (+1.41%)
+Qty:0.1800
+Entry:$55.81
+Exit:$54.99
+Fees:$0.0060
+Slip:$0.0279
+Open: Pairs Trading | z=-2.56 | corr=0.87 | β=1.063 | SHORT leg
+Close: Broken Leash z=3.56 - Correlation Failure
+02:35 PM
+LONG
+link
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:1.1370
+Entry:$8.80
+Exit:$8.80
+Fees:$0.0020
+Slip:$0.0044
+Open: Pairs Trading | z=2.65 | corr=0.84 | β=1.242 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+aave
+PT
+STOPPED
+-$0.20 (-1.97%)
+Qty:0.0780
+Entry:$128.67
+Exit:$126.21
+Fees:$0.0059
+Slip:$0.0644
+Open: Pairs Trading | z=-2.56 | corr=0.87 | β=1.063 | LONG leg
+Close: Broken Leash z=3.56 - Correlation Failure
+02:35 PM
+LONG
+bnb
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0170
+Entry:$623.90
+Exit:$624.21
+Fees:$0.0042
+Slip:$0.3121
+Open: Pairs Trading | z=-2.08 | corr=0.85 | β=1.620 | LONG leg
+Close: Atomic Rollback - Short ltc leg failed
+01:53 PM
+SHORT
+XRP
+MO
+STOPPED
+-$0.51 (-2.91%)
+Qty:12.0620
+Entry:$1.45
+Exit:$1.49
+Fees:$0.0107
+Slip:$0.0007
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $1.49
+10:02 AM
+LONG
+ada
+PT
+STOPPED
+-$0.60 (-6.01%)
+Qty:34.4500
+Entry:$0.2903
+Exit:$0.2730
+Fees:$0.0058
+Slip:$0.0001
+Open: Pairs Trading | z=2.29 | corr=0.89 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $0.27
+08:08 PM
+LONG
+doge
+PT
+STOPPED
+-$1.11 (-11.08%)
+Qty:89.1580
+Entry:$0.1122
+Exit:$0.0998
+Fees:$0.0076
+Slip:$0.0001
+Open: Pairs Trading | z=-2.70 | corr=0.88 | β=0.913 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:17 AM
+SHORT
+eth
+PT
+STOPPED
+$0.56 (+5.47%)
+Qty:0.0050
+Entry:$2057.92
+Exit:$1944.18
+Fees:$0.0059
+Slip:$1.0284
+Open: Pairs Trading | z=2.21 | corr=0.84 | β=2.000 | SHORT leg
+Close: Broken Leash z=3.50 - Correlation Failure
+08:08 PM
+SHORT
+ZEC
+MO
+CLOSED
+$0.93 (+5.28%)
+Qty:0.0570
+Entry:$308.79
+Exit:$286.14
+Fees:$0.0069
+Slip:$0.1543
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+06:29 AM
+SHORT
+ada
+PT
+CLOSED
+$0.02 (+0.06%)
+Qty:34.4960
+Entry:$0.2899
+Exit:$0.2896
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.03 | corr=0.92 | β=0.825 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+01:40 PM
+LONG
+doge
+PT
+STOPPED
+-$0.03 (-0.28%)
+Qty:89.2440
+Entry:$0.1121
+Exit:$0.1118
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.03 | corr=0.92 | β=0.825 | LONG leg
+Close: Stop Loss Hit @ $0.11
+01:40 PM
+SHORT
+sui
+PT
+STOPPED
+$0.13 (+1.29%)
+Qty:10.7150
+Entry:$0.9333
+Exit:$0.9207
+Fees:$0.0059
+Slip:$0.0005
+Open: Pairs Trading | z=2.73 | corr=0.88 | β=0.992 | SHORT leg
+Close: Stop Loss Hit @ $0.92
+10:45 AM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1800
+Entry:$55.72
+Exit:$55.75
+Fees:$0.0040
+Slip:$0.0279
+Open: Pairs Trading | z=2.51 | corr=0.81 | β=0.922 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+01:30 PM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:34.5240
+Entry:$0.2897
+Exit:$0.2898
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.38 | corr=0.82 | β=0.556 | LONG leg
+Close: Atomic Rollback - Short zec leg failed
+01:29 PM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1800
+Entry:$55.62
+Exit:$55.65
+Fees:$0.0040
+Slip:$0.0278
+Open: Pairs Trading | z=2.13 | corr=0.84 | β=0.989 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+01:23 PM
+SHORT
+DOGE
+MO
+STOPPED
+$0.05 (+0.28%)
+Qty:158.0860
+Entry:$0.1125
+Exit:$0.1121
+Fees:$0.0106
+Slip:$0.0001
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.11
+01:22 PM
+LONG
+SOL
+MO
+STOPPED
+-$0.20 (-1.15%)
+Qty:0.1970
+Entry:$89.94
+Exit:$88.95
+Fees:$0.0106
+Slip:$0.0450
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $89.08
+01:08 PM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:34.5090
+Entry:$0.2898
+Exit:$0.2899
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.48 | corr=0.83 | β=2.000 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+01:08 PM
+LONG
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0050
+Entry:$2059.47
+Exit:$2060.50
+Fees:$0.0041
+Slip:$1.0303
+Open: Pairs Trading | z=-2.54 | corr=0.84 | β=1.624 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+12:32 PM
+LONG
+eth
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0050
+Entry:$2060.45
+Exit:$2060.45
+Fees:$0.0021
+Slip:$1.0307
+Open: Pairs Trading | z=-2.21 | corr=0.83 | β=1.385 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+DOGE
+VE
+STOPPED
+$0.02 (+0.19%)
+Qty:88.2670
+Entry:$0.1133
+Exit:$0.1136
+Fees:$0.0060
+Slip:$0.0001
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.11
+12:13 PM
+SHORT
+uni
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2.7690
+Entry:$3.61
+Exit:$3.61
+Fees:$0.0040
+Slip:$0.0018
+Open: Pairs Trading | z=-2.82 | corr=0.83 | β=0.825 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+10:21 AM
+LONG
+eth
+PT
+STOPPED
+-$0.53 (-5.11%)
+Qty:0.0050
+Entry:$2077.69
+Exit:$1972.82
+Fees:$0.0060
+Slip:$1.0394
+Open: Pairs Trading | z=-2.44 | corr=0.84 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $1974.60
+09:38 AM
+LONG
+xrp
+PT
+STOPPED
+-$1.05 (-10.50%)
+Qty:6.1010
+Entry:$1.64
+Exit:$1.47
+Fees:$0.0076
+Slip:$0.0008
+Open: Pairs Trading | z=-2.85 | corr=0.83 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $1.47
+09:17 AM
+LONG
+zec
+PT
+STOPPED
+-$0.65 (-6.43%)
+Qty:0.0330
+Entry:$306.40
+Exit:$286.87
+Fees:$0.0058
+Slip:$0.1533
+Open: Pairs Trading | z=2.99 | corr=0.82 | β=2.000 | LONG leg
+Close: Stop Loss Hit @ $287.34
+09:17 AM
+LONG
+sui
+PT
+STOPPED
+-$0.19 (-1.87%)
+Qty:9.7050
+Entry:$1.03
+Exit:$1.01
+Fees:$0.0059
+Slip:$0.0005
+Open: Pairs Trading | z=-2.28 | corr=0.92 | β=1.359 | LONG leg
+Close: Broken Leash z=-3.55 - Correlation Failure
+12:20 PM
+SHORT
+aave
+PT
+STOPPED
+$0.04 (+0.39%)
+Qty:0.0780
+Entry:$129.67
+Exit:$129.10
+Fees:$0.0061
+Slip:$0.0648
+Open: Pairs Trading | z=-2.28 | corr=0.92 | β=1.359 | SHORT leg
+Close: Broken Leash z=-3.55 - Correlation Failure
+12:20 PM
+LONG
+XRP
+MO
+STOPPED
+-$0.23 (-1.31%)
+Qty:10.9960
+Entry:$1.62
+Exit:$1.60
+Fees:$0.0106
+Slip:$0.0008
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $1.60
+10:54 AM
+LONG
+sol
+PT
+STOPPED
+-$0.04 (-0.43%)
+Qty:0.1110
+Entry:$90.48
+Exit:$90.15
+Fees:$0.0060
+Slip:$0.0453
+Open: Pairs Trading | z=-2.05 | corr=0.90 | β=1.000 | LONG leg
+Close: Broken Leash z=-3.70 - Correlation Failure
+10:24 AM
+SHORT
+ltc
+PT
+STOPPED
+-$0.02 (-0.02%)
+Qty:0.1780
+Entry:$56.32
+Exit:$56.30
+Fees:$0.0060
+Slip:$0.0281
+Open: Pairs Trading | z=-2.05 | corr=0.90 | β=1.000 | SHORT leg
+Close: Broken Leash z=-3.70 - Correlation Failure
+10:24 AM
+LONG
+uni
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:2.8110
+Entry:$3.56
+Exit:$3.56
+Fees:$0.0020
+Slip:$0.0018
+Open: Pairs Trading | z=-2.09 | corr=0.84 | β=1.242 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+zec
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0330
+Entry:$304.42
+Exit:$304.57
+Fees:$0.0040
+Slip:$0.1523
+Open: Pairs Trading | z=2.08 | corr=0.80 | β=1.076 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+09:39 AM
+LONG
+ADA
+VE
+STOPPED
+-$0.38 (-3.81%)
+Qty:35.2790
+Entry:$0.2835
+Exit:$0.2728
+Fees:$0.0058
+Slip:$0.0001
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.27
+08:08 PM
+LONG
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0050
+Entry:$2058.52
+Exit:$2059.55
+Fees:$0.0041
+Slip:$1.0298
+Open: Pairs Trading | z=-2.20 | corr=0.94 | β=1.071 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+09:37 AM
+LONG
+uni
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:2.7800
+Entry:$3.60
+Exit:$3.60
+Fees:$0.0020
+Slip:$0.0018
+Open: Pairs Trading | z=2.10 | corr=0.85 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:86.8050
+Entry:$0.1152
+Exit:$0.1152
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-3.66 | corr=0.95 | β=1.462 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+STOPPED
+-$1.24 (-12.40%)
+Qty:87.9040
+Entry:$0.1138
+Exit:$0.0997
+Fees:$0.0055
+Slip:$0.0001
+Open: Pairs Trading | z=-2.24 | corr=0.84 | β=1.347 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:17 AM
+LONG
+DOGE
+VE
+STOPPED
+-$0.02 (-0.16%)
+Qty:98.8390
+Entry:$0.1012
+Exit:$0.1011
+Fees:$0.0060
+Slip:$0.0001
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.10
+07:58 AM
+LONG
+XRP
+VE
+CLOSED
+$0.29 (+2.92%)
+Qty:6.3330
+Entry:$1.58
+Exit:$1.64
+Fees:$0.0041
+Slip:$0.0008
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+08:58 AM
+LONG
+BNB
+VE
+STOPPED
+-$0.31 (-1.75%)
+Qty:0.0280
+Entry:$634.59
+Exit:$623.87
+Fees:$0.0105
+Slip:$0.3175
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $624.21
+01:53 PM
+LONG
+LINK
+VE
+STOPPED
+-$0.30 (-1.70%)
+Qty:1.9520
+Entry:$9.14
+Exit:$8.99
+Fees:$0.0106
+Slip:$0.0046
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $9.00
+01:50 PM
+LONG
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0050
+Entry:$2075.06
+Exit:$2076.10
+Fees:$0.0042
+Slip:$1.0380
+Open: Pairs Trading | z=-2.58 | corr=0.82 | β=0.878 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+06:03 AM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.15%)
+Qty:0.1790
+Entry:$56.01
+Exit:$56.12
+Fees:$0.0040
+Slip:$0.0280
+Open: Pairs Trading | z=2.06 | corr=0.87 | β=0.500 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+05:10 AM
+SHORT
+uni
+PT
+STOPPED
+-$0.04 (-0.39%)
+Qty:2.7620
+Entry:$3.62
+Exit:$3.63
+Fees:$0.0060
+Slip:$0.0018
+Open: Pairs Trading | z=2.01 | corr=0.90 | β=0.757 | SHORT leg
+Close: Stop Loss Hit @ $3.63
+05:04 AM
+LONG
+link
+PT
+CLOSED
+$0.03 (+0.34%)
+Qty:1.1060
+Entry:$9.05
+Exit:$9.08
+Fees:$0.0040
+Slip:$0.0045
+Open: Pairs Trading | z=2.01 | corr=0.90 | β=0.757 | LONG leg
+Close: Pair Orphan - Partner uni stopped out
+05:04 AM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1800
+Entry:$55.80
+Exit:$55.83
+Fees:$0.0040
+Slip:$0.0279
+Open: Pairs Trading | z=2.80 | corr=0.88 | β=0.955 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+04:59 AM
+LONG
+uni
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2.7800
+Entry:$3.60
+Exit:$3.60
+Fees:$0.0040
+Slip:$0.0018
+Open: Pairs Trading | z=-2.00 | corr=0.84 | β=0.726 | LONG leg
+Close: Atomic Rollback - Short pepe leg failed
+04:51 AM
+LONG
+ltc
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1800
+Entry:$55.56
+Exit:$55.56
+Fees:$0.0020
+Slip:$0.0278
+Open: Pairs Trading | z=-2.10 | corr=0.90 | β=0.500 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+UNI
+MO
+STOPPED
+-$0.06 (-0.35%)
+Qty:4.9520
+Entry:$3.59
+Exit:$3.60
+Fees:$0.0107
+Slip:$0.0018
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $3.60
+04:49 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:88.3480
+Entry:$0.1132
+Exit:$0.1132
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.35 | corr=0.82 | β=1.167 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+04:44 AM
+LONG
+XRP
+VE
+STOPPED
+-$0.49 (-4.85%)
+Qty:6.7610
+Entry:$1.48
+Exit:$1.41
+Fees:$0.0058
+Slip:$0.0007
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $1.41
+08:08 PM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1810
+Entry:$55.52
+Exit:$55.55
+Fees:$0.0040
+Slip:$0.0278
+Open: Pairs Trading | z=2.03 | corr=0.81 | β=1.274 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+04:38 AM
+SHORT
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1880
+Entry:$53.40
+Exit:$53.37
+Fees:$0.0040
+Slip:$0.0267
+Open: Pairs Trading | z=-3.15 | corr=0.95 | β=1.222 | SHORT leg
+Close: Atomic Rollback - Long doge leg failed
+03:39 AM
+LONG
+PEPE
+MO
+STOPPED
+$0.64 (+3.57%)
+Qty:3707278.5000
+Entry:$0.00000480
+Exit:$0.00000488
+Fees:$0.0083
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+06:49 AM
+SHORT
+ETH
+VE
+STOPPED
+-$0.18 (-1.73%)
+Qty:0.0050
+Entry:$2053.12
+Exit:$2087.42
+Fees:$0.0062
+Slip:$1.0260
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $2084.42
+05:17 AM
+LONG
+ZEC
+MO
+STOPPED
+-$0.46 (-2.60%)
+Qty:0.0540
+Entry:$324.85
+Exit:$316.58
+Fees:$0.0103
+Slip:$0.1625
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $316.76
+07:05 AM
+LONG
+DOGE
+MO
+STOPPED
+-$0.05 (-0.29%)
+Qty:155.5920
+Entry:$0.1144
+Exit:$0.1142
+Fees:$0.0107
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.11
+04:20 AM
+LONG
+ltc
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.1800
+Entry:$55.83
+Exit:$55.86
+Fees:$0.0040
+Slip:$0.0279
+Open: Pairs Trading | z=2.43 | corr=0.80 | β=0.655 | LONG leg
+Close: Atomic Rollback - Short aave leg failed
+04:11 AM
+LONG
+ETH
+VE
+STOPPED
+-$0.32 (-3.23%)
+Qty:0.0050
+Entry:$2001.43
+Exit:$1937.86
+Fees:$0.0059
+Slip:$1.0012
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $1939.67
+08:08 PM
+LONG
+XRP
+VE
+CLOSED
+$0.32 (+3.16%)
+Qty:6.8530
+Entry:$1.46
+Exit:$1.52
+Fees:$0.0041
+Slip:$0.0007
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+01:23 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:90.3970
+Entry:$0.1106
+Exit:$0.1107
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=-2.38 | corr=0.82 | β=1.436 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+12:31 AM
+LONG
+uni
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2.7720
+Entry:$3.61
+Exit:$3.61
+Fees:$0.0040
+Slip:$0.0018
+Open: Pairs Trading | z=2.20 | corr=0.92 | β=1.326 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+12:30 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:89.7660
+Entry:$0.1114
+Exit:$0.1114
+Fees:$0.0020
+Slip:$0.0001
+Open: Pairs Trading | z=-2.28 | corr=0.92 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+PEPE
+MO
+STOPPED
+$0.58 (+3.24%)
+Qty:3746493.5000
+Entry:$0.00000475
+Exit:$0.00000487
+Fees:$0.0083
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+12:13 AM
+LONG
+UNI
+MO
+STOPPED
+-$0.03 (-0.17%)
+Qty:4.8570
+Entry:$3.67
+Exit:$3.66
+Fees:$0.0107
+Slip:$0.0018
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $3.67
+12:12 AM
+LONG
+DOGE
+VE
+STOPPED
+-$0.03 (-0.31%)
+Qty:88.4700
+Entry:$0.1130
+Exit:$0.1127
+Fees:$0.0060
+Slip:$0.0001
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.11
+12:00 AM
+LONG
+ZEC
+MO
+STOPPED
+-$0.25 (-1.44%)
+Qty:0.0540
+Entry:$327.02
+Exit:$322.51
+Fees:$0.0105
+Slip:$0.1636
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $322.85
+12:54 AM
+LONG
+ADA
+MO
+STOPPED
+$0.13 (+0.73%)
+Qty:60.5330
+Entry:$0.2934
+Exit:$0.2903
+Fees:$0.0082
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.29
+12:58 PM
+LONG
+SOL
+VE
+CLOSED
+$0.26 (+2.62%)
+Qty:0.1160
+Entry:$86.95
+Exit:$90.10
+Fees:$0.0041
+Slip:$0.0435
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+08:37 AM
+LONG
+PEPE
+MO
+STOPPED
+$0.53 (+2.99%)
+Qty:4043624.8000
+Entry:$0.00000439
+Exit:$0.00000466
+Fees:$0.0083
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.00
+09:19 PM
+LONG
+link
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:1.0940
+Entry:$9.15
+Exit:$9.15
+Fees:$0.0040
+Slip:$0.0046
+Open: Pairs Trading | z=3.14 | corr=0.83 | β=1.361 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+09:14 PM
+LONG
+DOGE
+MO
+STOPPED
+$0.21 (+1.18%)
+Qty:165.6920
+Entry:$0.1072
+Exit:$0.1085
+Fees:$0.0107
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.11
+09:00 PM
+LONG
+doge
+PT
+STOPPED
+-$0.81 (-8.13%)
+Qty:92.1670
+Entry:$0.1085
+Exit:$0.0997
+Fees:$0.0077
+Slip:$0.0001
+Open: Pairs Trading | z=-2.11 | corr=0.88 | β=1.210 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:17 AM
+LONG
+LTC
+MO
+STOPPED
+-$0.21 (-1.18%)
+Qty:0.3150
+Entry:$56.26
+Exit:$55.63
+Fees:$0.0106
+Slip:$0.0281
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $55.72
+01:35 AM
+LONG
+UNI
+MO
+STOPPED
+-$0.08 (-0.42%)
+Qty:4.8290
+Entry:$3.68
+Exit:$3.66
+Fees:$0.0106
+Slip:$0.0018
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $3.67
+07:52 PM
+LONG
+uni
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2.7340
+Entry:$3.66
+Exit:$3.66
+Fees:$0.0040
+Slip:$0.0018
+Open: Pairs Trading | z=-2.16 | corr=0.81 | β=2.000 | LONG leg
+Close: Atomic Rollback - Short bch leg failed
+09:22 PM
+LONG
+DOGE
+MO
+STOPPED
+-$0.04 (-0.23%)
+Qty:172.4620
+Entry:$0.1028
+Exit:$0.1026
+Fees:$0.0106
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+04:20 PM
+LONG
+XRP
+MO
+STOPPED
+-$0.26 (-1.47%)
+Qty:12.0660
+Entry:$1.47
+Exit:$1.45
+Fees:$0.0105
+Slip:$0.0007
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $1.45
+02:31 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:100.5290
+Entry:$0.0995
+Exit:$0.0995
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.20 | corr=0.81 | β=2.000 | LONG leg
+Close: Atomic Rollback - Short trx leg failed
+02:08 PM
+LONG
+sol
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.1160
+Entry:$86.59
+Exit:$86.59
+Fees:$0.0020
+Slip:$0.0433
+Open: Pairs Trading | z=-2.26 | corr=0.81 | β=1.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:100.1030
+Entry:$0.0999
+Exit:$0.0999
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.07 | corr=0.80 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1964.63
+Exit:$1963.65
+Fees:$0.0047
+Slip:$0.9818
+Open: Pairs Trading | z=2.30 | corr=0.91 | β=1.317 | SHORT leg
+Close: Atomic Rollback - Long ada leg failed
+03:45 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:102.2560
+Entry:$0.0978
+Exit:$0.0978
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.37 | corr=0.89 | β=1.082 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+uni
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:2.8760
+Entry:$3.48
+Exit:$3.48
+Fees:$0.0020
+Slip:$0.0017
+Open: Pairs Trading | z=-2.34 | corr=0.86 | β=2.000 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+ZEC
+VE
+CLOSED
+$0.27 (+2.64%)
+Qty:0.0360
+Entry:$281.65
+Exit:$291.91
+Fees:$0.0041
+Slip:$0.1409
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+07:41 PM
+LONG
+sui
+PT
+STOPPED
+-$0.26 (-2.63%)
+Qty:10.0410
+Entry:$0.9959
+Exit:$0.9703
+Fees:$0.0059
+Slip:$0.0005
+Open: Pairs Trading | z=-2.05 | corr=0.80 | β=0.849 | LONG leg
+Close: Stop Loss Hit @ $0.97
+09:50 AM
+SHORT
+sui
+PT
+CLOSED
+$0.02 (+0.11%)
+Qty:10.6960
+Entry:$0.9350
+Exit:$0.9336
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-3.48 | corr=0.94 | β=1.151 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+03:42 AM
+LONG
+ADA
+MO
+CLOSED
+$0.32 (+1.79%)
+Qty:63.2500
+Entry:$0.2800
+Exit:$0.2871
+Fees:$0.0071
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+05:43 PM
+LONG
+zec
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0350
+Entry:$289.42
+Exit:$289.56
+Fees:$0.0041
+Slip:$0.1448
+Open: Pairs Trading | z=2.35 | corr=0.85 | β=2.000 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+08:03 AM
+LONG
+DOGE
+MO
+STOPPED
+$0.16 (+0.91%)
+Qty:179.3070
+Entry:$0.0988
+Exit:$0.0997
+Fees:$0.0107
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+12:32 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.01%)
+Qty:102.0740
+Entry:$0.0980
+Exit:$0.0980
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.46 | corr=0.82 | β=0.500 | LONG leg
+Close: Stop Loss Hit @ $0.10
+12:10 PM
+SHORT
+xrp
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:6.8940
+Entry:$1.45
+Exit:$1.45
+Fees:$0.0040
+Slip:$0.0007
+Open: Pairs Trading | z=2.46 | corr=0.82 | β=0.500 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+12:10 PM
+SHORT
+ZEC
+MO
+CLOSED
+$0.63 (+4.84%)
+Qty:0.0470
+Entry:$275.73
+Exit:$262.28
+Fees:$0.0051
+Slip:$0.1378
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+08:08 PM
+LONG
+uni
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2.8670
+Entry:$3.49
+Exit:$3.49
+Fees:$0.0040
+Slip:$0.0017
+Open: Pairs Trading | z=-2.00 | corr=0.83 | β=2.000 | LONG leg
+Close: Atomic Rollback - Short bch leg failed
+10:57 AM
+SHORT
+ZAMA
+VE
+STOPPED
+-$0.19 (-1.90%)
+Qty:542.9280
+Entry:$0.0184
+Exit:$0.0188
+Fees:$0.0061
+Slip:$0.0000
+Open: Vol Expansion | SHORT | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.02
+04:15 AM
+LONG
+UNI
+MO
+STOPPED
+-$0.08 (-0.46%)
+Qty:5.0610
+Entry:$3.50
+Exit:$3.48
+Fees:$0.0106
+Slip:$0.0018
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $3.49
+10:54 AM
+LONG
+doge
+PT
+STOPPED
+$0.29 (+2.85%)
+Qty:103.3100
+Entry:$0.0968
+Exit:$0.0996
+Fees:$0.0081
+Slip:$0.0000
+Open: Pairs Trading | z=-2.16 | corr=0.86 | β=0.635 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+LONG
+AAVE
+MO
+STOPPED
+$0.50 (+2.85%)
+Qty:0.1440
+Entry:$122.25
+Exit:$129.67
+Fees:$0.0083
+Slip:$0.0612
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $129.74
+09:34 AM
+SHORT
+doge
+PT
+STOPPED
+-$0.05 (-0.51%)
+Qty:86.4680
+Entry:$0.1157
+Exit:$0.1162
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=2.06 | corr=0.87 | β=0.500 | SHORT leg
+Close: Stop Loss Hit @ $0.12
+05:10 AM
+SHORT
+doge
+PT
+STOPPED
+-$0.03 (-0.26%)
+Qty:91.7770
+Entry:$0.1090
+Exit:$0.1092
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=2.68 | corr=0.89 | β=0.500 | SHORT leg
+Close: Stop Loss Hit @ $0.11
+09:50 PM
+LONG
+doge
+PT
+STOPPED
+-$0.02 (-0.12%)
+Qty:99.5220
+Entry:$0.1005
+Exit:$0.1004
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.20 | corr=0.93 | β=0.973 | LONG leg
+Close: Stop Loss Hit @ $0.10
+01:10 PM
+LONG
+ada
+PT
+STOPPED
+-$0.02 (-0.25%)
+Qty:35.9110
+Entry:$0.2785
+Exit:$0.2779
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=4.41 | corr=0.83 | β=1.000 | LONG leg
+Close: Broken Leash z=3.78 - Correlation Failure
+11:28 AM
+SHORT
+xrp
+PT
+STOPPED
+$0.12 (+1.19%)
+Qty:6.8460
+Entry:$1.46
+Exit:$1.44
+Fees:$0.0060
+Slip:$0.0007
+Open: Pairs Trading | z=4.41 | corr=0.83 | β=1.000 | SHORT leg
+Close: Broken Leash z=3.78 - Correlation Failure
+11:28 AM
+LONG
+ada
+PT
+CLOSED
+-$0.03 (-0.27%)
+Qty:35.9150
+Entry:$0.2784
+Exit:$0.2778
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.53 | corr=0.81 | β=0.500 | LONG leg
+Close: ATM Time Decay - 145h stale, P&L: -0.23%
+11:05 AM
+LONG
+sui
+PT
+STOPPED
+-$0.41 (-4.05%)
+Qty:9.9860
+Entry:$1.00
+Exit:$0.9615
+Fees:$0.0058
+Slip:$0.0005
+Open: Pairs Trading | z=2.21 | corr=0.84 | β=2.000 | LONG leg
+Close: Broken Leash z=3.50 - Correlation Failure
+08:08 PM
+LONG
+XRP
+MO
+CLOSED
+$0.41 (+2.35%)
+Qty:12.4910
+Entry:$1.41
+Exit:$1.45
+Fees:$0.0071
+Slip:$0.0007
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+10:00 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:102.5980
+Entry:$0.0975
+Exit:$0.0975
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=-2.62 | corr=0.84 | β=0.852 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:103.4940
+Entry:$0.0966
+Exit:$0.0966
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=2.76 | corr=0.91 | β=0.500 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:103.0660
+Entry:$0.0970
+Exit:$0.0971
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.47 | corr=0.85 | β=0.515 | LONG leg
+Close: Atomic Rollback - Short aave leg failed
+09:37 AM
+LONG
+ada
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:36.0130
+Entry:$0.2777
+Exit:$0.2778
+Fees:$0.0040
+Slip:$0.0001
+Open: Pairs Trading | z=2.18 | corr=0.84 | β=0.500 | LONG leg
+Close: Atomic Rollback - Short aave leg failed
+09:36 AM
+LONG
+doge
+PT
+STOPPED
+$0.24 (+2.38%)
+Qty:102.7590
+Entry:$0.0973
+Exit:$0.0997
+Fees:$0.0081
+Slip:$0.0000
+Open: Pairs Trading | z=-3.88 | corr=0.82 | β=0.874 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+LONG
+link
+PT
+STOPPED
+-$0.58 (-5.82%)
+Qty:1.1070
+Entry:$9.04
+Exit:$8.51
+Fees:$0.0058
+Slip:$0.0045
+Open: Pairs Trading | z=2.44 | corr=0.87 | β=1.695 | LONG leg
+Close: Stop Loss Hit @ $8.52
+08:08 PM
+LONG
+SUI
+VE
+STOPPED
+$0.64 (+3.63%)
+Qty:18.3420
+Entry:$0.9620
+Exit:$1.03
+Fees:$0.0083
+Slip:$0.0005
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $1.03
+09:36 AM
+LONG
+DOGE
+VE
+STOPPED
+$0.07 (+0.70%)
+Qty:87.2970
+Entry:$0.1146
+Exit:$0.1154
+Fees:$0.0060
+Slip:$0.0001
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.12
+08:23 AM
+LONG
+link
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:1.1060
+Entry:$9.05
+Exit:$9.05
+Fees:$0.0040
+Slip:$0.0045
+Open: Pairs Trading | z=2.08 | corr=1.00 | β=1.128 | LONG leg
+Close: Atomic Rollback - Short sui leg failed
+04:27 AM
+LONG
+bnb
+PT
+STOPPED
+$0.21 (+2.04%)
+Qty:0.0170
+Entry:$616.51
+Exit:$629.45
+Fees:$0.0064
+Slip:$0.3084
+Open: Pairs Trading | z=2.72 | corr=0.87 | β=0.842 | LONG leg
+Close: Broken Leash z=3.61 - Correlation Failure
+02:23 AM
+SHORT
+eth
+PT
+STOPPED
+-$0.08 (-0.75%)
+Qty:0.0050
+Entry:$2056.34
+Exit:$2070.46
+Fees:$0.0062
+Slip:$1.0277
+Open: Pairs Trading | z=2.72 | corr=0.87 | β=0.842 | SHORT leg
+Close: Broken Leash z=3.61 - Correlation Failure
+02:23 AM
+LONG
+ZEC
+VE
+CLOSED
+$0.27 (+2.72%)
+Qty:0.0360
+Entry:$278.15
+Exit:$288.30
+Fees:$0.0041
+Slip:$0.1391
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+09:52 AM
+LONG
+DOGE
+VE
+STOPPED
+$0.02 (+0.01%)
+Qty:103.7090
+Entry:$0.0964
+Exit:$0.0965
+Fees:$0.0060
+Slip:$0.0000
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.10
+08:17 AM
+LONG
+SUI
+VE
+STOPPED
+-$0.04 (-0.44%)
+Qty:10.3790
+Entry:$0.9636
+Exit:$0.9599
+Fees:$0.0060
+Slip:$0.0005
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $0.96
+07:05 AM
+LONG
+aave
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0830
+Entry:$121.02
+Exit:$121.08
+Fees:$0.0040
+Slip:$0.0605
+Open: Pairs Trading | z=-2.06 | corr=0.85 | β=1.000 | LONG leg
+Close: Atomic Rollback - Short ltc leg failed
+06:57 AM
+LONG
+doge
+PT
+STOPPED
+$0.02 (+0.01%)
+Qty:103.4240
+Entry:$0.0967
+Exit:$0.0968
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-2.46 | corr=0.87 | β=0.690 | LONG leg
+Close: Stop Loss Hit @ $0.10
+06:30 AM
+SHORT
+aave
+PT
+CLOSED
+-$0.03 (-0.27%)
+Qty:0.0830
+Entry:$120.78
+Exit:$121.06
+Fees:$0.0040
+Slip:$0.0604
+Open: Pairs Trading | z=-2.46 | corr=0.87 | β=0.690 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+06:30 AM
+SHORT
+uni
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:2.8400
+Entry:$3.52
+Exit:$3.52
+Fees:$0.0040
+Slip:$0.0018
+Open: Pairs Trading | z=-2.20 | corr=0.93 | β=0.973 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+01:10 PM
+LONG
+aave
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0840
+Entry:$120.03
+Exit:$120.03
+Fees:$0.0020
+Slip:$0.0600
+Open: Pairs Trading | z=2.16 | corr=0.84 | β=0.669 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+aave
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0840
+Entry:$119.92
+Exit:$119.98
+Fees:$0.0040
+Slip:$0.0600
+Open: Pairs Trading | z=-2.63 | corr=0.86 | β=0.921 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+04:04 AM
+SHORT
+doge
+PT
+STOPPED
+-$0.02 (-0.16%)
+Qty:103.6370
+Entry:$0.0965
+Exit:$0.0966
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=2.35 | corr=0.88 | β=1.211 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+03:40 AM
+LONG
+aave
+PT
+CLOSED
+$0.02 (+0.03%)
+Qty:0.0840
+Entry:$119.82
+Exit:$119.90
+Fees:$0.0040
+Slip:$0.0599
+Open: Pairs Trading | z=2.35 | corr=0.88 | β=1.211 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+03:40 AM
+LONG
+sui
+PT
+STOPPED
+$0.05 (+0.47%)
+Qty:10.4480
+Entry:$0.9572
+Exit:$0.9622
+Fees:$0.0060
+Slip:$0.0005
+Open: Pairs Trading | z=-2.47 | corr=0.81 | β=1.899 | LONG leg
+Close: Stop Loss Hit @ $0.96
+11:30 AM
+LONG
+doge
+PT
+STOPPED
+$0.02 (+0.01%)
+Qty:87.1060
+Entry:$0.1148
+Exit:$0.1149
+Fees:$0.0060
+Slip:$0.0001
+Open: Pairs Trading | z=-2.82 | corr=0.83 | β=0.825 | LONG leg
+Close: Stop Loss Hit @ $0.11
+10:21 AM
+LONG
+doge
+PT
+STOPPED
+-$0.11 (-1.07%)
+Qty:99.3930
+Entry:$0.1006
+Exit:$0.0996
+Fees:$0.0080
+Slip:$0.0001
+Open: Pairs Trading | z=-2.20 | corr=0.89 | β=0.794 | LONG leg
+Close: Stop Loss Hit @ $0.10
+09:27 AM
+LONG
+link
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:1.0980
+Entry:$9.12
+Exit:$9.12
+Fees:$0.0040
+Slip:$0.0046
+Open: Pairs Trading | z=2.68 | corr=0.89 | β=0.500 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+09:50 PM
+LONG
+aave
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0840
+Entry:$119.83
+Exit:$119.89
+Fees:$0.0040
+Slip:$0.0599
+Open: Pairs Trading | z=-2.12 | corr=0.87 | β=0.500 | LONG leg
+Close: Atomic Rollback - Short bch leg failed
+03:03 AM
+LONG
+aave
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0840
+Entry:$119.61
+Exit:$119.67
+Fees:$0.0040
+Slip:$0.0598
+Open: Pairs Trading | z=2.24 | corr=0.85 | β=1.000 | LONG leg
+Close: Atomic Rollback - Short doge leg failed
+02:28 AM
+LONG
+sui
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:10.3670
+Entry:$0.9646
+Exit:$0.9651
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=-2.62 | corr=0.85 | β=1.000 | LONG leg
+Close: Atomic Rollback - Short zec leg failed
+02:21 AM
+LONG
+doge
+PT
+STOPPED
+$0.02 (+0.02%)
+Qty:103.5230
+Entry:$0.0966
+Exit:$0.0967
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=-2.29 | corr=0.82 | β=0.500 | LONG leg
+Close: Stop Loss Hit @ $0.10
+02:00 AM
+SHORT
+aave
+PT
+CLOSED
+-$0.06 (-0.64%)
+Qty:0.0840
+Entry:$119.20
+Exit:$119.91
+Fees:$0.0040
+Slip:$0.0596
+Open: Pairs Trading | z=-2.29 | corr=0.82 | β=0.500 | SHORT leg
+Close: Pair Orphan - Partner doge stopped out
+02:00 AM
+LONG
+doge
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:103.0350
+Entry:$0.0971
+Exit:$0.0971
+Fees:$0.0020
+Slip:$0.0000
+Open: Pairs Trading | z=2.82 | corr=0.87 | β=1.498 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+LINK
+VE
+CLOSED
+$0.26 (+2.61%)
+Qty:1.1300
+Entry:$8.86
+Exit:$8.86
+Fees:$0.0041
+Slip:$0.0044
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+UNI
+VE
+STOPPED
+$0.05 (+0.52%)
+Qty:2.9350
+Entry:$3.41
+Exit:$3.43
+Fees:$0.0060
+Slip:$0.0017
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $3.43
+10:25 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:102.8120
+Entry:$0.0973
+Exit:$0.0973
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=2.31 | corr=0.92 | β=1.016 | LONG leg
+Close: Atomic Rollback - Short bnb leg failed
+10:20 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:103.0020
+Entry:$0.0971
+Exit:$0.0971
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.07 | corr=0.80 | β=0.865 | LONG leg
+Close: Atomic Rollback - Short uni leg failed
+10:07 PM
+LONG
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:103.4840
+Entry:$0.0966
+Exit:$0.0967
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.34 | corr=0.85 | β=0.741 | LONG leg
+Close: Atomic Rollback - Short ada leg failed
+09:52 PM
+LONG
+DOGE
+MO
+STOPPED
+-$0.02 (-0.09%)
+Qty:182.8190
+Entry:$0.0963
+Exit:$0.0963
+Fees:$0.0106
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+09:13 PM
+SHORT
+bnb
+PT
+STOPPED
+-$0.09 (-0.88%)
+Qty:0.0170
+Entry:$615.74
+Exit:$620.78
+Fees:$0.0063
+Slip:$0.3077
+Open: Pairs Trading | z=-2.63 | corr=0.85 | β=1.639 | SHORT leg
+Close: Broken Leash z=3.74 - Correlation Failure
+04:48 AM
+LONG
+eth
+PT
+STOPPED
+-$0.04 (-0.39%)
+Qty:0.0050
+Entry:$2055.08
+Exit:$2048.34
+Fees:$0.0062
+Slip:$1.0281
+Open: Pairs Trading | z=-2.63 | corr=0.85 | β=1.639 | LONG leg
+Close: Broken Leash z=3.74 - Correlation Failure
+04:48 AM
+LONG
+aave
+PT
+STOPPED
+-$0.05 (-0.49%)
+Qty:0.0850
+Entry:$118.95
+Exit:$118.44
+Fees:$0.0060
+Slip:$0.0595
+Open: Pairs Trading | z=2.28 | corr=0.91 | β=0.820 | LONG leg
+Close: Stop Loss Hit @ $118.61
+01:12 AM
+SHORT
+sui
+PT
+CLOSED
+$0.13 (+1.34%)
+Qty:10.2730
+Entry:$0.9734
+Exit:$0.9600
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=2.28 | corr=0.91 | β=0.820 | SHORT leg
+Close: Pair Orphan - Partner aave stopped out
+01:12 AM
+LONG
+zec
+PT
+STOPPED
+$0.73 (+7.20%)
+Qty:0.0400
+Entry:$254.74
+Exit:$271.26
+Fees:$0.0049
+Slip:$0.1274
+Open: Pairs Trading | z=2.05 | corr=0.80 | β=0.796 | LONG leg
+Close: Broken Leash z=-4.16 - Correlation Failure
+09:47 PM
+SHORT
+link
+PT
+STOPPED
+$0.06 (+0.61%)
+Qty:1.1310
+Entry:$8.84
+Exit:$8.79
+Fees:$0.0060
+Slip:$0.0044
+Open: Pairs Trading | z=2.05 | corr=0.80 | β=0.796 | SHORT leg
+Close: Broken Leash z=-4.16 - Correlation Failure
+09:47 PM
+SHORT
+eth
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0060
+Entry:$1973.06
+Exit:$1972.07
+Fees:$0.0047
+Slip:$0.9860
+Open: Pairs Trading | z=2.40 | corr=0.83 | β=0.603 | SHORT leg
+Close: Atomic Rollback - Long ltc leg failed
+04:59 AM
+SHORT
+doge
+PT
+STOPPED
+$0.02 (+0.12%)
+Qty:103.7270
+Entry:$0.0964
+Exit:$0.0962
+Fees:$0.0060
+Slip:$0.0000
+Open: Pairs Trading | z=4.14 | corr=0.82 | β=1.704 | SHORT leg
+Close: Stop Loss Hit @ $0.10
+06:16 PM
+LONG
+sui
+PT
+CLOSED
+-$0.03 (-0.30%)
+Qty:10.3070
+Entry:$0.9703
+Exit:$0.9678
+Fees:$0.0040
+Slip:$0.0005
+Open: Pairs Trading | z=4.14 | corr=0.82 | β=1.704 | LONG leg
+Close: Pair Orphan - Partner doge stopped out
+06:16 PM
+LONG
+xrp
+PT
+STOPPED
+$0.06 (+0.61%)
+Qty:7.0960
+Entry:$1.41
+Exit:$1.42
+Fees:$0.0060
+Slip:$0.0020
+Open: Pairs Trading | z=2.26 | corr=0.89 | β=1.154 | LONG leg
+Close: Stop Loss Hit @ $1.42
+10:30 AM
+LONG
+bch
+PT
+CLOSED
+$0.00 (+0.00%)
+Qty:0.0190
+Entry:$544.22
+Exit:$544.22
+Fees:$0.0021
+Slip:$0.2722
+Open: Pairs Trading | z=2.17 | corr=0.84 | β=0.500 | LONG leg
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+LINK
+MO
+CLOSED
+$0.32 (+1.83%)
+Qty:2.0270
+Entry:$8.64
+Exit:$8.86
+Fees:$0.0071
+Slip:$0.0043
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+05:36 PM
+LONG
+SUI
+MO
+CLOSED
+$0.34 (+1.92%)
+Qty:18.3760
+Entry:$0.9538
+Exit:$0.9787
+Fees:$0.0071
+Slip:$0.0005
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+05:36 PM
+LONG
+bch
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:0.0190
+Entry:$545.78
+Exit:$546.05
+Fees:$0.0041
+Slip:$0.2730
+Open: Pairs Trading | z=2.86 | corr=0.85 | β=0.500 | LONG leg
+Close: Atomic Rollback - Short sol leg failed
+05:35 PM
+LONG
+ZEC
+VE
+STOPPED
+-$0.19 (-1.86%)
+Qty:0.0340
+Entry:$294.94
+Exit:$289.65
+Fees:$0.0059
+Slip:$0.1475
+Open: Vol Expansion | LONG | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: Stop Loss Hit @ $289.95
+02:31 AM
+SHORT
+doge
+PT
+CLOSED
+$0.02 (+0.01%)
+Qty:101.4970
+Entry:$0.0985
+Exit:$0.0985
+Fees:$0.0040
+Slip:$0.0000
+Open: Pairs Trading | z=-2.33 | corr=0.82 | β=1.552 | SHORT leg
+Close: Atomic Rollback - Long sol leg failed
+04:52 AM
+LONG
+ADA
+MO
+CLOSED
+$0.31 (+1.79%)
+Qty:64.6960
+Entry:$0.2709
+Exit:$0.2709
+Fees:$0.0071
+Slip:$0.0001
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+09:40 AM
+LONG
+ETH
+VE
+CLOSED
+$0.32 (+2.67%)
+Qty:0.0060
+Entry:$1992.87
+Exit:$2065.35
+Fees:$0.0048
+Slip:$0.9969
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+05:54 PM
+LONG
+DOGE
+MO
+STOPPED
+$0.08 (+0.48%)
+Qty:183.8960
+Entry:$0.0953
+Exit:$0.0958
+Fees:$0.0106
+Slip:$0.0000
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $0.10
+05:24 PM
+LONG
+SOL
+MO
+CLOSED
+$0.31 (+1.77%)
+Qty:0.2100
+Entry:$83.29
+Exit:$83.29
+Fees:$0.0070
+Slip:$0.0417
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: DB Reconciliation - No matching open position
+09:40 AM
+SHORT
+XRP
+MR
+STOPPED
+-$0.40 (-2.30%)
+Qty:12.5850
+Entry:$1.39
+Exit:$1.42
+Fees:$0.0107
+Slip:$0.0007
+Open: Mean Reversion | SHORT | Conf: 74% | R:R 1.0 | [4H OHLC] Mean Reversion SHORT
+Close: Stop Loss Hit @ $1.42
+05:18 PM
+LONG
+LTC
+MO
+CLOSED
+$0.31 (+1.80%)
+Qty:0.3210
+Entry:$54.43
+Exit:$55.81
+Fees:$0.0071
+Slip:$0.0272
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+03:56 PM
+SHORT
+SUI
+VE
+STOPPED
+-$0.06 (-0.62%)
+Qty:10.3580
+Entry:$0.9655
+Exit:$0.9710
+Fees:$0.0060
+Slip:$0.0005
+Open: Vol Expansion | SHORT | Conf: 60% | R:R 1.0 | [4H OHLC] Vol Expansion SHORT
+Close: Stop Loss Hit @ $0.97
+04:21 AM
+LONG
+BCH
+MO
+CLOSED
+$0.31 (+1.79%)
+Qty:0.0330
+Entry:$524.21
+Exit:$537.91
+Fees:$0.0069
+Slip:$0.2622
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: All TPs Triggered - Final Close
+04:35 PM
+LONG
+ZEC
+VE
+CLOSED
+$0.29 (+2.89%)
+Qty:0.0420
+Entry:$242.31
+Exit:$252.57
+Fees:$0.0041
+Slip:$0.1212
+Open: Vol Expansion | LONG | Conf: 70% | R:R 1.0 | [4H OHLC] Vol Expansion LONG
+Close: All TPs Triggered - Final Close
+05:34 PM
+SHORT
+BNB
+MO
+STOPPED
+-$0.20 (-1.18%)
+Qty:0.0290
+Entry:$598.92
+Exit:$605.60
+Fees:$0.0105
+Slip:$0.2993
+Open: Momentum Fallback | SHORT | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $605.21
+04:11 PM
+LONG
+AAVE
+MO
+STOPPED
+$0.34 (+1.96%)
+Qty:0.1520
+Entry:$114.72
+Exit:$116.43
+Fees:$0.0081
+Slip:$0.0574
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $116.52
+04:52 PM
+LONG
+UNI
+MO
+STOPPED
+-$0.07 (-0.38%)
+Qty:5.2120
+Entry:$3.36
+Exit:$3.35
+Fees:$0.0105
+Slip:$0.0017
+Open: Momentum Fallback | LONG | Conf: 75% | R:R 1.5 | [FALLBACK] Obvious move caught by safety net
+Close: Stop Loss Hit @ $3.35
+03:10 PM

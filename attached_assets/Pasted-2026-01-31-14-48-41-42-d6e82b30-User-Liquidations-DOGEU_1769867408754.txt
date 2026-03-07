@@ -1,0 +1,126 @@
+2026-01-31 14:48:41.42
+d6e82b30
+User
+[Liquidations] DOGEUSDT error: 451
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at fn.handleRequest (/home/runner/workspace/dist/index.cjs:43:1456)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at mn.dispatch (/home/runner/workspace/dist/index.cjs:43:3126)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at /home/runner/workspace/dist/index.cjs:43:6065
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at fn.handleRequest (/home/runner/workspace/dist/index.cjs:43:1456)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at fr (/home/runner/workspace/dist/index.cjs:97:12752)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at i (/home/runner/workspace/dist/index.cjs:43:7183)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at B6 (/home/runner/workspace/dist/index.cjs:97:11152)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at /home/runner/workspace/dist/index.cjs:129:2008
+2026-01-31 14:48:41.58
+d6e82b30
+User
+Failed to fetch stablecoin data: TypeError: (0 , Rc.default) is not a function
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at d (/home/runner/workspace/dist/index.cjs:43:3370)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+Failed to fetch bridge data: TypeError: (0 , Rc.default) is not a function
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at /home/runner/workspace/dist/index.cjs:129:2008
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at /home/runner/workspace/dist/index.cjs:43:6065
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at mn.dispatch (/home/runner/workspace/dist/index.cjs:43:3126)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at d (/home/runner/workspace/dist/index.cjs:43:3370)
+2026-01-31 14:48:41.58
+d6e82b30
+User
+at fn.handleRequest (/home/runner/workspace/dist/index.cjs:43:1456)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at process.processTimers (node:internal/timers:519:7)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at fr (/home/runner/workspace/dist/index.cjs:97:12757)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+Failed to fetch stablecoin data: TypeError: (0 , Rc.default) is not a function
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at fr (/home/runner/workspace/dist/index.cjs:97:12752)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at listOnTimeout (node:internal/timers:581:17)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at U6 (/home/runner/workspace/dist/index.cjs:97:11485)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+Failed to fetch bridge data: TypeError: (0 , Rc.default) is not a function
+2026-01-31 14:48:49.18
+d6e82b30
+User
+Insufficient stablecoin data
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at process.processTimers (node:internal/timers:519:7)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at B6 (/home/runner/workspace/dist/index.cjs:97:11152)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at listOnTimeout (node:internal/timers:581:17)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at Timeout._onTimeout (/home/runner/workspace/dist/index.cjs:129:8217)
+2026-01-31 14:48:49.18
+d6e82b30
+User
+at Timeout._onTimeout (/home/runner/workspace/dist/index.cjs:129:8217)
+2026-01-31 14:48:49.36
+d6e82b30
+User
+[Helius] API error: 429 {"jsonrpc":"2.0","error":{"code":-32429,"message":"max usage reached"}}
+Wrap
+Colors
